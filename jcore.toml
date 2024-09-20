@@ -1,0 +1,5 @@
+projectName = "jco"
+template = "jcore3"
+localDomain = "jco.localhost"
+domains = [ "jco.localhost" ]
+branch = "gintonic"
