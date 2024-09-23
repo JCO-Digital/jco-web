@@ -2,7 +2,11 @@ theme := wp-content/themes/jco
 
 all: install build
 
-ci: install build
+ci: ci-install build
+
+ci-install:
+	composer install --no-ansi --no-dev --no-interaction --optimize-autoloader
+	cd $(theme); pnpm i
 
 install:
 	composer install

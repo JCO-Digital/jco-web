@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "477b140c53d0ef52fa9aa838c17ce2c7",
+    "content-hash": "b166e0d9240baa6aaa1101e37de05a7a",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -319,6 +319,25 @@
             },
             "description": "Customize WordPress with powerful, professional and intuitive fields.",
             "homepage": "https://www.advancedcustomfields.com"
+        },
+        {
+            "name": "jco/polylang-pro",
+            "version": "3.6.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.jco.fi/satispress/polylang-pro/3.6.4",
+                "shasum": "d9e36419744c3dfc4e8aaa86e973bf9dcf62470b"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "WP SYNTEX",
+                "homepage": "https://polylang.pro"
+            },
+            "description": "Adds multilingual capability to WordPress",
+            "homepage": "https://polylang.pro"
         },
         {
             "name": "jco/wp-migrate-db-pro",
@@ -2194,6 +2213,24 @@
                 }
             ],
             "time": "2024-09-09T17:55:12+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/spinupwp",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/spinupwp/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/spinupwp/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
