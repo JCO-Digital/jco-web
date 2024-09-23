@@ -12,7 +12,7 @@ jobs:
       platform: ubuntu-latest
       fetch_submodules: true
       php_version: 8.2
-      slack_channel: C023VH1L1RQ
+      slack_channel: CU8LPT03W
     secrets: inherit
   deploy:
     needs: [build]
@@ -25,5 +25,5 @@ jobs:
         wp-content/themes/jco/:wp-content/themes/jco/,
         wp-content/plugins/:wp-content/plugins/,
         vendor/:vendor/
-      slack_channel: C023VH1L1RQ
+      slack_channel: CU8LPT03W
     secrets: inherit
