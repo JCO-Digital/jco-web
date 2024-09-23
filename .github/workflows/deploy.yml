@@ -1,0 +1,29 @@
+name: Deploy site
+
+on:
+  push:
+    branch:
+      - main
+
+jobs:
+  build:
+    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@3.0.1
+    with:
+      platform: ubuntu-latest
+      fetch_submodules: true
+      php_version: 8.2
+      slack_channel: C023VH1L1RQ
+    secrets: inherit
+  deploy:
+    needs: [build]
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@3.0.1
+    with:
+      platform: ubuntu-latest
+      server_url: jco@gh.bojaco.com
+      base_path: files
+      paths: >-
+        wp-content/themes/jco/:wp-content/themes/jco/,
+        wp-content/plugins/:wp-content/plugins/,
+        vendor/:vendor/
+      slack_channel: C023VH1L1RQ
+    secrets: inherit

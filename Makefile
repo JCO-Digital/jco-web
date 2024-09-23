@@ -1,4 +1,4 @@
-theme := wp-content/themes/ilme
+theme := wp-content/themes/jco
 
 all: install build
 

@@ -9,8 +9,7 @@ namespace Jcore\Ilme;
 
 use Jcore\Ydin\Settings\Customizer;
 use Jcore\Ydin\WordPress\Assets;
-use Timber;
-use Timber\Timber as TimberTimber;
+use Timber\Timber;
 
 require_once __DIR__ . '/includes/init.php';
 require_once __DIR__ . '/includes/modules.php';
@@ -186,7 +185,7 @@ function setup() {
 function custom_body_open() {
 	// TODO Fix.
 	if ( Settings::get( 'keys', 'google_tag_manager' ) ) {
-		TimberTimber::render( 'partials/google-tag-manager-noscript.twig', array( 'tag_manager' => trim( Settings::get( 'keys', 'google_tag_manager' ) ) ) );
+		Timber::render( 'partials/google-tag-manager-noscript.twig', array( 'tag_manager' => trim( Settings::get( 'keys', 'google_tag_manager' ) ) ) );
 	}
 }
 /**
