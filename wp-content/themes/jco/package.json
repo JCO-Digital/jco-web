@@ -1,0 +1,38 @@
+{
+  "name": "jcore-ilme",
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "esbuild": "esbuild --bundle src/js/*.?s --outdir=dist/js --minify --sourcemap",
+    "postcss": "postcss --verbose src/css/*.css --dir dist/css",
+    "watch-esbuild": "pnpm run esbuild --watch",
+    "watch-postcss": "pnpm run postcss --watch",
+    "watch": "concurrently --kill-others 'pnpm run watch-esbuild' 'pnpm run watch-postcss'",
+    "build": "pnpm run esbuild && pnpm run postcss",
+    "prettier": "prettier --write src"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "concurrently": "^8.2.2",
+    "esbuild": "^0.19.12",
+    "postcss": "^8.4.45",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-minify": "^1.1.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^9.6.0",
+    "postcss-replace": "^2.0.1",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "@jcodigital/jutils": "0.5.0"
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
+}

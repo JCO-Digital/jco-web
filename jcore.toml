@@ -1,5 +1,11 @@
 projectName = "jco"
+theme = "jco"
 template = "jcore3"
 localDomain = "jco.localhost"
-domains = [ "jco.localhost" ]
+domains = ["jco.localhost"]
+remoteDomain = "dev.jco.fi"
+remoteHost = "jco@gb.bojaco.com"
+remotePath = "files"
 branch = "gintonic"
+pluginInstall = "composer"
+dbPrefix = "zpp_"
