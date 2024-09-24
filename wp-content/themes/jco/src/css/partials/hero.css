@@ -9,3 +9,17 @@
 .hero-home{
     background-color: #844dd6;
 }
+
+/* close to hero */
+.bubble{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+       
+    .wp-block-heading{
+        margin-bottom: 0;
+        width: fit-content;
+        padding: 5px 12px 10px 12px;
+        border-radius: 10px;
+    }
+}
