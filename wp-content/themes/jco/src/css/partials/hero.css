@@ -15,7 +15,7 @@
     }
     
     video{
-        object-fit: cover;
+        object-fit: contain;
         width: 100dvw;
         height: 100dvh;
         top: 0;
@@ -24,8 +24,12 @@
 }
 
 .hero-home{
-    /* background-color: #844dd6; */
-    background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box;
+    background-color: #9874EE;
+    /* background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box; */
+}
+
+.lily-gradient{
+    background: transparent linear-gradient(180deg, #9874EE 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box;
 }
 
 /* close to hero */
