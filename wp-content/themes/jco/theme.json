@@ -95,7 +95,7 @@
         "2xl": "1536px"
       },
       "spacingSizes": {
-        "small": "clamp(1rem, 3.7vw + -0.05rem,  2rem)",
+        "small": "clamp(.5rem, 3.7vw + -0.05rem,  1rem)",
         "medium": "clamp(1.5rem, 3.7vw + -0.05rem,  3rem )",
         "large": "clamp(2rem, 3.7vw + -0.05rem,  4rem )"
       }
