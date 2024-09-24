@@ -1,5 +1,5 @@
 footer {
-  background-color:var(--wp--preset--color--darkprimary);
+  background-color:var(--wp--preset--color--dark);
   padding-top: 3rem;
   padding-bottom: 0;
    
@@ -41,7 +41,7 @@ footer {
   }
   /*Copyright section */
   .copyright {
-    background-color: var(--wp--preset--color--light);
+    background-color: var(--wp--preset--color--dark);
     padding-bottom: 1rem;
     padding-top: 1rem;
     .info {
