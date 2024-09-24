@@ -44,15 +44,15 @@ function cases_post_type() {
 	register_post_type( 'case', $args );
 
 	$taxonomies = array(
-		'customer' => array(
+		'customers' => array(
 			'name'          => __( 'Customers', 'jcore' ),
 			'singular_name' => __( 'Customer', 'jcore' ),
 		),
-		'year'     => array(
+		'years'     => array(
 			'name'          => __( 'Years', 'jcore' ),
 			'singular_name' => __( 'Year', 'jcore' ),
 		),
-		'cost'     => array(
+		'costs'     => array(
 			'name'          => __( 'Cost', 'jcore' ),
 			'singular_name' => __( 'Cost', 'jcore' ),
 		),
