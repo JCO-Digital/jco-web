@@ -1,9 +1,26 @@
 .hero-custom{
+    padding: 0;
+    margin-bottom: 0;
+
+    .wp-block-cover__inner-container{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .wp-block-cover__image-background{
         background-size: contain; /* if fixed */
         object-fit: contain;
     }
-    margin-bottom: 0;
+    
+    video{
+        object-fit: cover;
+        width: 100dvw;
+        height: 100dvh;
+        top: 0;
+        left: 0;
+    }
 }
 
 .hero-home{
