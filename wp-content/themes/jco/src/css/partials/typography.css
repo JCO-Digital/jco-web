@@ -37,6 +37,11 @@ a {
   }
 }
 
+/* Spacing */
+.has-molitor-font-family{
+  letter-spacing: 1.2px;
+}
+
 /* List styles */
 
 ul {
