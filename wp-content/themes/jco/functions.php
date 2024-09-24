@@ -21,6 +21,7 @@ require_once __DIR__ . '/classes/Settings.php';
 require_once __DIR__ . '/includes/templates.php';
 require_once __DIR__ . '/includes/polylang.php';
 require_once __DIR__ . '/includes/customizer.php';
+require_once __DIR__ . '/includes/cases.php';
 
 add_action( 'after_setup_theme', 'Jcore\Ilme\setup' );
 add_action( 'wp_enqueue_scripts', 'Jcore\Ilme\scripts' );
