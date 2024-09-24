@@ -251,7 +251,7 @@
   },
   "styles": {
     "typography": {
-      "fontFamily": "Inter"
+      "fontFamily": "Albert Sans"
     },
     "color": {
       "text": "var:preset|color|dark",
