@@ -32,24 +32,9 @@
           "slug": "dark"
         },
         {
-          "color": "#28A745",
-          "name": "Success",
-          "slug": "success"
-        },
-        {
-          "color": "#17A2B8",
-          "name": "Info",
-          "slug": "info"
-        },
-        {
           "color": "#FFBBA0",
           "name": "Peach",
           "slug": "peach"
-        },
-        {
-          "color": "#DC3545",
-          "name": "Failure",
-          "slug": "failure"
         },
         {
           "color": "#844DD6",
@@ -70,6 +55,21 @@
           "color": "#FFE05F",
           "name": "Sunflower",
           "slug": "sunflower"
+        },
+        {
+          "color": "#28A745",
+          "name": "Success",
+          "slug": "success"
+        },
+        {
+          "color": "#17A2B8",
+          "name": "Info",
+          "slug": "info"
+        },
+        {
+          "color": "#DC3545",
+          "name": "Failure",
+          "slug": "failure"
         }
       ],
       "gradients": [
@@ -278,7 +278,7 @@
     },
     "color": {
       "text": "var:preset|color|dark",
-      "background": "var:preset|color|white"
+      "background": "var:preset|color|light"
     },
     "blocks": {
       "core/paragraph": {
