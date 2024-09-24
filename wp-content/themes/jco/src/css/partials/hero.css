@@ -7,7 +7,8 @@
 }
 
 .hero-home{
-    background-color: #844dd6;
+    /* background-color: #844dd6; */
+    background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box;
 }
 
 /* close to hero */
@@ -15,11 +16,11 @@
     display: flex;
     justify-content: flex-end;
     padding: 0;
-       
-    .wp-block-heading{
+
+    p{
         margin-bottom: 0;
         width: fit-content;
-        padding: 5px 12px 10px 12px;
+        padding: 5px 20px 10px 20px;
         border-radius: 10px;
     }
 }
