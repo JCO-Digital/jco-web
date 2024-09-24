@@ -6,6 +6,7 @@ domains = ["jco.localhost"]
 remoteDomain = "dev.jco.fi"
 remoteHost = "jco@gb.bojaco.com"
 remotePath = "files"
+replace = ["//jco.gb.bojaco.com|//jco.localhost"]
 branch = "gintonic"
 pluginInstall = "composer"
 dbPrefix = "zpp_"
