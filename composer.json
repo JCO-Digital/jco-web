@@ -8,6 +8,10 @@
     "wpackagist": {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    "jco-plugins": {
+      "type": "composer",
+      "url": "https://plugins.jco.fi"
     }
   },
   "config": {
@@ -26,11 +30,11 @@
     "sentry/sentry": "^3.18.2",
     "wpackagist-plugin/wordpress-seo": "^21.4",
     "jcore/ydin": "^3.5",
-    "jcore/blocks": "^0.2.0",
     "symfony/http-client": "^7.1",
     "nyholm/psr7": "^1.8",
     "jco/polylang-pro": "^3.6",
-    "wpackagist-plugin/spinupwp": "^1.7"
+    "wpackagist-plugin/spinupwp": "^1.7",
+    "jcodigital/jquest-plugin": "v0.3.4"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

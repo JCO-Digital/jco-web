@@ -1,5 +1,12 @@
 {% extends "layout.twig" %}
-
+{% block content_above %}
+	<div class="single-breadcrumb alignwide">
+		<a href="{{ fn('get_post_type_archive_link', post.post_type) }}"><< {{ __('News & Blog','jcore') }}</a>
+	</div>		
+{% endblock %}
+{% block post_title %}
+			
+{% endblock %}
 {% block post_info %}
 	<div class="post-info flex">
 		{% if customizer('article','date') %}
@@ -44,8 +51,8 @@
 	</section>
 	{% endif %}
 
-	{% if customizer('article_highlight','highlight_on_single') and related is not empty %}
-		<section class="alignfull">
+	{% if customizer('article_highlight','highlight_on_single') and related is not empty %}	
+	<section class="alignfull">
 			<div class="recent">
 				<div class="recent-posts-heading">
 					<h2>{{ __('Read also','jcore') }}</h2>

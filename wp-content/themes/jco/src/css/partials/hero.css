@@ -1,0 +1,11 @@
+.hero-custom{
+    .wp-block-cover__image-background{
+        background-size: contain; /* if fixed */
+        object-fit: contain;
+    }
+    margin-bottom: 0;
+}
+
+.hero-home{
+    background-color: #844dd6;
+}

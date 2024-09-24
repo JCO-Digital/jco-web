@@ -1,4 +1,4 @@
 <?php
 /*
- * Stub required file.
+ * This template shouldn't be called.
  */

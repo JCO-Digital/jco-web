@@ -1,9 +1,11 @@
 <?php
+
+use Timber\Timber;
 /*
  * Handler for none existant pages.
  */
 
-$GLOBALS['page_title'] = 'Foo';
+$GLOBALS['page_title'] = '404';
 
 $context = Timber::context();
 
@@ -29,7 +31,7 @@ foreach (
 if ( empty( $post_404_id ) ) {
 	$context['page_title'] = __( 'Page not found', 'jcore' );
 } else {
-	$timber_post           = new Timber\Post( $post_404_id );
+	$timber_post           = new \Timber\Post( $post_404_id );
 	$context['page_title'] = $timber_post->post_title;
 	$context['post']       = $timber_post;
 }
