@@ -1,76 +1,8 @@
 #jcore-nav {
-  --jcore-menu-height: 80px;
-  --jcore-menu-width: 200px;
-  --jcore-menu-padding: 1rem;
-  --jcore-mobile-width: 980px;
-
-  display: flex;
-  margin: 0 calc((100vw - var(--wp--style--global--content-size)) / 2);
-  justify-content: space-between;
-
-  .brand {
-    height: var(--jcore-menu-height);
-
-    img {
-      height: calc(var(--jcore-menu-height) - (var(--jcore-menu-padding) * 2));
-      margin: var(--jcore-menu-padding);
-      width: auto;
-    }
-  }
-
-  /* Set styles for all menu levels. */
-  .menu {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-  }
-
-  /* Level specific styles */
-  .menu-0 {
-    flex-direction: row;
-    height: var(--jcore-menu-height);
-  }
-
-  .menu-item {
-    margin: 0 0.5rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .menu-link {
-    text-wrap: nowrap;
-  }
-
-  /* Open / Close submenu button. */
-  button.toggle {
-    margin: 0 0.5rem;
-    .fa-angle-up {
-      display: none;
-    }
-    &.open {
-      .fa-angle-up {
-        display: unset;
-      }
-      .fa-angle-down {
-        display: none;
-      }
-    }
-  }
-
-  .hamburger {
-    svg {
-      width: 36px;
-    }
-  }
 }
 
 /* Desktop navigation styles. */
-@media (width >= {{ jcore-breakpoint-lg }}) {
+@media (width >= {{ jcore-breakpoint-sm }}) {
   #jcore-nav {
     .hamburger {
       display: none;
@@ -100,7 +32,7 @@
 }
 
 /* Mobile navigation styles. */
-@media (width < {{ jcore-breakpoint-lg }}) {
+@media (width < {{ jcore-breakpoint-md }}) {
   #jcore-nav {
     .menu-0 {
       position: absolute;
