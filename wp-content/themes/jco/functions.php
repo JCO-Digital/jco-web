@@ -43,7 +43,6 @@ add_filter(
 	}
 );
 
-
 /**
  * Disable Comments functionality if not enabled in customizer.
  */

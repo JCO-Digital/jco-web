@@ -3,7 +3,6 @@
 namespace Jcore\Ilme;
 
 function cases_post_type() {
-
 	/**
 	 * Post Type: Cases.
 	 */
@@ -32,17 +31,56 @@ function cases_post_type() {
 		'map_meta_cap'          => true,
 		'hierarchical'          => false,
 		'rewrite'               => array(
-			'slug'       => 'cases',
+			'slug'       => 'case',
 			'with_front' => true,
 		),
 		'query_var'             => true,
 		'menu_icon'             => 'dashicons-grid-view',
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt' ),
-		'taxonomies'            => array( 'post_tag', 'category' ),
+		'taxonomies'            => array( 'post_tag', 'category', 'customer', 'year', 'cost' ),
 		'show_in_graphql'       => false,
 	);
 
 	register_post_type( 'case', $args );
+
+	$taxonomies = array(
+		'customer' => array(
+			'name'          => __( 'Customers', 'jcore' ),
+			'singular_name' => __( 'Customer', 'jcore' ),
+		),
+		'year'     => array(
+			'name'          => __( 'Years', 'jcore' ),
+			'singular_name' => __( 'Year', 'jcore' ),
+		),
+		'cost'     => array(
+			'name'          => __( 'Cost', 'jcore' ),
+			'singular_name' => __( 'Cost', 'jcore' ),
+		),
+	);
+
+	foreach ( $taxonomies as $taxonomy => $labels ) {
+		$args = array(
+			'label'                 => $labels['name'],
+			'labels'                => $labels,
+			'public'                => true,
+			'publicly_queryable'    => true,
+			'hierarchical'          => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'show_in_nav_menus'     => true,
+			'query_var'             => true,
+			'rewrite'               => array(
+				'slug'       => $taxonomy,
+				'with_front' => false,
+			),
+			'show_admin_column'     => false,
+			'show_in_rest'          => true,
+			'rest_base'             => $taxonomy,
+			'rest_controller_class' => 'WP_REST_Terms_Controller',
+			'show_in_quick_edit'    => true,
+		);
+		register_taxonomy( $taxonomy, array( 'case' ), $args );
+	}
 }
 
-add_action( 'init', 'Jcore\Ilme\cases_post_type' );
+add_action( 'init', '\Jcore\Ilme\cases_post_type' );
