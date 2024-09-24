@@ -8,16 +8,15 @@ on:
 
 jobs:
   build:
-    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.0.1
+    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.0.3
     with:
-      fetch_submodules: true
       php_version: 8.2
       slack_channel: CU8LPT03W
     secrets: inherit
   deploy:
     needs: [build]
     if: github.ref == 'refs/heads/develop'
-    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.0.1
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.0.3
     with:
       server_url: jco@gb.bojaco.com
       base_path: files
