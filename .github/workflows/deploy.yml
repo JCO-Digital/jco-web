@@ -8,9 +8,8 @@ on:
 
 jobs:
   build:
-    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.0.1
+    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.0.2
     with:
-      fetch_submodules: true
       php_version: 8.2
       slack_channel: CU8LPT03W
     secrets: inherit
