@@ -120,58 +120,25 @@
         {
           "fontFace": [
             {
-              "fontFamily": "Inter Tight",
+              "fontFamily": "Albert Sans",
               "fontStretch": "normal",
               "fontStyle": "normal",
-              "fontWeight": "300 900",
-              "src": ["file:./assets/fonts/InterTight.woff"]
+              "fontWeight": "100 200 300 400 500 600 700 800 900",
+              "src": ["file:./assets/fonts/AlbertSans-VariableFont_wght.ttf"]
             },
             {
-              "fontFamily": "Inter Tight",
+              "fontFamily": "Albert Sans",
               "fontStretch": "normal",
               "fontStyle": "italic",
-              "fontWeight": "300 900",
-              "src": ["file:./assets/fonts/InterTight-Italic.woff"]
+              "fontWeight": "100 200 300 400 500 600 700 800 900",
+              "src": [
+                "file:./assets/fonts/AlbertSans-Italic-VariableFont_wght.ttf"
+              ]
             }
           ],
-          "fontFamily": "\"Inter Tight\", sans-serif",
-          "name": "Inter Tight",
-          "slug": "inter-tight"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "Inter",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "300 900",
-              "src": ["file:./assets/fonts/Inter.woff2"]
-            }
-          ],
-          "fontFamily": "\"Inter\", sans-serif",
-          "name": "Inter",
-          "slug": "inter"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "Molitor Bold",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "src": ["file:./assets/fonts/MolitorDisplayBold.woff"]
-            },
-            {
-              "fontFamily": "Molitor Bold",
-              "fontStretch": "normal",
-              "fontStyle": "italic",
-              "fontWeight": "700",
-              "src": ["file:./assets/fonts/MolitorDisplayBoldItalic.woff"]
-            }
-          ],
-          "fontFamily": "\"Molitor Bold\", sans-serif",
-          "name": "Molitor Bold",
-          "slug": "molitor-bold"
+          "fontFamily": "\"Albert Sans\", sans-serif",
+          "name": "Albert Sans",
+          "slug": "albert-sans"
         },
         {
           "fontFace": [
@@ -188,6 +155,20 @@
               "fontStyle": "italic",
               "fontWeight": "400",
               "src": ["file:./assets/fonts/MolitorDisplayItalic.woff"]
+            },
+            {
+              "fontFamily": "Molitor",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/MolitorDisplayBold.woff"]
+            },
+            {
+              "fontFamily": "Molitor",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/MolitorDisplayBoldItalic.woff"]
             }
           ],
           "fontFamily": "\"Molitor\", sans-serif",
@@ -270,7 +251,7 @@
   },
   "styles": {
     "typography": {
-      "fontFamily": "Inter"
+      "fontFamily": "Albert Sans"
     },
     "color": {
       "text": "var:preset|color|dark",
