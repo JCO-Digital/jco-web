@@ -5,11 +5,13 @@
 {% endblock %}
 
 	<nav id="jcore-nav" data-jsticky>
-    	<button class="hamburger" data-jtoggle="#jcore-menu" data-class="menu-open">
-    	    {% include "images/hamburger.twig" %}
+    	<button class="hamburger" data-jtoggle="#jcore-nav,#jcore-menu" data-class="menu-open">
+    	    <i class="fa-regular fa-bars"></i>
     	</button>
-				<div class="brand">
-					{% include 'images/navbar-brand.twig' %}
-				</div>
-				{% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}
+		<div class="brand">
+		      <div class="logo">
+								{% include 'images/navbar-brand.twig' %}
+			</div>
+		</div>
+		{% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}
 	</nav>
