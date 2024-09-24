@@ -151,6 +151,48 @@
           "fontFamily": "\"Inter\", sans-serif",
           "name": "Inter",
           "slug": "inter"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Molitor Bold",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/MolitorDisplayBold.woff"]
+            },
+            {
+              "fontFamily": "Molitor Bold",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "700",
+              "src": ["file:./assets/fonts/MolitorDisplayBoldItalic.woff"]
+            }
+          ],
+          "fontFamily": "\"Molitor Bold\", sans-serif",
+          "name": "Molitor Bold",
+          "slug": "molitor-bold"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Molitor",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/MolitorDisplayRegular.woff"]
+            },
+            {
+              "fontFamily": "Molitor",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": ["file:./assets/fonts/MolitorDisplayItalic.woff"]
+            }
+          ],
+          "fontFamily": "\"Molitor\", sans-serif",
+          "name": "Molitor",
+          "slug": "molitor"
         }
       ],
       "defaultFontSizes": false,
@@ -159,47 +201,52 @@
           "fluid": false,
           "name": "Paragraph",
           "slug": "paragraph",
-          "size": "16px"
+          "size": "22px"
         },
         {
           "name": "H1",
           "slug": "heading-1",
-          "size": "42px"
+          "size": "84px"
         },
         {
           "name": "H2",
           "slug": "heading-2",
-          "size": "36px"
+          "size": "56px"
         },
         {
           "name": "H3",
           "slug": "heading-3",
-          "size": "24px"
+          "size": "40px"
         },
         {
           "name": "H4",
           "slug": "heading-4",
-          "size": "20px"
+          "size": "32px"
+        },
+        {
+          "name": "H5",
+          "slug": "heading-5",
+          "size": "24px"
         },
         {
           "name": "Ingress",
           "slug": "ingress",
-          "size": "26px",
+          "size": "28px",
           "fluid": {
             "min": "20px",
-            "max": "26px"
+            "max": "28px"
           }
         },
         {
           "fluid": false,
           "name": "Mini",
           "slug": "mini",
-          "size": "13px"
+          "size": "16px"
         },
         {
           "name": "Maxi",
           "slug": "maxi",
-          "size": "64px"
+          "size": "140px"
         }
       ]
     },
@@ -253,7 +300,7 @@
     "elements": {
       "heading": {
         "typography": {
-          "fontFamily": "Inter Tight"
+          "fontFamily": "Molitor"
         }
       },
       "link": {
