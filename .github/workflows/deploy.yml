@@ -13,7 +13,7 @@ jobs:
       php_version: 8.2
       slack_channel: CU8LPT03W
     secrets: inherit
-  deploy:
+  deploy-develop:
     needs: [build]
     if: github.ref == 'refs/heads/develop'
     uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.0.3
