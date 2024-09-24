@@ -1,17 +1,72 @@
-.posts-highlight {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr;
-  }
-  
-  .posts-highlight.columns-2 {
-      grid-template-columns: 1fr 1fr;
-  }
-  
-  .posts-highlight.columns-3 {
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .posts-highlight.columns-4 {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+.single {
+    .single-breadcrumb {
+        font-family: 'Molitor', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.6px;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+        a {
+            color: var(--wp--preset--color--dark);
+            font-size: var(--wp--preset--font-size--paragraph);
+        }
+    }
+    .single-data {
+        padding-bottom: 1rem;
+        letter-spacing: 0.66px;
+        font-family: 'Molitor', sans-serif;
+        font-weight: 700;
+        .wp-block-post-date {
+            margin-right: 1rem;
+            letter-spacing: 0.66px;
+            font-size: var(--wp--preset--font-size--paragraph);
+        }
+        .categories {
+            color: var(--wp--preset--color--lilly);
+            text-transform: uppercase;
+        }
+       
+    }
+    h1 {
+        margin-bottom: 4rem;
+    }
+    .wp-block-cover {
+        border-radius: 10px;
+    }
+    .author-share {
+        margin-bottom: 4rem;
+        border-radius: 10px;
+        .wp-block-post-author {
+            .wp-block-post-author__avatar {
+                img {
+                    border-radius: 50%;
+                }
+            }
+            .wp-block-post-author__name {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                font-style: italic;
+                color: var(--wp--preset--color--dark);
+                font-size: var(--wp--preset--font-size--mini);
+            }
+        }
+    }
+    .posts-highlight {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr;
+      }
+      
+      .posts-highlight.columns-2 {
+          grid-template-columns: 1fr 1fr;
+      }
+      
+      .posts-highlight.columns-3 {
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+      
+      .posts-highlight.columns-4 {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+}
