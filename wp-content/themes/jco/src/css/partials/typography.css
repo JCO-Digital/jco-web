@@ -36,3 +36,33 @@ a {
     text-decoration: none;
   }
 }
+
+/* List styles */
+
+ul {
+  list-style-type: none;
+
+  li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0.75rem;
+    &::before {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 10px; 
+    height: 10px; 
+    background-color: var(--wp--preset--color--lilly);
+    border-radius: 4px; 
+    }
+  }
+}
+
+ol {
+  padding-left: 1.5rem;
+  li {
+    margin-bottom: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
