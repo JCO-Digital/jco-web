@@ -12,7 +12,7 @@
       "defaultDuotone": false,
       "palette": [
         {
-          "color": "#41c4ff",
+          "color": "#FFCD00",
           "name": "Brand",
           "slug": "brand"
         },
@@ -22,34 +22,54 @@
           "slug": "white"
         },
         {
-          "color": "#d2d2d2",
+          "color": "#FAF8F2",
           "name": "Light",
           "slug": "light"
         },
         {
-          "color": "#3b3b3b",
+          "color": "#151515",
           "name": "Dark",
           "slug": "dark"
         },
         {
-          "color": "#000000",
-          "name": "Black",
-          "slug": "black"
-        },
-        {
-          "color": "#4bf60a",
+          "color": "#28A745",
           "name": "Success",
           "slug": "success"
         },
         {
-          "color": "#f6ea0a",
-          "name": "Warning",
-          "slug": "warning"
+          "color": "#17A2B8",
+          "name": "Info",
+          "slug": "info"
         },
         {
-          "color": "#f60a0a",
+          "color": "#FFBBA0",
+          "name": "Peach",
+          "slug": "peach"
+        },
+        {
+          "color": "#DC3545",
           "name": "Failure",
           "slug": "failure"
+        },
+        {
+          "color": "#844DD6",
+          "name": "Purple",
+          "slug": "purple"
+        },
+        {
+          "color": "#612DAF",
+          "name": "Aubergine",
+          "slug": "aubergine"
+        },
+        {
+          "color": "#A782FF",
+          "name": "Lilly",
+          "slug": "lilly"
+        },
+        {
+          "color": "#FFE05F",
+          "name": "Sunflower",
+          "slug": "sunflower"
         }
       ],
       "gradients": [
@@ -179,10 +199,13 @@
       "defaultFontSizes": false,
       "fontSizes": [
         {
-          "fluid": false,
           "name": "Paragraph",
           "slug": "paragraph",
-          "size": "22px"
+          "size": "20px",
+          "fluid": {
+            "min": "18px",
+            "max": "20px"
+          }
         },
         {
           "name": "H1",
