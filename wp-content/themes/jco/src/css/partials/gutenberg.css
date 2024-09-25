@@ -129,3 +129,27 @@ blockquote {
     }
   }
 }
+
+/* Social media block on contacts page */
+
+.contacts-social {
+  .social-media-links {
+    a {
+      text-decoration: none;
+      .fa-stack {
+        margin-left: -1rem;
+        .fa-circle {
+          display: none;
+        }
+        .fab {
+          color: var(--wp--preset--color--dark);
+        }
+        &:hover {
+          .fa-circle {
+            color: var(--wp--preset--color--light);
+          }
+        }
+      }
+    }
+  }
+}
