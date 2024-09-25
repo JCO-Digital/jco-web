@@ -37,13 +37,6 @@ $timber_post = \Timber::get_post();
 $templates = array();
 $context['post'] = $timber_post;
 
-// case taxonomies
-if (is_singular('case')) {
-	$context['customers'] = \Timber::get_terms(array('taxonomy' => 'customers'));
-	$context['years'] = \Timber::get_terms(array('taxonomy' => 'years'));
-	$context['costs'] = \Timber::get_terms(array('taxonomy' => 'costs'));
-}
-
 if (class_exists('SFWD_LMS') && in_array($timber_post->post_type, $ld_course_types, true)) {
 	$context['show_learndash_sidebar'] = true;
 	$context['body_class']            .= ' apply-learndash-styles';
