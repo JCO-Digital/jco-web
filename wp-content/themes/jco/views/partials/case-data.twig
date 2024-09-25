@@ -1,32 +1,50 @@
 <section class="case-data">
 	<div class="heading">
 		<h2 class="wp-block-heading">
-			<strong>{{ __('CASE FACTS', 'jcore') }}<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">:</mark>
+			<strong>{{ __('CASE FACTS', 'jcore') }}<mark style="background-color:rgba(0, 0, 0, 0)"
+					class="has-inline-color has-lilly-color">:</mark>
 			</strong>
 		</h2>
 	</div>
 	<div class="data">
+		{% if customers %}
 		<div class="cli">
-			{% for term in terms %}
-				{{ term.title }}
-			{% endfor %}
-			{{dump(terms)}}
 			<p class="btnblack">{{ __('CLIENT', 'jcore') }}</p>
+			{% for customer in customers %}
+			<a href="{{ customer.link }}">
+				<p class="btnlilly">{{ customer.title }}</p>
+			</a>
+			{% endfor %}
 		</div>
+		{% endif %}
+
+		{% if years %}
 		<div class="yr">
 			<p class="btnblack">{{ __('YEAR', 'jcore') }}</p>
-			<p class="btnlilly"></p>
+			{% for year in years %}
+			<a href="{{ year.link }}">
+				<p class="btnlilly">{{ year.title }}</p>
+			</a>
+			{% endfor %}
 		</div>
+		{% endif %}
+
+		{% if costs %}
 		<div class="cost">
 			<p class="btnblack">{{ __('COST', 'jcore') }}</p>
-			<p class="btnlilly"></p>
+			{% for cost in costs %}
+			<a href="{{ cost.link }}">
+				<p class="btnlilly">{{ cost.title }}</p>
+			</a>
+			{% endfor %}
 		</div>
+		{% endif %}
 	</div>
 	<div class="linkout">
 		{% if post.meta('link_out') %}
-			<p class="visitsite">
-				<a class="btnblack" href="{{ post.link_out.url }}" target="_blank">{{ __('VISIT SITE', 'jcore') }}</a>
-			</p>
+		<p class="visitsite">
+			<a class="btnblack" href="{{ post.link_out.url }}" target="_blank">{{ __('VISIT SITE', 'jcore') }}</a>
+		</p>
 		{% endif %}
 	</div>
 </section>
