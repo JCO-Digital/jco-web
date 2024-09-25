@@ -1,6 +1,5 @@
 import postcssPresetEnv from "postcss-preset-env";
 import postcssImport from "postcss-import";
-import postcssMixins from "postcss-mixins";
 import postcssReplace from "postcss-replace";
 import tailwindcss from "tailwindcss";
 import nesting from "tailwindcss/nesting/index.js";
@@ -23,7 +22,6 @@ export default {
   },
   plugins: [
     postcssImport,
-    postcssMixins,
     postcssReplace({ data: breakpoints }),
     nesting,
     tailwindcss,
