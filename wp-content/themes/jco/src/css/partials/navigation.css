@@ -107,10 +107,6 @@
       }
     }
 
-    .menu-1 {
-      width: 502px;
-    }
-
     &.menu-open {
       .brand {
         top: 20px;
@@ -152,7 +148,7 @@
 
 .sticky {
   position: fixed;
-  top: var(--wp-admin--admin-bar--height);
+  top: 0;
   left: 0;
   right: 0;
   z-index: 10;
@@ -162,16 +158,8 @@
 body.admin-bar {
   /* Fix for WP admin-bar */
   .navbar.scrollActive,
-  .navbar.sticky,
+  .sticky,
   .skip-to-content a {
-    top: 46px;
-  }
-
-  @media screen and (min-width: 781px) {
-    .navbar.scrollActive,
-    .navbar.sticky,
-    .skip-to-content a {
-      top: 32px;
-    }
+    top: var(--wp-admin--admin-bar--height);
   }
 }
