@@ -4,11 +4,11 @@
         line-height: 0.95;
         margin-bottom: 1.6rem;
         text-transform: uppercase;
+        text-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
     }
     .has-background{
-        padding: 0 1rem 1rem 1rem;
+        padding: 0 1.5rem 0.5rem 1.5rem;
         border-radius: 10px;
-        line-height: 1;
         letter-spacing: 0;
         width: fit-content;
         text-transform: uppercase;
