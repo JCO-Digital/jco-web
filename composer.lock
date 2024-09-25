@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57f9f6b6b4720d5d5f5b508c780d6574",
+    "content-hash": "d2cda931fb0caa6389c82f481b073ed2",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -545,20 +545,20 @@
         },
         {
             "name": "jcore/dynamic-archive",
-            "version": "v0.4.1",
+            "version": "v0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-dynamic-archive.git",
-                "reference": "4493914ec48d47e382f9314e6b263d633c5f8c87"
+                "reference": "b51f175b2e5a59357838b697721d6cca9aea7e7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/4493914ec48d47e382f9314e6b263d633c5f8c87",
-                "reference": "4493914ec48d47e382f9314e6b263d633c5f8c87",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/b51f175b2e5a59357838b697721d6cca9aea7e7c",
+                "reference": "b51f175b2e5a59357838b697721d6cca9aea7e7c",
                 "shasum": ""
             },
             "require": {
-                "jcore/ydin": "^3.6"
+                "jcore/ydin": "^v3.7.2"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
@@ -586,9 +586,9 @@
             "description": "JCORE Dynamic Archive module",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-dynamic-archive/issues",
-                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.4.1"
+                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.6.3"
             },
-            "time": "2024-09-25T06:51:38+00:00"
+            "time": "2024-09-25T11:47:41+00:00"
         },
         {
             "name": "jcore/ydin",
