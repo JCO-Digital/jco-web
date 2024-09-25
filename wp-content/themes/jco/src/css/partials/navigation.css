@@ -84,14 +84,17 @@
       display: block;
     }
 
-    .minus {
-      display: none;
+    svg {
+      height: var(--jcore-bar);
+      width: var(--jcore-bar);
     }
 
-    &.open {
+    &:not(.open) {
       .minus {
-        display: unset;
+        display: none;
       }
+    }
+    &.open {
       .plus {
         display: none;
       }
