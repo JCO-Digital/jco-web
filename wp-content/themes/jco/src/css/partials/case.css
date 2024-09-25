@@ -1,4 +1,7 @@
 .single-case {
+  section.data {
+    background-color: var(--wp--preset--color--white);
+  }
   h1.case-heading {
     text-transform: uppercase;
     font-weight: bold;
@@ -19,7 +22,6 @@
   }
 }
 .case-data {
-  background-color: var(--wp--preset--color--white);
   @media (width >= {{ jcore-breakpoint-sm }}) {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -27,6 +29,7 @@
     justify-content: space-between;
   }
   .data {
+    padding-top: 0.75rem;
     margin-bottom: 1rem;
     .cli,
     .yr,
@@ -63,8 +66,12 @@
     border-radius: 10px;
     font-size: 22px;
   }
-  .linkout .wp-block-button {
-    display: flex;
-    justify-content: end;
+  .linkout {
+    padding-top: 0.75rem;
+
+    .wp-block-button {
+      display: flex;
+      justify-content: end;
+    }
   }
 }
