@@ -1,0 +1,32 @@
+body {
+    .gform_wrapper {
+        .gform_body {
+            .gform_fields {
+                row-gap: 1.2rem !important;
+                .ginput_container {
+                    input[type=text], input[type=tel], input[type=email], select, textarea {
+                        padding: 1.5rem 0.5rem;
+                        border: none;
+                    }
+                }
+                .gfield_label {
+                    font-size: var(--wp--custom--font--size--mini);
+                }
+            }
+        }
+        .gform_footer {
+            input[type=submit] {
+                background:  var(--wp--preset--color--brand) !important;
+                font-size: var(--wp--custom--font--size--paragraph) !important;
+                color: var(--wp--preset--color--dark) !important;
+                text-transform: uppercase !important;
+                font-family: 'Molitor', sans-serif !important;
+                font-weight: 700 !important;
+                box-shadow: 5px 5px 0px 0px black !important;
+                padding: 0.5rem 1.5rem !important;
+              
+            }
+        }
+    }
+}
+
