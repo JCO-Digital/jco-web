@@ -84,6 +84,9 @@
 
   .lang-link {
     text-transform: uppercase;
+    &:not(:last-child)::after {
+      content: " / ";
+    }
   }
 
   #menu-card {
