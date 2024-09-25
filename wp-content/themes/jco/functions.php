@@ -249,6 +249,10 @@ function scripts() {
 		'/dist/js/jcore.js',
 	);
 	Assets::script_register(
+		'animations',
+		'/dist/js/animations.js',
+	);
+	Assets::script_register(
 		'alpine',
 		'/vendor/alpine/alpine.min.js',
 		array(),
@@ -279,6 +283,7 @@ function scripts() {
 	wp_enqueue_style( 'fa6-free' );
 
 	wp_enqueue_script( 'jcore' );
+    wp_enqueue_script( 'animations' );
 	wp_enqueue_script( 'jUtils' );
 	wp_enqueue_script( 'fontSize' );
 	wp_enqueue_script( 'wp-gallery-lightbox' );
