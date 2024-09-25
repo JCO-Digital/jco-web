@@ -1,8 +1,19 @@
 .single-case {
   h1.case-heading {
-    background-color: var(--wp--preset--color--dark);
-    margin-bottom: 2rem;
-    width: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+    box-decoration-break: clone;
+    display: inline;
+    line-height: 1.6;
+  }
+  p.case-words {
+    line-height: 3;
+    display: inline;
+    box-decoration-break: clone;
     padding: 5px 20px 10px 20px;
     border-radius: 10px;
   }
