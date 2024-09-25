@@ -2,7 +2,6 @@
 <footer class="is-layout-constrained">
 	<section id="footer-main" class="footer-main alignwide">
 		<div class="logo">
-			{% include 'images/footer-brand.twig' %}
 			<div>{{ footer.footer_below_logo.content }}</div>
 			{% include 'partials/footer-social.twig' %}
 		</div>
@@ -14,6 +13,6 @@
 		<div class="info alignwide">{{ footer.footer_copyright.content }}</div>
 	</section>
 	{% if customizer('site','scroll_to_top') %}
-		{% include 'navigation/scroll-to-top.twig' %}
+	{% include 'navigation/scroll-to-top.twig' %}
 	{% endif %}
 </footer>
