@@ -14,6 +14,9 @@
     }
   }
   .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
     height: var(--jcore-bar);
     width: var(--jcore-bar);
     background-color: var(--wp--preset--color--dark);
@@ -84,6 +87,7 @@
 
   .lang-link {
     text-transform: uppercase;
+    font-weight: bold;
     &:not(:last-child)::after {
       content: " / ";
     }
@@ -107,7 +111,7 @@
       left: unset;
       bottom: 0;
     }
-    width: 61px;
+    width: var(--jcore-bar);
 
     .brand {
       position: absolute;
@@ -158,6 +162,10 @@
   #jcore-nav {
     display: flex;
     flex-direction: row;
+    height: var(--jcore-bar);
+    justify-content: space-around;
+    align-items: center;
+    padding-right: var(--jcore-bar);
 
     #menu-card {
       top: var(--jcore-bar);
