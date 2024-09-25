@@ -1,5 +1,10 @@
+:root {
+  --jcore-font-family: var(--wp--preset--font-family--albert-sans);
+  --jcore-heading-font-family: var(--wp--preset--font-family--molitor);
+}
 p {
   margin-bottom: 1rem;
+  letter-spacing: 0.5px;
 }
 
 h1 {
@@ -27,13 +32,15 @@ h6 {
   font-size: var(--wp--custom--font--size--heading-2);
 }
 
-a {
-  color: var(--wp--preset--color--brand);
-  text-decoration: none;
-
-  &:hover {
+main {
+  a {
     color: var(--wp--preset--color--dark);
-    text-decoration: none;
+    text-decoration: underline;
+  
+    &:hover {
+      color: var(--wp--preset--color--dark);
+      text-decoration: none;
+    }
   }
 }
 
@@ -55,7 +62,7 @@ ul {
     content: ""; 
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 9px;
     width: 10px; 
     height: 10px; 
     background-color: var(--wp--preset--color--lilly);

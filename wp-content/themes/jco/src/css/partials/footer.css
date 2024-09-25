@@ -1,58 +1,58 @@
 footer {
-  background-color:var(--wp--preset--color--darkprimary);
-  padding-top: 3rem;
-  padding-bottom: 0;
-   
+  background-color:var(--wp--preset--color--dark);
+  padding: 4.5rem 2rem 0 2rem;
+ 
   .footer-main {
     padding-bottom: 4rem;
-    @mixin breakpoint-up md {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    align-items: start;
-    grid-gap: 0 2rem;
+    
+    @media (width >= {{ jcore-breakpoint-md }}) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 2;
+      grid-template-rows: auto;  
+      align-items: start;
+      grid-gap: 0 2rem;
+    }
+    
     .logo {
       grid-column-start: span 3;
+      border-bottom: 1px solid rgba(250, 248, 242, 0.2);
+      padding-bottom: 4rem;
+      margin-bottom: 4rem;
     }
-    }
-    @mixin breakpoint-up lg {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      .logo {
-        grid-column-start: span 1;
-      }
-    }
-    .logo {
-        margin-bottom: 2.5rem;
-        img,
-       svg {
-        margin-bottom: 2rem;
-          height: 98px;
-          width: auto;
-          @mixin breakpoint-up sm {
-            height: 98px;
-          }
-        }
+    
     }
     .left,
     .center,
     .right {
       margin-bottom: 2rem;
     }
+
+    
   }
-  /*Copyright section */
+
+  /* Some */
+  .social-media-links {
+    a:hover{
+      .has--color{
+        color: var(--wp--preset--color--brand);
+      }
+    }
+    .fa-inverse{
+      color: var(--wp--preset--color--brand);
+    }
+  }
+
+  /* Copyright */
   .copyright {
-    background-color: var(--wp--preset--color--light);
+    background-color: var(--wp--preset--color--dark);
     padding-bottom: 1rem;
     padding-top: 1rem;
     .info {
-      display: flex;
-      flerx-flow: row wrap;
-      justify-content: space-between;
-
       p {
         margin-bottom: 0;
         font-size: var(--wp--preset--font-size--mini);
+        opacity: 0.2;
       }
     }
-  }
 }

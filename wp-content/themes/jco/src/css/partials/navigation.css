@@ -1,24 +1,90 @@
-#jcore-nav {
+:root {
   --jcore-bar: 61px;
+  --jcore-menu-width: 563px;
+}
+
+#jcore-nav {
   background-color: var(--wp--preset--color--white);
+  font-family: var(--wp--preset--font-family--molitor);
+
   .brand {
     svg {
       height: 24px;
-      width: 105px;
+      width: 104px;
     }
   }
   .hamburger {
     height: var(--jcore-bar);
     width: var(--jcore-bar);
     background-color: var(--wp--preset--color--dark);
+    color: var(--wp--preset--color--light);
   }
   #jcore-menu {
     background-color: var(--wp--preset--color--light);
+  }
+
+  .menu-item {
+    padding-left: var(--jcore-bar);
+    &::before {
+      display: none;
+    }
+  }
+
+  .menu-link {
+    font-size: var(--wp--preset--font-size--heading-3);
+    font-weight: bold;
+    color: var(--wp--preset--color--dark);
+    text-transform: uppercase;
+    &.menu-link-0 {
+      font-size: var(--wp--preset--font-size--heading-2);
+    }
+  }
+
+  .menu-1 {
+    overflow: hidden;
+    max-height: var(--menu-height);
+    transition: max-height 200ms;
+    &:not(.open) {
+      max-height: 0;
+    }
+  }
+
+  button.toggle {
+    float: right;
+    border-radius: 50%;
+    background-color: var(--wp--preset--color--brand);
+    font-size: var(--wp--preset--font-size--heading-2);
+    width: 61px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+    span {
+      display: block;
+    }
+
+    .minus {
+      display: none;
+    }
+
+    &.open {
+      .minus {
+        display: unset;
+      }
+      .plus {
+        display: none;
+      }
+    }
   }
 }
 
 /* Desktop navigation styles. */
 @media (width >= {{ jcore-breakpoint-sm }}) {
+  html {
+    margin-right: var(--jcore-bar);
+  }
   #jcore-nav {
     &.sticky {
       left: unset;
@@ -55,19 +121,22 @@
     display: none;
   }
 
-  #jcore-menu {
+  #menu-card {
     position: absolute;
     top: 0;
     right: 61px;
     bottom: 0;
     width: 0;
-    padding-top: 61px;
+    padding-top: 132px;
     background-color: var(--wp--preset--color--light);
     overflow: hidden;
     transition: width 100ms;
     &.menu-open {
-      width: 563px;
+      width: var(--jcore-menu-width);
     }
+  }
+  #jcore-menu {
+    width: var(--jcore-menu-width);
   }
 }
 
@@ -79,7 +148,7 @@
 
 .sticky {
   position: fixed;
-  top: var(--wp-admin--admin-bar--height);
+  top: 0;
   left: 0;
   right: 0;
   z-index: 10;
@@ -89,16 +158,8 @@
 body.admin-bar {
   /* Fix for WP admin-bar */
   .navbar.scrollActive,
-  .navbar.sticky,
+  .sticky,
   .skip-to-content a {
-    top: 46px;
-  }
-
-  @media screen and (min-width: 781px) {
-    .navbar.scrollActive,
-    .navbar.sticky,
-    .skip-to-content a {
-      top: 32px;
-    }
+    top: var(--wp-admin--admin-bar--height);
   }
 }

@@ -79,7 +79,103 @@ function cases_post_type() {
 			'rest_controller_class' => 'WP_REST_Terms_Controller',
 			'show_in_quick_edit'    => true,
 		);
+
 		register_taxonomy( $taxonomy, array( 'case' ), $args );
+	}
+	if ( function_exists( 'acf_add_local_field_group' ) ) {
+		acf_add_local_field_group(
+			array(
+				'key'                   => 'group_66f3e6e67af5e',
+				'title'                 => 'case extras',
+				'fields'                => array(
+					array(
+						'key'               => 'field_66f3e6e6d5a7c',
+						'label'             => 'bg-image',
+						'name'              => 'bg-image',
+						'aria-label'        => '',
+						'type'              => 'image',
+						'instructions'      => '',
+						'required'          => 0,
+						'conditional_logic' => 0,
+						'wrapper'           => array(
+							'width' => '',
+							'class' => '',
+							'id'    => '',
+						),
+						'return_format'     => 'array',
+						'library'           => 'all',
+						'translations'      => 'copy_once',
+						'min_width'         => '',
+						'min_height'        => '',
+						'min_size'          => '',
+						'max_width'         => '',
+						'max_height'        => '',
+						'max_size'          => '',
+						'mime_types'        => 'jpg, webp, png',
+						'allow_in_bindings' => 0,
+						'preview_size'      => 'medium',
+					),
+					array(
+						'key'               => 'field_66f3e79d73a0c',
+						'label'             => 'link_out',
+						'name'              => 'link_out',
+						'aria-label'        => '',
+						'type'              => 'link',
+						'instructions'      => '',
+						'required'          => 0,
+						'conditional_logic' => 0,
+						'wrapper'           => array(
+							'width' => '',
+							'class' => '',
+							'id'    => '',
+						),
+						'return_format'     => 'array',
+						'translations'      => 'copy_once',
+						'allow_in_bindings' => 0,
+					),
+					array(
+						'key'               => 'field_66f3e7c86dab8',
+						'label'             => 'video_bg',
+						'name'              => 'video_bg',
+						'aria-label'        => '',
+						'type'              => 'file',
+						'instructions'      => '',
+						'required'          => 0,
+						'conditional_logic' => 0,
+						'wrapper'           => array(
+							'width' => '',
+							'class' => '',
+							'id'    => '',
+						),
+						'return_format'     => 'array',
+						'library'           => 'all',
+						'translations'      => 'copy_once',
+						'min_size'          => '',
+						'max_size'          => '',
+						'mime_types'        => 'mp4, webm, avif',
+						'allow_in_bindings' => 0,
+					),
+				),
+				'location'              => array(
+					array(
+						array(
+							'param'    => 'post_type',
+							'operator' => '==',
+							'value'    => 'case',
+						),
+					),
+				),
+				'menu_order'            => 0,
+				'position'              => 'normal',
+				'style'                 => 'default',
+				'label_placement'       => 'top',
+				'instruction_placement' => 'label',
+				'hide_on_screen'        => '',
+				'active'                => true,
+				'description'           => '',
+				'show_in_rest'          => 0,
+			)
+		);
 	}
 }
 

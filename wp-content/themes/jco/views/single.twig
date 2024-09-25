@@ -5,15 +5,20 @@
 	</div>		
 {% endblock %}
 {% block post_title %}
-			
+
 {% endblock %}
 {% block post_info %}
-	<div class="post-info flex">
+	<div class="post-info flex alignwide">
 		{% if customizer('article','date') %}
             <span class="post-date mr-2">{{ post.date }}</span>
         {% endif %}
 		{% if customizer('article','cat') %}
-            <span class="post-cat"> | {{ post.category }}</span>
+            <span class="post-cat">
+				{% for category in post.categories %}
+				{{ category.name }}
+				{% if not loop.last %}, {% endif %}
+			  	{% endfor %}
+			</span>
         {% endif %}
         {% if customizer('article','share_button') %}
             <button class="share-button ml-auto" data-share="{{ post.title }}">
@@ -59,7 +64,7 @@
 				</div>
 				<div class="posts-highlight columns-{{ customizer('article_highlight','columns') }}">
 					{% for post in related %}
-						{% include ['partials/tease-'~post.post_type~'.twig', 'partials/tease.twig'] %}
+						{% include 'partials/tease.twig' with {nr: loop.index} %}
 					{% endfor %}
 				</div>
 			</div>

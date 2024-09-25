@@ -5,15 +5,15 @@
 			{% if level > 0 and item.link == "#" %}
 				{{ item.title }}
 			{% else %}
-				<a class="menu-link menu-link-{{ level }}" href="{{ item.link }}" target="{{ item.target }}" {% if level == 0 %} data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}" data-jfocus {% endif %}>
+				<a class="menu-link menu-link-{{ level }}" href="{{ item.link }}" target="{{ item.target }}">
 				    {{ item.title | shorten }}
 				</a>
 			{% endif %}
 			{% if item.children %}
     			{% if level == 0 %}
-             		<button tabindex="-1" class="toggle" data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}">
-          			   <i class="fa-solid fa-angle-up"></i>
-          			   <i class="fa-solid fa-angle-down"></i>
+             		<button class="toggle" data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}">
+          			   <span class="plus">+</span>
+          			   <span class="minus">-</span>
          			</button>
     			{% endif %}
 				{% include "navigation/menu.twig" with { items: item.children, id: itemId, level: level + 1 } only %}
