@@ -54,8 +54,12 @@ window.addEventListener("DOMContentLoaded", () => {
     observer.observe(grid, config);
   });
 });
+window.addEventListener("load", () => {
+  menuHeight();
+});
 window.addEventListener("resize", () => {
   resizeMasonryGrid();
+  menuHeight();
 });
 
 function resizeMasonryGrid() {
@@ -80,3 +84,14 @@ function resizeMasonryGrid() {
   });
 }
 /* End Masonry Grid */
+
+function menuHeight() {
+  document.querySelectorAll("ul.menu-1").forEach((menu) => {
+    let height = 0;
+    for (const child of menu.children) {
+      height += child.offsetHeight + 12;
+      console.log(child, child.offsetHeight);
+    }
+    menu.style.setProperty("--menu-height", height + "px");
+  });
+}
