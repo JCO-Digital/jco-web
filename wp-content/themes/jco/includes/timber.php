@@ -48,12 +48,20 @@ function context( $context ) {
 	// If polylang is on.
 	if ( function_exists( 'pll_the_languages' ) ) {
 		$languages = array();
+		$switcher  = array();
 		foreach ( pll_the_languages( array( 'raw' => 1 ) ) as $l => $lang ) {
 			$lang['home']    = pll_home_url( $l );
 			$lang['class']   = implode( ' ', $lang['classes'] );
 			$languages[ $l ] = $lang;
+			if ( ! $lang['current_lang'] ) {
+				$switcher[] = array(
+					'url'  => $lang['url'],
+					'text' => $lang['slug'],
+				);
+			}
 		}
 		$context['languages']     = $languages;
+		$context['switcher']      = $switcher;
 		$context['language']      = pll_current_language();
 		$context['language_name'] = pll_current_language( 'name' );
 		$context['locale']        = pll_current_language( 'locale' );

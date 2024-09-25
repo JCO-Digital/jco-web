@@ -3,6 +3,8 @@
     background-color: var(--wp--preset--color--white);
   }
   h1.case-heading {
+    background-color: var(--wp--preset--color--black);
+    color: var(--wp--preset--color--white);
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -14,6 +16,7 @@
     line-height: 1.6;
   }
   p.case-words {
+    background-color: var(--wp--preset--color--lilly);
     line-height: 3;
     display: inline;
     box-decoration-break: clone;

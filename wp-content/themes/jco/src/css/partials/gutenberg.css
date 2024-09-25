@@ -25,16 +25,6 @@
   }
 }
 
-/* Gutenberg spacer */
-.wp-block-spacer {
-  &.widespacer,
-  &.herospacer {
-  }
-  &.narrowspacer,
-  &.internal {
-  }
-}
-
 /* Gutenberg pullquote and blockquote */
 .wp-block-pullquote {
   padding: 0;
@@ -82,9 +72,9 @@ blockquote {
 }
 
 /* Media and images */
-
 .wp-block-image {
-  margin: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   &.alignleft {
     float: left;
   }
@@ -94,6 +84,9 @@ blockquote {
   &.aligncenter {
     margin-left: auto;
     margin-right: auto;
+  }
+  img {
+    border-radius: 10px;
   }
 }
 

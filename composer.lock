@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d5bf6a142ca0c823cbd5b8ab968b992",
+    "content-hash": "d2cda931fb0caa6389c82f481b073ed2",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -545,20 +545,20 @@
         },
         {
             "name": "jcore/dynamic-archive",
-            "version": "v0.4.1",
+            "version": "v0.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-dynamic-archive.git",
-                "reference": "4493914ec48d47e382f9314e6b263d633c5f8c87"
+                "reference": "7b56aa256a1d1806358eda4c83a744bbb61b1e9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/4493914ec48d47e382f9314e6b263d633c5f8c87",
-                "reference": "4493914ec48d47e382f9314e6b263d633c5f8c87",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/7b56aa256a1d1806358eda4c83a744bbb61b1e9a",
+                "reference": "7b56aa256a1d1806358eda4c83a744bbb61b1e9a",
                 "shasum": ""
             },
             "require": {
-                "jcore/ydin": "^3.6"
+                "jcore/ydin": "^v3.7.2"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
@@ -586,9 +586,9 @@
             "description": "JCORE Dynamic Archive module",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-dynamic-archive/issues",
-                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.4.1"
+                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.6.4"
             },
-            "time": "2024-09-25T06:51:38+00:00"
+            "time": "2024-09-25T12:48:07+00:00"
         },
         {
             "name": "jcore/ydin",
@@ -2969,6 +2969,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/spinupwp/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
