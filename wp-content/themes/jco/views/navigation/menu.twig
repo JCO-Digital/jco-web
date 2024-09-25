@@ -5,13 +5,13 @@
 			{% if level > 0 and item.link == "#" %}
 				{{ item.title }}
 			{% else %}
-				<a class="menu-link menu-link-{{ level }}" href="{{ item.link }}" target="{{ item.target }}" {% if level == 0 %} data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}" data-jfocus {% endif %}>
+				<a class="menu-link menu-link-{{ level }}" href="{{ item.link }}" target="{{ item.target }}">
 				    {{ item.title | shorten }}
 				</a>
 			{% endif %}
 			{% if item.children %}
     			{% if level == 0 %}
-             		<button tabindex="-1" class="toggle" data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}">
+             		<button class="toggle" data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}">
           			   <span class="plus">+</span>
           			   <span class="minus">-</span>
          			</button>

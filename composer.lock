@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a0d428619e7d281bbeb6793f24891f5",
+    "content-hash": "2ec8f9c63812153a8a2a11b46fd04b4b",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -412,6 +412,25 @@
                 "homepage": "https://gravityforms.com"
             },
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "jco/gravityformscampaignmonitor",
+            "version": "4.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.jco.fi/satispress/gravityformscampaignmonitor/4.0.0",
+                "shasum": "5e608ef5bf7117a0e66a8d5cf4dbde8c23b76bc8"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Integrates Gravity Forms with Campaign Monitor, allowing form submissions to be automatically sent to your Campaign Monitor account.",
             "homepage": "https://gravityforms.com"
         },
         {
@@ -2898,6 +2917,42 @@
             "time": "2024-09-09T17:55:12+00:00"
         },
         {
+            "name": "wpackagist-plugin/font-awesome",
+            "version": "4.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/font-awesome/",
+                "reference": "tags/4.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/font-awesome.4.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/font-awesome/"
+        },
+        {
+            "name": "wpackagist-plugin/smtp2go",
+            "version": "1.9.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smtp2go/",
+                "reference": "tags/1.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smtp2go.1.9.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smtp2go/"
+        },
+        {
             "name": "wpackagist-plugin/spinupwp",
             "version": "1.7.1",
             "source": {
@@ -4193,5 +4248,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }

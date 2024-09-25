@@ -26,7 +26,19 @@ footer {
     }
   }
 
-  /*Copyright section */
+  /* Some */
+  .social-media-links {
+    a:hover{
+      .has--color{
+        color: var(--wp--preset--color--brand);
+      }
+    }
+    .fa-inverse{
+      color: var(--wp--preset--color--brand);
+    }
+  }
+
+  /* Copyright */
   .copyright {
     background-color: var(--wp--preset--color--dark);
     padding-bottom: 1rem;
