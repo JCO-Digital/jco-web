@@ -71,10 +71,18 @@ blockquote {
   }
 }
 
+/* Gutenberg special spacer dissappears on mobile  */
+.wp-block-spacer.hide {
+  display: none;
+  @media (width >= {{ jcore-breakpoint-lg }}) {
+    display: inline-block;
+  }
+}
+
 /* Media and images */
 .wp-block-image {
   margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   &.alignleft {
     float: left;
   }

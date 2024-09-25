@@ -36,47 +36,46 @@ main {
   a {
     color: var(--wp--preset--color--dark);
     text-decoration: underline;
-  
+
     &:hover {
       color: var(--wp--preset--color--dark);
       text-decoration: none;
     }
   }
-}
 
-/* Spacing */
-.has-molitor-font-family{
-  letter-spacing: 1.2px;
-}
+  /* List styles */
+  ul {
+    list-style-type: none;
+    font-size: var(--wp--preset--font-size--paragraph);
 
-/* List styles */
+    li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.2px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 9px;
+        width: 10px;
+        height: 10px;
+        background-color: var(--wp--preset--color--lilly);
+        border-radius: 4px;
+      }
+    }
+  }
 
-ul {
-  list-style-type: none;
-  font-size: var(--wp--preset--font-size--paragraph);
-
-  li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 0.75rem;
-    letter-spacing: 0.2px;
-    &::before {
-    content: ""; 
-    position: absolute;
-    left: 0;
-    top: 9px;
-    width: 10px; 
-    height: 10px; 
-    background-color: var(--wp--preset--color--lilly);
-    border-radius: 4px; 
+  ol {
+    padding-left: 1.5rem;
+    li {
+      margin-bottom: 0.75rem;
+      padding-left: 0.75rem;
     }
   }
 }
 
-ol {
-  padding-left: 1.5rem;
-  li {
-    margin-bottom: 0.75rem;
-    padding-left: 0.75rem;
-  }
+/* Spacing */
+.has-molitor-font-family {
+  letter-spacing: 1.2px;
 }

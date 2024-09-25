@@ -1,3 +1,21 @@
+/* cover block hero pattern */
+.hero-pattern{
+    h3{
+        line-height: 0.95;
+        margin-bottom: 1.6rem;
+        text-transform: uppercase;
+        text-shadow: rgb(0, 0, 0, 0.15) 0 0 10px;
+    }
+    .has-background{
+        padding: 0 1.5rem 0.5rem 1.5rem;
+        border-radius: 10px;
+        letter-spacing: 0;
+        width: fit-content;
+        text-transform: uppercase;
+    }
+}
+
+/* cover block with video */
 .hero-custom{
     padding: 0;
     margin-bottom: 0;
@@ -24,12 +42,12 @@
 }
 
 .hero-home{
-    background-color: #9874EE;
+    background-color: #A782FF;
     /* background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box; */
 }
 
 .lily-gradient{
-    background: transparent linear-gradient(180deg, #9874EE 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #A782FF 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box;
 }
 
 /* close to hero */

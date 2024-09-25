@@ -1,142 +1,156 @@
 .tease {
-    text-align: left;
-    margin-bottom: 3rem;
-    display: block;
-    position: relative;
+  text-align: left;
+  margin-bottom: 3rem;
+  display: block;
+  position: relative;
 
+  .post-term {
+    font-family: var(--jcore-heading-font-family);
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--wp--preset--color--lilly);
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
 
-    .post-term {
-        font-family: var(--jcore-heading-font-family);
-        text-transform: uppercase;
-        font-size: 1rem;
-        color: var(--wp--preset--color--lilly);
-        margin-bottom: 1rem;
-        line-height: 1;
+  &-post {
+    .post-title {
+      font-size: var(--wp--preset--font-size--ingress);
     }
 
-    &-post {
-        .post-title {
-            font-size: var(--wp--preset--font-size--ingress);
-        }
-
-        &:nth-of-type(6n+1) .image-container {
-            aspect-ratio: 3 / 4.5;
-        }
-
-        &:nth-of-type(6n+2) .image-container {
-            aspect-ratio: 1 / 1;
-        }
-
-        &:nth-of-type(6n+3) .image-container {
-            aspect-ratio: 3 / 4;
-        }
-
-        &:nth-of-type(6n+4) .image-container {
-            aspect-ratio: 3 / 4;
-        }
-
-        &:nth-of-type(6n+5) .image-container {
-            aspect-ratio: 3 / 4.5;
-        }
-
-        &:nth-of-type(6n) .image-container {
-            aspect-ratio: 4 / 3.5;
-        }
+    &:nth-of-type(6n + 1) .image-container {
+      aspect-ratio: 3 / 4.5;
     }
 
-    a {
-        color: initial;
-        text-decoration: none;
+    &:nth-of-type(6n + 2) .image-container {
+      aspect-ratio: 1 / 1;
     }
 
-    a:after {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        z-index: 2;
+    &:nth-of-type(6n + 3) .image-container {
+      aspect-ratio: 3 / 4;
+    }
+
+    &:nth-of-type(6n + 4) .image-container {
+      aspect-ratio: 3 / 4;
+    }
+
+    &:nth-of-type(6n + 5) .image-container {
+      aspect-ratio: 3 / 4.5;
+    }
+
+    &:nth-of-type(6n) .image-container {
+      aspect-ratio: 4 / 3.5;
+    }
+  }
+
+  a {
+    color: initial;
+    text-decoration: none;
+  }
+
+  a:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    content: "";
+  }
+
+  &:hover {
+    .image-container {
+      border: 4px solid transparent;
+      border-radius: 10px;
+
+      &:before {
         content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -4px;
+        border-radius: inherit;
+        background: linear-gradient(
+          180deg,
+          #ffcd00 0%,
+          #ffbba0 46%,
+          #9c72ff 100%
+        );
+      }
+
+      &:after {
+        content: "\e09f";
+        font: var(--fa-font-regular);
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background: var(--wp--preset--color--brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  &-case {
+    .post-title {
+      font-size: var(--wp--preset--font-size--medium);
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    .bg-image,
+    .placeholder-bg {
+      display: none;
     }
 
     &:hover {
-        .image-container {
-            border: 4px solid transparent;
-            border-radius: 10px;
-            &:before {
-                content: '';
-                position: absolute;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                z-index: -1;
-                margin: -4px;
-                border-radius: inherit;
-                background: linear-gradient(180deg, #FFCD00 0%, #FFBBA0 46%, #9C72FF 100%);
-            }
-
-            &:after {
-                content: '\e09f';
-                font: var(--fa-font-regular);
-                position: absolute;
-                bottom: .5rem;
-                right: .5rem;
-                width: 50px;
-                height: 50px;
-                border-radius: 100%;
-                background: var(--wp--preset--color--brand);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 1.25rem;
-            }
-
-        }
+      .featured,
+      .placeholder-featured {
+        display: none;
+      }
+      .bg-image,
+      .placeholder-bg {
+        display: block;
+      }
     }
 
-    &-case {
-        .post-title {
-            font-size: var(--wp--preset--font-size--medium);
-            margin-bottom: .5rem;
-        }
-
-        .bg-image {
-            display: none;
-        }
-
-        &:hover {
-            .featured {
-                display: none;
-            }
-            .bg-image {
-                display: block;
-            }
-
-        }
+    .placeholder-bg,
+    .placeholder-featured {
+      background: var(--wp--preset--color--purple);
+      aspect-ratio: 3 / 4;
+      border-radius: 10px;
     }
+  }
 
-    .preview {
-        font-size: var(--wp--preset--font-size--medium);
-        text-transform: capitalize;
-        font-family: var(--jcore-heading-font-family);
-    }
+  .preview {
+    font-size: var(--wp--preset--font-size--medium);
+    text-transform: capitalize;
+    font-family: var(--jcore-heading-font-family);
+  }
 }
 
 .tease .image-container {
-    position: relative;
-    margin-bottom: 1rem;
-    transition: .125s;
+  position: relative;
+  margin-bottom: 1rem;
+  transition: 0.125s;
 }
 
 .tease .image-container img {
-    -o-object-fit: cover;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
 }
 
 .tease .image-container.postcard {
-    aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 9;
 }
