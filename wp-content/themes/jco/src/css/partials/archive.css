@@ -30,12 +30,11 @@
 }
 
 .wp-block-jcore-dynamic-archive {
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .wp-block-jcore-dynamic-archive__filters__taxonomies {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    padding: 2rem 0;
     .wp-block-jcore-dynamic-archive__filters__taxonomies__type {
         display: flex;
         flex-flow: row wrap;
@@ -61,6 +60,7 @@
 
 .wp-block-jcore-dynamic-archive-posts__pagination {
     text-align: center;
+    padding-bottom: 2rem;
     button {
         background:  var(--wp--preset--color--brand);
         font-size: var(--wp--custom--font--size--paragraph);

@@ -124,7 +124,7 @@
     .placeholder-bg,
     .placeholder-featured {
       background: var(--wp--preset--color--purple);
-      aspect-ratio: 3 / 4;
+      aspect-ratio: 16 / 9;
       border-radius: 10px;
     }
   }

@@ -299,6 +299,39 @@
             "bottom": "var:custom|spacing-sizes|medium"
           }
         }
+      },
+      "core/button": {
+        "color": {
+          "background": "var:preset|color|brand",
+          "text": "var:preset|color|dark"
+        },
+        "border": {
+          "radius": "4px"
+        },
+        "typography": {
+          "fontSize": "var:preset|font-size|paragraph",
+          "fontFamily": "Molitor",
+          "textTransform": "uppercase",
+          "fontWeight": "700"
+        },
+        "spacing": {
+          "padding": {
+            "top": ".5rem",
+            "bottom": ".5rem",
+            "left": "1.5rem",
+            "right": "1.5rem"
+          }
+        },
+        "shadow": "5px 5px 0px 0px var(--wp--preset--color--dark)",
+        "variations": {
+          "additional": {
+            "color": {
+              "background": "var:preset|color|dark",
+              "text": "var:preset|color|brand"
+            },
+            "shadow": "5px 5px 0px 0px var(--wp--preset--color--brand)"
+          }
+        }
       }
     },
     "elements": {
