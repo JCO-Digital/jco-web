@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d5bf6a142ca0c823cbd5b8ab968b992",
+    "content-hash": "57f9f6b6b4720d5d5f5b508c780d6574",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2969,6 +2969,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/spinupwp/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
