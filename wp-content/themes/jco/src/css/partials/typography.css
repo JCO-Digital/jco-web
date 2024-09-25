@@ -62,7 +62,7 @@ ul {
     content: ""; 
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 9px;
     width: 10px; 
     height: 10px; 
     background-color: var(--wp--preset--color--lilly);
