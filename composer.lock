@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a0d428619e7d281bbeb6793f24891f5",
+    "content-hash": "e588a3120488d3e042db95c76ddc4fef",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -412,6 +412,25 @@
                 "homepage": "https://gravityforms.com"
             },
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "jco/gravityformscampaignmonitor",
+            "version": "4.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.jco.fi/satispress/gravityformscampaignmonitor/4.0.0",
+                "shasum": "5e608ef5bf7117a0e66a8d5cf4dbde8c23b76bc8"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Integrates Gravity Forms with Campaign Monitor, allowing form submissions to be automatically sent to your Campaign Monitor account.",
             "homepage": "https://gravityforms.com"
         },
         {
@@ -4193,5 +4212,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
