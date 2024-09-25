@@ -3,11 +3,17 @@
 	<section id="footer-main" class="footer-main alignwide">
 		<div class="logo">
 			<div>{{ footer.footer_below_logo.content }}</div>
+		</div>
+		<div class="left">
+			{{ footer.footer_left.content }}
 			{% include 'partials/footer-social.twig' %}
 		</div>
-		<div class="left">{{ footer.footer_left.content }}</div>
-		<div class="center">{{ footer.footer_center.content }}</div>
-		<div class="right">{{ footer.footer_right.content }}</div>
+		<div class="center">
+			{{ footer.footer_center.content }}
+		</div>
+		<div class="right">
+			{{ footer.footer_right.content }}
+		</div>
 	</section>
 	<section id="copyright" class="copyright is-layout-constrained alignfull">
 		<div class="info alignwide">{{ footer.footer_copyright.content }}</div>
