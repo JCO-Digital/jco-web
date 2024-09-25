@@ -1,6 +1,6 @@
 /* cover block hero pattern */
 .hero-pattern{
-    h1{
+    h3{
         line-height: 0.95;
         margin-bottom: 1.6rem;
         text-transform: uppercase;
@@ -14,7 +14,6 @@
         text-transform: uppercase;
     }
 }
-
 
 /* cover block with video */
 .hero-custom{
