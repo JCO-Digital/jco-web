@@ -78,6 +78,13 @@
       }
     }
   }
+
+  #menu-card {
+    position: absolute;
+    padding-top: 132px;
+    background-color: var(--wp--preset--color--light);
+    overflow: hidden;
+  }
 }
 
 /* Desktop navigation styles. */
@@ -126,15 +133,11 @@
   }
 
   #menu-card {
-    position: absolute;
     top: 0;
     right: 61px;
     bottom: 0;
     width: 0;
-    padding-top: 132px;
-    background-color: var(--wp--preset--color--light);
-    overflow: hidden;
-    transition: width 100ms;
+    transition: width 200ms;
     &.menu-open {
       width: var(--jcore-menu-width);
     }
@@ -147,6 +150,8 @@
 /* Mobile navigation styles. */
 @media (width < {{ jcore-breakpoint-sm }}) {
   #jcore-nav {
+    display: flex;
+    flex-direction: row;
   }
 }
 
