@@ -1,17 +1,19 @@
 <?php
 /**
  * Title: Two Third Columns
- * Slug: jcore/twothirdcolumns
+ * Slug:  jcore/ilme/twothirdcolumns
  * Description:
- * Categories: gberg
+ * Categories: text
  * Keywords:
  * Viewport Width: 1200
  * Block Types:
  * Post Types:
  * Inserter: true
  *
- * @package jco
+ * @package Jcore\Ilme
  */
+
+
 
 ?>
 

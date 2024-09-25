@@ -79,6 +79,7 @@ function cases_post_type() {
 			'rest_controller_class' => 'WP_REST_Terms_Controller',
 			'show_in_quick_edit'    => true,
 		);
+
 		register_taxonomy( $taxonomy, array( 'case' ), $args );
 	}
 }

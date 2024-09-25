@@ -1,0 +1,9 @@
+.single-case {
+  h1.case-heading {
+    background-color: var(--wp--preset--color--dark);
+    margin-bottom: 2rem;
+    width: fit-content;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+  }
+}
