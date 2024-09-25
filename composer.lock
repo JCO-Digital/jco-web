@@ -507,16 +507,16 @@
         },
         {
             "name": "jcore/ydin",
-            "version": "v3.7.0",
+            "version": "v3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-ydin.git",
-                "reference": "4814175a61d446f25d5840881088b80f55a3f898"
+                "reference": "9f65019a7013c9d71b64e0fc791fd260945edf51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-ydin/zipball/4814175a61d446f25d5840881088b80f55a3f898",
-                "reference": "4814175a61d446f25d5840881088b80f55a3f898",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-ydin/zipball/9f65019a7013c9d71b64e0fc791fd260945edf51",
+                "reference": "9f65019a7013c9d71b64e0fc791fd260945edf51",
                 "shasum": ""
             },
             "require": {
@@ -551,9 +551,9 @@
             "description": "JCORE Ydin (JYDIN), the core module for JCORE",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-ydin/issues",
-                "source": "https://github.com/JCO-Digital/jcore-ydin/tree/v3.7.0"
+                "source": "https://github.com/JCO-Digital/jcore-ydin/tree/v3.7.1"
             },
-            "time": "2024-09-24T14:38:52+00:00"
+            "time": "2024-09-24T17:45:34+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",

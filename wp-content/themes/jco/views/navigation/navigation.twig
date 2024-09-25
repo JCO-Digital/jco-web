@@ -13,5 +13,9 @@
 								{% include 'images/navbar-brand.twig' %}
 			</div>
 		</div>
+		<div class="lang">
+		  <i class="fa-light fa-globe"></i>
+			<a href="">sv</a>
+		</div>
 		{% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}
 	</nav>
