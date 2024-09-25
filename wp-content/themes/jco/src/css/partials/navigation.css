@@ -83,6 +83,7 @@
   }
 
   .lang-link {
+    text-transform: uppercase;
   }
 
   #menu-card {
