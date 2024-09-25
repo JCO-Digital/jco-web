@@ -6,8 +6,8 @@
  * Categories: posts
  * Keywords:
  * Viewport Width: 1200
- * Block Types:
- * Post Types:
+ * Block Types: core/post-content
+ * Post Types: post
  * Inserter: true
  *
  * @package Jcore\Ilme
@@ -72,7 +72,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"120px"}} -->
 <div class="wp-block-group" style="padding-top:0;padding-bottom:0"><!-- wp:image {"lightbox":{"enabled":false},"id":5556,"sizeSlug":"full","linkDestination":"none","className":"img-col","style":{"layout":{"columnSpan":"3"}}} -->
-<figure class="wp-block-image size-full img-col"><img src="https://jco.localhost/wp-content/uploads/2024/09/Screenshot-2024-09-24-101404.png" alt="" class="wp-image-5556"/></figure>
+<figure class="wp-block-image size-full img-col"><img src="/wp-content/uploads/2024/09/Screenshot-2024-09-24-101404.png" alt="" class="wp-image-5556"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"layout":{"rowSpan":1,"columnSpan":3},"spacing":{"margin":{"bottom":"var:preset|spacing|fluid-medium"}}},"fontSize":"paragraph"} -->
@@ -89,7 +89,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"180px"}} -->
 <div class="wp-block-group alignwide" style="padding-top:0;padding-bottom:0"><!-- wp:group {"style":{"layout":{"rowSpan":"1","columnSpan":"3"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":5631,"width":"225px","sizeSlug":"full","linkDestination":"none","className":"forms-img","style":{"layout":{"columnSpan":1,"rowSpan":"1"}}} -->
-<figure class="wp-block-image size-full is-resized forms-img"><img src="https://jco.localhost/wp-content/uploads/2024/09/monica-javanainen-jco.png" alt="" class="wp-image-5631" style="width:225px"/></figure>
+<figure class="wp-block-image size-full is-resized forms-img"><img src="/wp-content/uploads/2024/09/monica-javanainen-jco.png" alt="" class="wp-image-5631" style="width:225px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|fluid-medium"}}},"fontSize":"heading-5"} -->

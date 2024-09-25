@@ -1,3 +1,7 @@
+:root {
+  --jcore-font-family: var(--wp--preset--font-family--albert-sans);
+  --jcore-heading-font-family: var(--wp--preset--font-family--molitor);
+}
 p {
   margin-bottom: 1rem;
   letter-spacing: 0.5px;
@@ -58,7 +62,7 @@ ul {
     content: ""; 
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 9px;
     width: 10px; 
     height: 10px; 
     background-color: var(--wp--preset--color--lilly);
