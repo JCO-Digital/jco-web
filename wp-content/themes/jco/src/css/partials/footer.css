@@ -5,11 +5,15 @@ footer {
 
   .footer-main {
     padding-bottom: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2;
-    align-items: start;
-    grid-gap: 0 2rem;
+    
+    @media (width >= {{ jcore-breakpoint-md }}) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 2;
+      grid-template-rows: auto;  
+      align-items: start;
+      grid-gap: 0 2rem;
+    }
     
     .logo {
       grid-column-start: span 3;
@@ -24,6 +28,8 @@ footer {
     .right {
       margin-bottom: 2rem;
     }
+
+    
   }
 
   /* Some */
