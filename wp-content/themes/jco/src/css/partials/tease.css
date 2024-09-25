@@ -98,20 +98,27 @@
         .post-title {
             font-size: var(--wp--preset--font-size--medium);
             margin-bottom: .5rem;
+            font-weight: 700;
         }
 
-        .bg-image {
+        .bg-image, .placeholder-bg {
             display: none;
         }
 
         &:hover {
-            .featured {
+            .featured, .placeholder-featured {
                 display: none;
             }
-            .bg-image {
+            .bg-image, .placeholder-bg {
                 display: block;
             }
 
+        }
+
+        .placeholder-bg, .placeholder-featured {
+            background: var(--wp--preset--color--purple);
+            aspect-ratio: 3 / 4;
+            border-radius: 10px;
         }
     }
 
