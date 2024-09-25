@@ -1,6 +1,9 @@
-#jcore-nav {
+:root {
   --jcore-bar: 61px;
   --jcore-menu-width: 563px;
+}
+
+#jcore-nav {
   background-color: var(--wp--preset--color--white);
   font-family: var(--wp--preset--font-family--molitor);
 
@@ -79,6 +82,9 @@
 
 /* Desktop navigation styles. */
 @media (width >= {{ jcore-breakpoint-sm }}) {
+  html {
+    margin-right: var(--jcore-bar);
+  }
   #jcore-nav {
     &.sticky {
       left: unset;

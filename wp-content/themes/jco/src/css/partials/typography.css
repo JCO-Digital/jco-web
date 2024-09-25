@@ -28,13 +28,15 @@ h6 {
   font-size: var(--wp--custom--font--size--heading-2);
 }
 
-a {
-  color: var(--wp--preset--color--dark);
-  text-decoration: underline;
-
-  &:hover {
+main {
+  a {
     color: var(--wp--preset--color--dark);
-    text-decoration: none;
+    text-decoration: underline;
+  
+    &:hover {
+      color: var(--wp--preset--color--dark);
+      text-decoration: none;
+    }
   }
 }
 
