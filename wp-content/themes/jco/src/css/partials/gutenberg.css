@@ -71,10 +71,18 @@ blockquote {
   }
 }
 
+/* Gutenberg special spacer dissappears on mobile  */
+.wp-block-spacer.hide {
+  display: none;
+  @media (width >= {{ jcore-breakpoint-lg }}) {
+    display: inline-block;
+  }
+}
+
 /* Media and images */
 .wp-block-image {
   margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   &.alignleft {
     float: left;
   }
@@ -118,6 +126,30 @@ blockquote {
     iframe {
       width: 100%;
       height: 100%;
+    }
+  }
+}
+
+/* Social media block on contacts page */
+
+.contacts-social {
+  .social-media-links {
+    a {
+      text-decoration: none;
+      .fa-stack {
+        margin-left: -1rem;
+        .fa-circle {
+          display: none;
+        }
+        .fab {
+          color: var(--wp--preset--color--dark);
+        }
+        &:hover {
+          .fa-circle {
+            color: var(--wp--preset--color--light);
+          }
+        }
+      }
     }
   }
 }

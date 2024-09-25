@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop'
     uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.0.3
     with:
       php_version: 8.2
