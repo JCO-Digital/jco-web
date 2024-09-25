@@ -1,3 +1,7 @@
+:root {
+  --jcore-font-family: var(--wp--preset--font-family--albert-sans);
+  --jcore-heading-font-family: var(--wp--preset--font-family--molitor);
+}
 p {
   margin-bottom: 1rem;
   letter-spacing: 0.5px;

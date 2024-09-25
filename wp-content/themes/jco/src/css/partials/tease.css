@@ -2,29 +2,115 @@
     text-align: left;
     margin-bottom: 3rem;
     display: block;
+    position: relative;
+
+
+    .post-term {
+        font-family: var(--jcore-heading-font-family);
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: var(--wp--preset--color--lilly);
+        margin-bottom: 1rem;
+        line-height: 1;
+    }
+
+    &-post {
+        .post-title {
+            font-size: var(--wp--preset--font-size--ingress);
+        }
+
+        &:nth-of-type(6n+1) .image-container {
+            aspect-ratio: 3 / 4.5;
+        }
+
+        &:nth-of-type(6n+2) .image-container {
+            aspect-ratio: 1 / 1;
+        }
+
+        &:nth-of-type(6n+3) .image-container {
+            aspect-ratio: 3 / 4;
+        }
+
+        &:nth-of-type(6n+4) .image-container {
+            aspect-ratio: 3 / 4;
+        }
+
+        &:nth-of-type(6n+5) .image-container {
+            aspect-ratio: 3 / 4.5;
+        }
+
+        &:nth-of-type(6n) .image-container {
+            aspect-ratio: 4 / 3.5;
+        }
+    }
+
+    a {
+        color: initial;
+        text-decoration: none;
+    }
+
+    a:after {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: 2;
+        content: "";
+    }
+
+    &:hover {
+        .image-container {
+            border: 4px solid transparent;
+            border-radius: 10px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+                margin: -4px;
+                border-radius: inherit;
+                background: linear-gradient(180deg, #FFCD00 0%, #FFBBA0 46%, #9C72FF 100%);
+            }
+
+            &:after {
+                content: '\e09f';
+                font: var(--fa-font-regular);
+                position: absolute;
+                bottom: .5rem;
+                right: .5rem;
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                background: var(--wp--preset--color--brand);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.25rem;
+            }
+
+        }
+    }
 }
 
 .tease .image-container {
     position: relative;
-    width: 100%;
     margin-bottom: 1rem;
-}
-.tease .image-container::after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+    aspect-ratio: 1 / 1;
+    transition: .125s;
 }
 
 .tease .image-container img {
-    position: absolute;
     -o-object-fit: cover;
     object-fit: cover;
     height: 100%;
     width: 100%;
-    font-family: "object-fit: cover;";
-
+    border-radius: 10px;
+    position: relative;
 }
 
-.tease .image-container.postcard::after {
-    padding-bottom: 66%;
+.tease .image-container.postcard {
+    aspect-ratio: 16 / 9;
 }
