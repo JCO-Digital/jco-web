@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d5bf6a142ca0c823cbd5b8ab968b992",
+    "content-hash": "646aa10357bff073dfafdaf2b0fca80e",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -545,16 +545,16 @@
         },
         {
             "name": "jcore/dynamic-archive",
-            "version": "v0.4.1",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-dynamic-archive.git",
-                "reference": "4493914ec48d47e382f9314e6b263d633c5f8c87"
+                "reference": "99cee2136a927dca27430f2dc11f537a7740de1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/4493914ec48d47e382f9314e6b263d633c5f8c87",
-                "reference": "4493914ec48d47e382f9314e6b263d633c5f8c87",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/99cee2136a927dca27430f2dc11f537a7740de1e",
+                "reference": "99cee2136a927dca27430f2dc11f537a7740de1e",
                 "shasum": ""
             },
             "require": {
@@ -586,9 +586,9 @@
             "description": "JCORE Dynamic Archive module",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-dynamic-archive/issues",
-                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.4.1"
+                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.6.1"
             },
-            "time": "2024-09-25T06:51:38+00:00"
+            "time": "2024-09-25T11:31:32+00:00"
         },
         {
             "name": "jcore/ydin",
