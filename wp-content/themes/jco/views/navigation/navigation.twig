@@ -9,13 +9,15 @@
     	    <i class="fa-regular fa-bars"></i>
     	</button>
 		<div class="brand">
-		      <div class="logo">
-								{% include 'images/navbar-brand.twig' %}
+		    <div class="logo">
+				{% include 'images/navbar-brand.twig' %}
 			</div>
 		</div>
 		<div class="lang">
 		  <i class="fa-light fa-globe"></i>
-			<a href="">sv</a>
+			{% for lang in switcher %}
+			    <a class="lang-link" href="{{ lang.url }}">{{ lang.text }}</a>
+			{% endfor %}
 		</div>
 		<div id="menu-card" class="menu-card">
 		  {% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}

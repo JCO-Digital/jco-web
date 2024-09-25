@@ -46,6 +46,9 @@
     transition: max-height 200ms;
     &:not(.open) {
       max-height: 0;
+      a {
+        pointer-events: none;
+      }
     }
   }
 
@@ -79,11 +82,14 @@
     }
   }
 
+  .lang-link {
+  }
+
   #menu-card {
     position: absolute;
-    padding-top: 132px;
     background-color: var(--wp--preset--color--light);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 }
 
@@ -148,6 +154,17 @@
   #jcore-nav {
     display: flex;
     flex-direction: row;
+
+    #menu-card {
+      top: var(--jcore-bar);
+      left: 0;
+      right: 0;
+      height: 0;
+      transition: height 200ms;
+      &.menu-open {
+        height: calc(100dvh - var(--jcore-bar));
+      }
+    }
   }
 }
 
