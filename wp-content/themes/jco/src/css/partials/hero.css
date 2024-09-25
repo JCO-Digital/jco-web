@@ -1,3 +1,22 @@
+/* cover block hero pattern */
+.hero-pattern{
+    h1{
+        line-height: 0.95;
+        margin-bottom: 1.6rem;
+        text-transform: uppercase;
+    }
+    .has-background{
+        padding: 0 1rem 1rem 1rem;
+        border-radius: 10px;
+        line-height: 1;
+        letter-spacing: 0;
+        width: fit-content;
+        text-transform: uppercase;
+    }
+}
+
+
+/* cover block with video */
 .hero-custom{
     padding: 0;
     margin-bottom: 0;

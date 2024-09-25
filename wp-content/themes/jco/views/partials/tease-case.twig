@@ -1,0 +1,15 @@
+{% extends 'partials/tease-content.twig' %}
+
+{% block image %}
+    <div class="image-container {% if customizer('article_highlight','postcard') %} postcard {% endif %}{{ post.thumbnail?'has-image':'placeholder' }}">
+        {% include 'images/image.twig' with {image: post.thumbnail, class: 'featured'} %}
+        {% if post.meta('bg-image') %}
+            {% include 'images/image.twig' with {image: post.meta('bg-image'), class: 'bg-image'} %}
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block content %}
+    <a href="{{ post.link }}"><h3 class="post-title">{{ post.title }}</h3></a>
+    <p class="preview">— {{ post|preview( customizer('article_highlight','excerpt_length') ) }}</p>
+{% endblock %}

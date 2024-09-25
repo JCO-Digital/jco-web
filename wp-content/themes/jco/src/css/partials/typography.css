@@ -4,7 +4,7 @@
 }
 p {
   margin-bottom: 1rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
 }
 
 h1 {
@@ -53,11 +53,13 @@ main {
 
 ul {
   list-style-type: none;
+  font-size: var(--wp--preset--font-size--paragraph);
 
   li {
     position: relative;
     padding-left: 20px;
     margin-bottom: 0.75rem;
+    letter-spacing: 0.2px;
     &::before {
     content: ""; 
     position: absolute;
