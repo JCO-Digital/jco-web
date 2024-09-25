@@ -2,9 +2,16 @@
 
 {% block image %}
     <div class="image-container {% if customizer('article_highlight','postcard') %} postcard {% endif %}{{ post.thumbnail?'has-image':'placeholder' }}">
-        {% include 'images/image.twig' with {image: post.thumbnail, class: 'featured'} %}
+        {% if  post.thumbnail %}
+            {% include 'images/image.twig' with {image: post.thumbnail, class: 'featured'} %}
+        {% else %}
+                <div class="placeholder-featured"></div>
+        {% endif %}
+
         {% if post.meta('bg-image') %}
             {% include 'images/image.twig' with {image: post.meta('bg-image'), class: 'bg-image'} %}
+        {% else %}
+            <div class="placeholder-bg"></div>
         {% endif %}
     </div>
 {% endblock %}
