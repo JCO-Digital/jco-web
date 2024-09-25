@@ -34,6 +34,10 @@
     }
   }
 
+  .menu {
+    list-style-type: none;
+  }
+
   #jcore-menu {
     margin: var(--wp--preset--spacing--80) var(--wp--preset--spacing--60);
     background-color: var(--wp--preset--color--light);
@@ -41,8 +45,12 @@
 
   .menu-item {
     padding: 0;
+    margin-bottom: 12px;
     &::before {
       display: none;
+    }
+    &:first-child {
+      margin-top: 12px;
     }
   }
 
