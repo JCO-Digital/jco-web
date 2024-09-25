@@ -1,4 +1,3 @@
-@import "mixins/mixins.css";
 @import "partials/tailwind.css";
 @import "partials/properties.css";
 @import "partials/base.css";
@@ -10,5 +9,6 @@
 @import "partials/single.css";
 @import "partials/tease.css";
 @import "partials/hero.css";
+@import "partials/forms.css";
 @import "partials/case.css";
 @import "partials/image.css";

@@ -29,8 +29,8 @@ h6 {
 }
 
 a {
-  color: var(--wp--preset--color--brand);
-  text-decoration: none;
+  color: var(--wp--preset--color--dark);
+  text-decoration: underline;
 
   &:hover {
     color: var(--wp--preset--color--dark);
