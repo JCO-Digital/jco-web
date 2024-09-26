@@ -1,25 +1,25 @@
 <ul id="{{ id }}" class="menu menu-{{ level }}">
-    {% for item in items %}
+	{% for item in items %}
 		{% set itemId = id ~ "-" ~ item.id %}
 		<li id="menu-item-{{ level }}-{{ loop.index }}" class="{{ item.class }}">
 			{% if level > 0 and item.link == "#" %}
 				{{ item.title }}
 			{% else %}
 				<a class="menu-link menu-link-{{ level }}" href="{{ item.link }}" target="{{ item.target }}">
-				    {{ item.title | shorten }}
+					{{ item.title | shorten }}
 				</a>
 			{% endif %}
 			{% if item.children %}
-    			{% if level == 0 %}
-             		<button class="toggle" data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}">
-                        <span class="plus">
-                            {% include "images/plus.twig" %}
-                        </span>
-                        <span class="minus">
-                            {% include "images/minus.twig" %}
-                        </span>
-         			</button>
-    			{% endif %}
+				{% if level == 0 %}
+					<button class="toggle" data-jtoggle="#{{ itemId }}" data-class="open" data-group="{{ id }}">
+						<span class="plus">
+							{% include "images/plus.twig" %}
+						</span>
+						<span class="minus">
+							{% include "images/minus.twig" %}
+						</span>
+					</button>
+				{% endif %}
 				{% include "navigation/menu.twig" with { items: item.children, id: itemId, level: level + 1 } only %}
 			{% endif %}
 		</li>
