@@ -16,8 +16,11 @@
     line-height: 1.6;
   }
   p.case-words {
+    @media (width >= {{ jcore-breakpoint-sm }}) {
+      line-height: 3;
+    }
     background-color: var(--wp--preset--color--lilly);
-    line-height: 3;
+    line-height: 2.5;
     display: inline;
     box-decoration-break: clone;
     padding: 5px 20px 10px 20px;
@@ -25,7 +28,7 @@
   }
 }
 .case-data {
-  @media (width >= {{ jcore-breakpoint-sm }}) {
+  @media (width >= {{ jcore-breakpoint-md }}) {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 1rem;
@@ -39,7 +42,7 @@
     .cost {
       margin-bottom: 1rem;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 2fr;
       justify-content: center;
       align-items: center;
       grid-gap: 1.5rem;
@@ -58,6 +61,7 @@
     padding: 5px 20px 10px 20px;
     border-radius: 10px;
     font-size: 22px;
+    box-shadow: none;
   }
   .btnlilly {
     font-family: var(--wp--preset--font-family--molitor);
@@ -68,6 +72,7 @@
     padding: 5px 20px 10px 20px;
     border-radius: 10px;
     font-size: 22px;
+    box-shadow: none;
   }
   .linkout {
     padding-top: 0.75rem;

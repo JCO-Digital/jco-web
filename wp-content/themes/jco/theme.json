@@ -104,8 +104,8 @@
       "minHeight": true
     },
     "layout": {
-      "contentSize": "min(800px, 80vw)",
-      "wideSize": "min(1200px, 95vw)"
+      "contentSize": "min(800px, 85vw)",
+      "wideSize": "min(1200px, 85vw)"
     },
     "position": {},
     "shadow": {},
@@ -250,7 +250,11 @@
         {
           "name": "Maxi",
           "slug": "maxi",
-          "size": "140px"
+          "size": "140px",
+          "fluid": {
+            "min": "40px",
+            "max": "140px"
+          }
         }
       ]
     },

@@ -10,6 +10,7 @@
  * Post Types: case
  * Inserter: true
  */
+
 ?>
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"overlayColor":"white","isUserOverlayColor":true,"focalPoint":{"x":0.53,"y":0.35},"minHeight":90,"minHeightUnit":"vh","isDark":false,"metadata":{"categories":["header"],"patternName":"jcore/case-cover","name":"Case Cover"},"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull is-light" style="min-height:90vh"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"0"}}},"layout":{"type":"constrained"}} -->
