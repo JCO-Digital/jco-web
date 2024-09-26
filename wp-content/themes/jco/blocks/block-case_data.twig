@@ -1,0 +1,69 @@
+{% if fields.show_all == 1 %}
+	<section id="block-{{ block.id }}" class="block {{ block.className }} align{{ block.align}} is-layout-constrained alignfull data">
+		<div class="wp-block-group alignwide">
+			<div class="case-data">
+				<div class="heading">
+					<h2 class="wp-block-heading">
+						<strong>{{ __('CASE FACTS', 'jcore') }}<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">:</mark>
+						</strong>
+					</h2>
+				</div>
+				<div class="data">
+					{% if post.terms('customers') %}
+						<div class="cli">
+							<div class="wp-block-button end">
+								<a class="btnblack wp-block-button__link has-white-color has-dark-background-color has-text-color has-background has-link-color wp-element-button">{{
+							__('CLIENT', 'jcore') }}</a>
+							</div>
+							{% for customer in post.terms('customers') %}
+								<div class="wp-block-button">
+									<a class="btnlilly wp-block-button__link has-dark-color has-lilly-background-color has-text-color has-background has-link-color wp-element-button">{{
+							customer.title }}</a>
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+
+					{% if post.terms('years') %}
+						<div class="yr">
+							<div class="wp-block-button end">
+								<a class="btnblack wp-block-button__link has-white-color has-dark-background-color has-text-color has-background has-link-color wp-element-button">{{
+							__('Year', 'jcore') }}</a>
+							</div>
+							{% for year in post.terms('years') %}
+								<div class="wp-block-button">
+									<a class="btnlilly wp-block-button__link has-dark-color has-lilly-background-color has-text-color has-background has-link-color wp-element-button">{{
+							year.title }}</a>
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+
+					{% if post.terms('costs') %}
+						<div class="cost">
+							<div class="wp-block-button end">
+								<a class="btnblack wp-block-button__link has-white-color has-dark-background-color has-text-color has-background has-link-color wp-element-button">{{
+							__('Cost', 'jcore') }}</a>
+							</div>
+							{% for cost in post.terms('costs') %}
+								<div class="wp-block-button">
+									<a class="btnlilly wp-block-button__link has-dark-color has-lilly-background-color has-text-color has-background has-link-color wp-element-button">{{
+							cost.title }}</a>
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+				</div>
+				<div class="linkout">
+					{% if post.meta('link_out') %}
+						<div class="wp-block-button">
+							<a class="btnlilly wp-block-button__link has-dark-color has-brand-background-color has-text-color has-background has-link-color wp-element-button" href="{{ post.link_out.url }}" target="_blank">{{ __('VISIT SITE', 'jcore') }}
+								<i class="fa-regular fa-arrow-up-right"></i>
+							</a>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}
