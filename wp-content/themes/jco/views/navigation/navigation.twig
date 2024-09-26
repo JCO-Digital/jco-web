@@ -4,23 +4,23 @@
 	{% endif %}
 {% endblock %}
 
-	<nav id="jcore-nav" class="sticky" data-jsticky>
-    	<button class="hamburger" data-jtoggle="#jcore-nav,#menu-card" data-class="menu-open">
-    	    <i class="fa-regular fa-bars"></i>
-            <i class="fa-regular fa-xmark"></i>
-    	</button>
-		<div class="brand">
-		    <div class="logo">
-				{% include 'images/navbar-brand.twig' %}
-			</div>
+<nav id="jcore-nav" class="sticky" data-jsticky>
+	<button class="hamburger" data-jtoggle="#jcore-nav,#menu-card" data-class="menu-open">
+		<i class="fa-regular fa-bars"></i>
+		<i class="fa-regular fa-xmark"></i>
+	</button>
+	<div class="brand">
+		<div class="logo">
+			{% include 'images/navbar-brand.twig' %}
 		</div>
-		<div class="lang">
-		  <i class="fa-light fa-globe"></i>
-			{% for lang in switcher %}
-			    <a class="lang-link" href="{{ lang.url }}">{{ lang.text }}</a>
-			{% endfor %}
-		</div>
-		<div id="menu-card" class="menu-card">
-		  {% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}
-		</div>
-	</nav>
+	</div>
+	<div class="lang">
+		<i class="fa-light fa-globe"></i>
+		{% for lang in switcher %}
+			<a class="lang-link" href="{{ lang.url }}">{{ lang.text }}</a>
+		{% endfor %}
+	</div>
+	<div id="menu-card" class="menu-card">
+		{% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}
+	</div>
+</nav>
