@@ -16,7 +16,12 @@ if (existsSync("theme.json")) {
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./views/**/*.twig", "./src/js/**/*.js", "./theme.json"],
+  content: [
+    "./views/**/*.twig",
+    "./blocks/**/*.twig",
+    "./src/js/**/*.js",
+    "./theme.json",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -29,8 +34,14 @@ export default {
         base: ["1rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
         lg: ["1.125rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
         xl: ["1.25rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
-        "2xl": ["1.5rem", { lineHeight: "1.415", letterSpacing: "-0.017em" }],
-        "3xl": ["2rem", { lineHeight: "1.3125", letterSpacing: "-0.017em" }],
+        "2xl": [
+          "clamp(15.747px, 0.984rem + ((1vw - 3.2px) * 0.645), 24px)",
+          { lineHeight: "1.415", letterSpacing: "-0.017em" },
+        ],
+        "3xl": [
+          "clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.938), 32px)",
+          { lineHeight: "1.3125", letterSpacing: "-0.017em" },
+        ],
         "4xl": ["2.5rem", { lineHeight: "1.25", letterSpacing: "-0.017em" }],
         "5xl": ["3.25rem", { lineHeight: "1.2", letterSpacing: "-0.017em" }],
         "6xl": ["3.75rem", { lineHeight: "1.1666", letterSpacing: "-0.017em" }],

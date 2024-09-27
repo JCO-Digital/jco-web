@@ -254,12 +254,8 @@ function scripts() {
 	);
 	Assets::script_register(
 		'alpine',
-		'/vendor/alpine/alpine.min.js',
-		array(),
-		'3.13.0',
-		array(
-			'strategy' => 'defer',
-		)
+		'/dist/js/alpine.js',
+		array( 'jquery' )
 	);
 
 	Assets::style_register(
@@ -283,10 +279,11 @@ function scripts() {
 	wp_enqueue_style( 'fa6-free' );
 
 	wp_enqueue_script( 'jcore' );
-    wp_enqueue_script( 'animations' );
+	wp_enqueue_script( 'animations' );
 	wp_enqueue_script( 'jUtils' );
 	wp_enqueue_script( 'fontSize' );
 	wp_enqueue_script( 'wp-gallery-lightbox' );
+
 	if ( apply_filters( 'jcore_load_alpine_script', true ) ) {
 		wp_enqueue_script( 'alpine' );
 	}
