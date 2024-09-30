@@ -1,8 +1,8 @@
 {% extends 'partials/tease-content.twig' %}
 
 {% block image %}
-    <div class="image-container {% if customizer('article_highlight','postcard') %} postcard {% endif %}{{ post.thumbnail?'has-image':'placeholder' }}">
-        {% if  post.thumbnail %}
+    <div class="image-container {% if customizer('article_highlight','postcard') %} postcard {% endif %}{{ post.thumbnail?'has-image':'placeholder' }}" style="aspect-ratio: {{ post.thumbnail.aspect ? post.thumbnail.aspect : '4/3'  }}">
+        {% if post.thumbnail %}
             {% include 'images/image.twig' with {image: post.thumbnail, class: 'featured'} %}
         {% else %}
                 <div class="placeholder-featured"></div>
