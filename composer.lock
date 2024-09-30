@@ -545,16 +545,16 @@
         },
         {
             "name": "jcore/dynamic-archive",
-            "version": "v0.6.5",
+            "version": "v0.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-dynamic-archive.git",
-                "reference": "b43e63371fd7575cef28987787be798981e75142"
+                "reference": "04541e46b8574357069cd0246f7d6b6225eed878"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/b43e63371fd7575cef28987787be798981e75142",
-                "reference": "b43e63371fd7575cef28987787be798981e75142",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/04541e46b8574357069cd0246f7d6b6225eed878",
+                "reference": "04541e46b8574357069cd0246f7d6b6225eed878",
                 "shasum": ""
             },
             "require": {
@@ -586,9 +586,9 @@
             "description": "JCORE Dynamic Archive module",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-dynamic-archive/issues",
-                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.6.5"
+                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.6.6"
             },
-            "time": "2024-09-25T13:15:59+00:00"
+            "time": "2024-09-30T07:21:56+00:00"
         },
         {
             "name": "jcore/ydin",
