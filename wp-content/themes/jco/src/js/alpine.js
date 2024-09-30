@@ -1,19 +1,10 @@
 import Alpine from "alpinejs";
 import collapse from "@alpinejs/collapse";
 
-declare global {
-  interface Window {
-    Alpine: typeof Alpine;
-  }
-}
-
-// Register the collapse plugin with Alpine.js
+Alpine.prefix("xjcore-");
 Alpine.plugin(collapse);
 
-// Make Alpine available globally on the window object
-window.Alpine = Alpine;
-
-// Initialize Alpine.js
+// Don't assign Alpine to the window (keep it private):
 Alpine.start();
 
 jQuery(document).ready(function () {
