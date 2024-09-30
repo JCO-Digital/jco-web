@@ -177,6 +177,8 @@ function setup() {
 			),
 		)
 	);
+
+	load_theme_textdomain( 'jcore', get_template_directory() . '/languages' );
 }
 
 /**
