@@ -1,0 +1,96 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: \n"
+"Project-Id-Version: jcore 2\n"
+"POT-Creation-Date: 2024-07-24 13:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: JCO Digital\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Read more"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Read also"
+msgstr ""
+
+msgid "Page not found"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Skip to content"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search for"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Assignment"
+msgstr ""
+
+msgid "Share on Facebook"
+msgstr ""
+
+msgid "Share on Twitter"
+msgstr ""
+
+msgid "Share on WhatsApp"
+msgstr ""
+
+msgid "Filter by category"
+msgstr ""
+
+msgid "Comments for this post are closed"
+msgstr ""
+
+msgid "Show more"
+msgstr ""
+
+msgid "Showing"
+msgstr ""
+
+msgid "Toggle Dropdown"
+msgstr ""
+
+msgid "404 page"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Cost"
+msgstr ""
+
+msgid "Visit site"
+msgstr ""
+
+msgid "Case facts"
+msgstr ""

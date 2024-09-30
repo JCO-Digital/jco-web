@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-07-24 13:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: sv_SE\n"
+"Project-Id-Version: jcore 2\n"
+"POT-Creation-Date: 2020-07-10 08:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.4.0; wp-5.4.2\n"
+
+msgid "404 page"
+msgstr "404 sida"
+
+msgid "Archive"
+msgstr "Arkiv"
+
+msgid "Assignment"
+msgstr "Uppgift"
+
+msgid "Comments for this post are closed"
+msgstr "Kommentarer till detta inlägg är stängda"
+
+msgid "Contact us"
+msgstr "Kontakta oss"
+
+msgid "Download"
+msgstr "Ladda ner"
+
+msgid "Filter by category"
+msgstr "Filtrera enligt kategori"
+
+msgid "Page not found"
+msgstr "Sidan kan inte hittas"
+
+msgid "Read also"
+msgstr "Läs även"
+
+msgid "Read more"
+msgstr "Läs mera"
+
+msgid "Search"
+msgstr "Sök"
+
+msgid "Search for"
+msgstr "Sök"
+
+msgid "Send"
+msgstr "Skicka"
+
+msgid "Share"
+msgstr "Dela"
+
+msgid "Share on Facebook"
+msgstr "Dela till Facebook"
+
+msgid "Share on Twitter"
+msgstr "Dela till Twitter"
+
+msgid "Share on WhatsApp"
+msgstr "Dela till WhatsApp"
+
+msgid "Show"
+msgstr "Visa"
+
+msgid "Show more"
+msgstr "Visa fler"
+
+msgid "Showing"
+msgstr "Visar"
+
+msgid "Skip to content"
+msgstr "Hoppa till sidans innehåll"
+
+msgid "Toggle Dropdown"
+msgstr "Visa rullgardinsmenyn"
