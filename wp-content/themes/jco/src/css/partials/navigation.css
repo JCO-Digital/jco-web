@@ -13,6 +13,37 @@
       width: 104px;
     }
   }
+
+  .contact {
+    width: 160px;
+    font-size: 1.2rem;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: rotate(90deg);
+    bottom: 120px;
+    right: -52px;
+    line-height: 34px;
+
+    .circle {
+      display: inline-block;
+      border-radius: 50%;
+      background-color: var(--wp--preset--color--brand);
+      width: 36px;
+      height: 36px;
+      text-align: center;
+      margin-right: 16px;
+    }
+  }
+
+  .lang-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    &:not(:last-child)::after {
+      content: " / ";
+    }
+  }
+
   .hamburger {
     position: absolute;
     top: 0;
@@ -109,14 +140,6 @@
     }
   }
 
-  .lang-link {
-    text-transform: uppercase;
-    font-weight: bold;
-    &:not(:last-child)::after {
-      content: " / ";
-    }
-  }
-
   #menu-card {
     position: absolute;
     background-color: var(--wp--preset--color--light);
@@ -200,6 +223,10 @@
     justify-content: space-around;
     align-items: center;
     padding-right: var(--jcore-bar);
+
+    .contact {
+      display: none;
+    }
 
     #menu-card {
       top: var(--jcore-bar);

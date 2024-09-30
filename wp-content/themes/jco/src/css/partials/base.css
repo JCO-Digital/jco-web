@@ -32,6 +32,13 @@ section {
   display: block;
 }
 
+/*
+ * Set z-index on main to contain all content layers.
+ */
+main {
+  z-index: 1;
+}
+
 button {
   border: 0;
   background: transparent;
