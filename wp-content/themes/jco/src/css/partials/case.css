@@ -3,7 +3,7 @@
     background-color: var(--wp--preset--color--white);
   }
   h1.case-heading.has-maxi-font-size {
-    @media (width >= {{ jcore-breakpoint-lg }}) {
+    @media (width >= var(--breakpoint-lg)) {
       font-size: 100px !important;
     }
     background-color: var(--wp--preset--color--black);
@@ -19,7 +19,7 @@
     line-height: 1.6;
   }
   p.case-words {
-    @media (width >= {{ jcore-breakpoint-sm }}) {
+    @media (width >= var(--breakpoint-sm)) {
       line-height: 3;
     }
     background-color: var(--wp--preset--color--lilly);
@@ -31,7 +31,7 @@
   }
 }
 .case-data {
-  @media (width >= {{ jcore-breakpoint-md }}) {
+  @media (width >= var(--breakpoint-md)) {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 1rem;

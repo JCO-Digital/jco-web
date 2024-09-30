@@ -2,7 +2,7 @@
   background: var(--wp--preset--color--white);
   border-radius: 10px;
   padding: 1.5rem;
-  @media (width >= {{ jcore-breakpoint-md }}) {
+  @media (width >= var(--breakpoint-md)) {
     display: grid;
     grid-template-columns: auto 180px;
     grid-gap: 0.5rem;
@@ -13,7 +13,7 @@
   p.share-heading {
     font-family: var(--jcore-heading-font-family);
     text-transform: uppercase;
-    @media (width >= {{ jcore-breakpoint-md }}) {
+    @media (width >= var(--breakpoint-md)) {
       margin-bottom: 0;
     }
   }
