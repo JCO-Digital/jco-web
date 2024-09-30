@@ -1,26 +1,20 @@
 <?php
 /**
  * Title: Single Post
- * Slug:  jcore/ilme/singlepost
- * Description:
+ * Slug: jcore/ilme/singlepost
+ * Description: 
  * Categories: posts
- * Keywords:
+ * Keywords: 
  * Viewport Width: 1200
  * Block Types: core/post-content
  * Post Types: post
  * Inserter: true
- *
- * @package Jcore\Ilme
  */
-
-
-
 ?>
-
 <!-- wp:post-title {"level":1,"align":"wide","fontSize":"heading-1"} /-->
 
-<!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"isUserOverlayColor":true,"minHeight":560,"align":"wide","layout":{"type":"constrained"}} -->
-    <div class="wp-block-cover alignwide" style="min-height:560px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"isUserOverlayColor":true,"minHeight":560,"isDark":false,"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignwide is-light" style="min-height:560px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
@@ -81,6 +75,14 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-large","bottom":"var:preset|spacing|fluid-large"}}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--fluid-large);padding-bottom:var(--wp--preset--spacing--fluid-large)"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|fluid-medium","top":"var:preset|spacing|fluid-small"}}},"fontSize":"heading-3"} -->
+<h2 class="wp-block-heading has-text-align-center has-heading-3-font-size" style="padding-top:var(--wp--preset--spacing--fluid-small);padding-bottom:var(--wp--preset--spacing--fluid-medium)">Lue myös</h2>
+<!-- /wp:heading -->
+
+<!-- wp:acf/post-grid {"name":"acf/post-grid","data":{"posts_to_show":["5484","5356","5289"],"_posts_to_show":"field_5e15c2603187a","custom_columns":"0","_custom_columns":"field_5e15c2603187a_custom_columns","columns":"3","_columns":"field_5e15c26031877c"},"align":"wide","mode":"edit"} /--></div>
+<!-- /wp:group -->
+
 <!-- wp:group {"align":"full","className":"forms-reusable","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-large","bottom":"var:preset|spacing|fluid-large"}}},"backgroundColor":"brand","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull forms-reusable has-brand-background-color has-background" style="padding-top:var(--wp--preset--spacing--fluid-large);padding-bottom:var(--wp--preset--spacing--fluid-large)"><!-- wp:heading {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-medium","bottom":"var:preset|spacing|fluid-medium"}}}} -->
 <h2 class="wp-block-heading alignwide" style="padding-top:var(--wp--preset--spacing--fluid-medium);padding-bottom:var(--wp--preset--spacing--fluid-medium)"><strong>ONKO SINULLA VASTAAVANLAISIA TARPEITA<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">?</mark></strong></h2>
@@ -106,7 +108,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":5645,"sizeSlug":"full","linkDestination":"custom","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<figure class="wp-block-image size-full"><a href="https://calendly.com/monica-javanainen/varaa-sinulle-sopiva-aika-kalenteristani-30min" target="_blank" rel=" noreferrer noopener"><img src="/wp-content/uploads/2024/09/arrow-white-ball.svg" alt="" class="wp-image-5645"/></a></figure>
+<figure class="wp-block-image size-full"><a href="https://calendly.com/monica-javanainen/varaa-sinulle-sopiva-aika-kalenteristani-30min" target="_blank" rel="noreferrer noopener"><img src="/wp-content/uploads/2024/09/arrow-white-ball.svg" alt="" class="wp-image-5645"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -124,4 +126,3 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-
