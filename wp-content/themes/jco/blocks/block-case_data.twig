@@ -4,7 +4,7 @@
 			<div class="case-data">
 				<div class="heading">
 					<h2 class="wp-block-heading">
-						<strong>{{ __('CASE FACTS', 'jcore') }}<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">:</mark>
+						<strong>{{ __('Case facts', 'jcore') }}<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">:</mark>
 						</strong>
 					</h2>
 				</div>
@@ -13,7 +13,7 @@
 						<div class="cli">
 							<div class="wp-block-button end">
 								<a class="btnblack wp-block-button__link has-white-color has-dark-background-color has-text-color has-background has-link-color wp-element-button">{{
-							__('CLIENT', 'jcore') }}</a>
+							__('Client', 'jcore') }}</a>
 							</div>
 							{% for customer in post.terms('customers') %}
 								<div class="wp-block-button">
@@ -57,7 +57,7 @@
 				<div class="linkout">
 					{% if post.meta('link_out') %}
 						<div class="wp-block-button">
-							<a class="btnlilly wp-block-button__link has-dark-color has-brand-background-color has-text-color has-background has-link-color wp-element-button" href="{{ post.link_out.url }}" target="_blank">{{ __('VISIT SITE', 'jcore') }}
+							<a class="btnlilly wp-block-button__link has-dark-color has-brand-background-color has-text-color has-background has-link-color wp-element-button" href="{{ post.link_out.url }}" target="_blank">{{ __('Visit site', 'jcore') }}
 								<i class="fa-regular fa-arrow-up-right"></i>
 							</a>
 						</div>

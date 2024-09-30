@@ -37,6 +37,9 @@
     grid-gap: 1rem;
     justify-content: space-between;
   }
+  .heading h2 {
+    text-transform: uppercase;
+  }
   .data {
     padding-top: 0.75rem;
     margin-bottom: 1rem;
