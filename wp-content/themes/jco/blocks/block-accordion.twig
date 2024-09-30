@@ -20,7 +20,7 @@
             </h2>
 
             <div xjcore-show="isActive" xjcore-collapse style="height: auto;">
-                <div class="pb-4 text-2xl md:max-w-[80%]">{{ item.item_text }}
+                <div class="pb-4 text-2xl md:max-w-[80%]">{{ item.item_text|wp_kses_post }}
                 </div>
             </div>
         </div>
