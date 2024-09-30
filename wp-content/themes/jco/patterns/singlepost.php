@@ -106,7 +106,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"id":5645,"sizeSlug":"full","linkDestination":"custom","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
-<figure class="wp-block-image size-full"><a href="https://calendly.com/monica-javanainen/varaa-sinulle-sopiva-aika-kalenteristani-30min" target="_blank" rel=" noreferrer noopener"><img src="https://jco.localhost/wp-content/uploads/2024/09/arrow-white-ball.svg" alt="" class="wp-image-5645"/></a></figure>
+<figure class="wp-block-image size-full"><a href="https://calendly.com/monica-javanainen/varaa-sinulle-sopiva-aika-kalenteristani-30min" target="_blank" rel=" noreferrer noopener"><img src="/wp-content/uploads/2024/09/arrow-white-ball.svg" alt="" class="wp-image-5645"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
