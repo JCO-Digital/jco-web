@@ -2,7 +2,7 @@
 /**
  * Title: Case Single
  * Slug: jcore/case-single
- * Description: 
+ * Description:
  * Categories: featured
  * Keywords: case, single case, singel case pattern
  * Viewport Width: 1280
@@ -16,12 +16,14 @@
 <div class="wp-block-group alignwide" style="padding-bottom:0"><!-- wp:post-title {"level":1,"align":"wide","className":"case-heading","fontSize":"maxi"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"left","className":"case-words","fontSize":"paragraph","fontFamily":"molitor"} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" style="padding-top:0"><!-- wp:paragraph {"align":"left","className":"case-words","fontSize":"paragraph","fontFamily":"molitor"} -->
 <p class="has-text-align-left case-words has-molitor-font-family has-paragraph-font-size"><strong>ART DIRECTION, BRANDING, DIGITAL STRATEGY, UX, VISUAL DESIGN</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->
+
+<!-- wp:acf/social-share {"name":"acf/social-share","data":{"show_all":"1","_show_all":"field_5ea6a32fdsfsd456sharey"},"align":"wide","mode":"edit"} /-->
 
 <!-- wp:group {"metadata":{"categories":["text"],"patternName":"jcore/ilme/twothirdcolumns","name":"Two Third Columns"},"align":"wide","style":{"dimensions":{"minHeight":"0px"}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"90px"}} -->
 <div class="wp-block-group alignwide" style="min-height:0px"><!-- wp:group {"style":{"layout":{"columnSpan":4,"rowSpan":1},"spacing":{"padding":{"bottom":"0"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->

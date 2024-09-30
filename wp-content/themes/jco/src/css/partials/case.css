@@ -2,7 +2,10 @@
   section.data {
     background-color: var(--wp--preset--color--white);
   }
-  h1.case-heading {
+  h1.case-heading.has-maxi-font-size {
+    @media (width >= {{ jcore-breakpoint-lg }}) {
+      font-size: 100px !important;
+    }
     background-color: var(--wp--preset--color--black);
     color: var(--wp--preset--color--white);
     text-transform: uppercase;
