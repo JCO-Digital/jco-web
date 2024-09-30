@@ -1,80 +1,85 @@
-.archive-posts, .wp-block-jcore-dynamic-archive-posts__inner {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr;
+.archive-posts,
+.wp-block-jcore-dynamic-archive-posts__inner {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
 }
 
-.archive-posts.columns-2, .wp-block-jcore-dynamic-archive-posts__inner.columns-2 {
-    @media (width >= {{ jcore-breakpoint-sm }}) {
-        grid-template-columns: 1fr 1fr;
-    }
+.archive-posts.columns-2,
+.wp-block-jcore-dynamic-archive-posts__inner.columns-2 {
+  @media (width >= var(--breakpoint-sm)) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.archive-posts.columns-3, .wp-block-jcore-dynamic-archive-posts__inner.columns-3 {
-    @media (width >= {{ jcore-breakpoint-md }}) {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+.archive-posts.columns-3,
+.wp-block-jcore-dynamic-archive-posts__inner.columns-3 {
+  @media (width >= var(--breakpoint-md)) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-.archive-posts.columns-4, .wp-block-jcore-dynamic-archive-posts__inner.columns-4 {
-    @media (width >= {{ jcore-breakpoint-sm }}) {
-        grid-template-columns: 1fr 1fr;
-    }
-    @media (width >= {{ jcore-breakpoint-lg }}) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+.archive-posts.columns-4,
+.wp-block-jcore-dynamic-archive-posts__inner.columns-4 {
+  @media (width >= var(--breakpoint-sm)) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (width >= var(--breakpoint-lg)) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .archive-case {
-    grid-gap: 4rem;
+  grid-gap: 4rem;
 }
 
 .wp-block-jcore-dynamic-archive {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .wp-block-jcore-dynamic-archive__filters__taxonomies {
-    padding: 2rem 0;
-    .wp-block-jcore-dynamic-archive__filters__taxonomies__type {
-        display: flex;
-        flex-flow: row wrap;
-        gap: .5rem;
+  padding: 2rem 0;
+  .wp-block-jcore-dynamic-archive__filters__taxonomies__type {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+  }
+  input {
+    display: none;
+  }
+  label {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--wp--preset--color--dark);
+    font-family: var(--jcore-heading-font-family);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    &.checked,
+    &:hover {
+      background: var(--wp--preset--color--brand);
+      border: none;
     }
-    input {
-        display: none;
-    }
-    label {
-        cursor: pointer;
-        border-radius: 4px;
-        border: 1px solid var(--wp--preset--color--dark);
-        font-family: var(--jcore-heading-font-family);
-        text-transform: uppercase;
-        font-weight: 700;
-        padding: .25rem .5rem;
-        &.checked, &:hover {
-            background: var(--wp--preset--color--brand);
-            border: none;
-        }
-    }
+  }
 }
 
 .wp-block-jcore-dynamic-archive-posts__pagination {
-    text-align: center;
-    padding-bottom: 2rem;
-    button {
-        background:  var(--wp--preset--color--brand);
-        font-size: var(--wp--custom--font--size--paragraph);
-        color: var(--wp--preset--color--dark);
-        text-transform: uppercase;
-        font-family: var(--jcore-heading-font-family);
-        font-weight: 700;
-        box-shadow: 5px 5px 0px 0px var(--wp--preset--color--dark);
-        padding: 0.5rem 1.5rem;
-        border-radius: 4px;
-        &:hover {
-            background: var(--wp--preset--color--dark);
-            color: var(--wp--preset--color--brand);
-            box-shadow: 5px 5px 0px 0px var(--wp--preset--color--brand);
-        }
+  text-align: center;
+  padding-bottom: 2rem;
+  button {
+    background: var(--wp--preset--color--brand);
+    font-size: var(--wp--custom--font--size--paragraph);
+    color: var(--wp--preset--color--dark);
+    text-transform: uppercase;
+    font-family: var(--jcore-heading-font-family);
+    font-weight: 700;
+    box-shadow: 5px 5px 0px 0px var(--wp--preset--color--dark);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    &:hover {
+      background: var(--wp--preset--color--dark);
+      color: var(--wp--preset--color--brand);
+      box-shadow: 5px 5px 0px 0px var(--wp--preset--color--brand);
     }
+  }
 }

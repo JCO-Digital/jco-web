@@ -15,14 +15,14 @@
   }
 
   .contact {
-    width: 160px;
+    width: 200px;
     font-size: 1.2rem;
     position: absolute;
     text-transform: uppercase;
     font-weight: bold;
     transform: rotate(90deg);
     bottom: 120px;
-    right: -52px;
+    right: -70px;
     line-height: 34px;
 
     .circle {
@@ -149,7 +149,7 @@
 }
 
 /* Desktop navigation styles. */
-@media (width >= {{ jcore-breakpoint-sm }}) {
+@media (width >= var(--breakpoint-sm)) {
   html {
     margin-right: var(--jcore-bar);
   }
@@ -215,7 +215,7 @@
 }
 
 /* Mobile navigation styles. */
-@media (width < {{ jcore-breakpoint-sm }}) {
+@media (width < var(--breakpoint-sm)) {
   #jcore-nav {
     display: flex;
     flex-direction: row;

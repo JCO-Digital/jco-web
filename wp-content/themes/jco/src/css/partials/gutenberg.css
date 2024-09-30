@@ -74,7 +74,7 @@ blockquote {
 /* Gutenberg special spacer dissappears on mobile  */
 .wp-block-spacer.hide {
   display: none;
-  @media (width >= {{ jcore-breakpoint-lg }}) {
+  @media (width >= var(--breakpoint-lg)) {
     display: inline-block;
   }
 }
