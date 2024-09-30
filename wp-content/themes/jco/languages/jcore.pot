@@ -9,88 +9,358 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "Language: \n"
 "Project-Id-Version: jcore 2\n"
-"POT-Creation-Date: 2024-07-24 13:48+0000\n"
+"POT-Creation-Date: 2024-09-30 10:58+0000\n"
 "Last-Translator: \n"
 "Language-Team: JCO Digital\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-msgid "Read more"
+#: views/single.twig:43
+msgid "Author"
 msgstr ""
 
-msgid "Contact us"
+#: includes/cases.php:12
+msgid "Case"
 msgstr ""
 
-msgid "Send"
+#: blocks/block-case_data.twig:7
+msgid "Case facts"
 msgstr ""
 
-msgid "Read also"
+#: includes/cases.php:11 includes/cases.php:16
+msgid "Cases"
 msgstr ""
 
-msgid "Page not found"
-msgstr ""
-
-msgid "Share"
-msgstr ""
-
-msgid "Archive"
-msgstr ""
-
-msgid "Skip to content"
-msgstr ""
-
-msgid "Search"
-msgstr ""
-
-msgid "Search for"
-msgstr ""
-
-msgid "Download"
-msgstr ""
-
-msgid "Assignment"
-msgstr ""
-
-msgid "Share on Facebook"
-msgstr ""
-
-msgid "Share on Twitter"
-msgstr ""
-
-msgid "Share on WhatsApp"
-msgstr ""
-
-msgid "Filter by category"
-msgstr ""
-
-msgid "Comments for this post are closed"
-msgstr ""
-
-msgid "Show more"
-msgstr ""
-
-msgid "Showing"
-msgstr ""
-
-msgid "Toggle Dropdown"
-msgstr ""
-
-msgid "404 page"
-msgstr ""
-
-msgid "Show"
-msgstr ""
-
+#: blocks/block-case_data.twig:16
 msgid "Client"
 msgstr ""
 
-msgid "Year"
+#: theme.json:1
+msgctxt "Color name"
+msgid "Aubergine"
 msgstr ""
 
+#: theme.json:1
+msgctxt "Color name"
+msgid "Brand"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Dark"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Failure"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Info"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Light"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Lilly"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Peach"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Purple"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Success"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Sunflower"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: views/partials/comments.twig:12
+msgid "Comments for this post are closed"
+msgstr ""
+
+#: views/navigation/navigation.twig:29
+msgid "Contact Us"
+msgstr ""
+
+#: includes/cases.php:56 includes/cases.php:57 blocks/block-case_data.twig:46
 msgid "Cost"
 msgstr ""
 
+#: includes/cases.php:49
+msgid "Customer"
+msgstr ""
+
+#: includes/cases.php:48
+msgid "Customers"
+msgstr ""
+
+#: views/archive.twig:11
+msgid "Filter by category"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Albert Sans"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Molitor"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H1"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H2"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H3"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H4"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H5"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Ingress"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Maxi"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Mini"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Paragraph"
+msgstr ""
+
+#: functions.php:360
+msgid "Footer info and copyright info goes here."
+msgstr ""
+
+#: functions.php:347
+msgid "Footer main"
+msgstr ""
+
+#: functions.php:358
+msgid "Footer site info"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "White to Brand"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/JCO-Digital/jco-web/tree/main/wp-content/themes/jco"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://jco.fi/"
+msgstr ""
+
+#. Name of the theme
+msgid "J&amp;Co Digital Theme"
+msgstr ""
+
+#. Author of the theme
+msgid "JCO"
+msgstr ""
+
+#. Description of the theme
+msgid "JCO Digital base theme, using Twig for templating."
+msgstr ""
+
+#: functions.php:223
+msgid "jcore blocks"
+msgstr ""
+
+#: classes/Settings.php:49
+msgid "Keys & IDs"
+msgstr ""
+
+#: functions.php:349
+msgid "Main Footer Widget Area."
+msgstr ""
+
+#: views/single.twig:4
+msgid "News & Blog"
+msgstr ""
+
+#: 404.php:32
+msgid "Page not found"
+msgstr ""
+
+#: views/password-protected.twig:4
+msgid "Password"
+msgstr ""
+
+#: patterns/three-column-grid.php:2 patterns/twothirdcolumns.php:2
+#: patterns/hero-150.php:2 patterns/contactform.php:2 patterns/singlepost.php:2
+#: patterns/case-cover.php:2 patterns/case-single.php:2
+#: patterns/page-hero.php:2
+msgctxt "Pattern description"
+msgid ""
+msgstr ""
+
+#: patterns/case-cover.php:2
+msgctxt "Pattern title"
+msgid "Case Cover"
+msgstr ""
+
+#: patterns/case-single.php:2
+msgctxt "Pattern title"
+msgid "Case Single"
+msgstr ""
+
+#: patterns/contactform.php:2
+msgctxt "Pattern title"
+msgid "Contact Form"
+msgstr ""
+
+#: patterns/hero-150.php:2
+msgctxt "Pattern title"
+msgid "Hero 150%"
+msgstr ""
+
+#: patterns/page-hero.php:2
+msgctxt "Pattern title"
+msgid "Page hero"
+msgstr ""
+
+#: patterns/singlepost.php:2
+msgctxt "Pattern title"
+msgid "Single Post"
+msgstr ""
+
+#: patterns/three-column-grid.php:2
+msgctxt "Pattern title"
+msgid "Three column Grid"
+msgstr ""
+
+#: patterns/twothirdcolumns.php:2
+msgctxt "Pattern title"
+msgid "Two Third Columns"
+msgstr ""
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr ""
+
+#: views/single.twig:63
+msgid "Read also"
+msgstr ""
+
+#: includes/archive.php:36 views/partials/tease-content.twig:28
+msgid "Read more"
+msgstr ""
+
+#: views/partials/search.twig:7
+msgid "Search"
+msgstr ""
+
+#: views/partials/search.twig:4
+msgid "Search for"
+msgstr ""
+
+#: classes/Settings.php:50
+msgid "Settings for APIs and other."
+msgstr ""
+
+#: blocks/block-social_share.twig:3 views/single.twig:53
+msgid "Share"
+msgstr ""
+
+#: views/partials/social-media-share.twig:20
+msgid "Share on Email"
+msgstr ""
+
+#: views/partials/social-media-share.twig:4
+msgid "Share on Facebook"
+msgstr ""
+
+#: views/partials/social-media-share.twig:8
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: views/partials/social-media-share.twig:12
+msgid "Share on Twitter"
+msgstr ""
+
+#: views/partials/social-media-share.twig:16
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: views/layout.twig:5
+msgid "Skip to content"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Fluid large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Fluid medium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Fluid small"
+msgstr ""
+
+#: functions.php:42
+msgid "Top Menu"
+msgstr ""
+
+#: blocks/block-case_data.twig:60
 msgid "Visit site"
 msgstr ""
 
-msgid "Case facts"
+#: includes/cases.php:53 blocks/block-case_data.twig:31
+msgid "Year"
+msgstr ""
+
+#: includes/cases.php:52
+msgid "Years"
 msgstr ""
