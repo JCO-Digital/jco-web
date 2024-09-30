@@ -20,6 +20,15 @@
 			<a class="lang-link" href="{{ lang.url }}">{{ lang.text }}</a>
 		{% endfor %}
 	</div>
+	<div class="contact">
+		<a href="">
+			<span class="circle">
+				<i class="fa-regular fa-arrow-right"></i>
+			</span>
+
+			{{ __("Contact Us", "jcore") }}
+		</a>
+	</div>
 	<div id="menu-card" class="menu-card">
 		{% include "navigation/menu.twig" with {items: menu.primary.get_items, id: "jcore-menu", level: 0} only %}
 	</div>
