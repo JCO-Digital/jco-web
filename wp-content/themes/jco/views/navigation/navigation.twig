@@ -11,7 +11,9 @@
 	</button>
 	<div class="brand">
 		<div class="logo">
-			{% include 'images/navbar-brand.twig' %}
+			<a href="{{ home }}">
+				{% include 'images/navbar-brand.twig' %}
+			</a>
 		</div>
 	</div>
 	<div class="lang">
@@ -21,11 +23,10 @@
 		{% endfor %}
 	</div>
 	<div class="contact">
-		<a href="">
+		<a href="{{ contact_link }}">
 			<span class="circle">
 				<i class="fa-regular fa-arrow-right"></i>
 			</span>
-
 			{{ __("Contact Us", "jcore") }}
 		</a>
 	</div>

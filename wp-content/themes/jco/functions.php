@@ -39,6 +39,7 @@ add_filter(
 	'jcore_menus',
 	function ( $menus ) {
 		$menus['primary'] = __( 'Primary Menu', 'jcore' );
+		$menus['contact'] = __( 'Contact Link', 'jcore' );
 		$menus['top']     = __( 'Top Menu', 'jcore' );
 
 		return $menus;

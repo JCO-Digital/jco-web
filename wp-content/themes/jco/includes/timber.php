@@ -45,6 +45,9 @@ function context( $context ) {
 		$context['menu']['learndash']       = Timber::get_menu( 'learndash' );
 	}
 
+	// Contact Page
+	$contact = Settings::get( 'theme', 'contact_page' );
+
 	// If polylang is on.
 	if ( function_exists( 'pll_the_languages' ) ) {
 		$languages = array();
@@ -66,11 +69,13 @@ function context( $context ) {
 		$context['language_name'] = pll_current_language( 'name' );
 		$context['locale']        = pll_current_language( 'locale' );
 		$context['home']          = pll_home_url();
+
 	} else {
 		$context['home']     = get_home_url();
 		$context['language'] = substr( get_locale(), 0, 2 );
 		$context['locale']   = get_locale();
 	}
+	$context['contact_link'] = $contact;
 
 	if ( empty( $_SERVER['HTTP_REFERER'] ) ) {
 		$context['referrer']          = '';
