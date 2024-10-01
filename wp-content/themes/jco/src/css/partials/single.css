@@ -35,6 +35,9 @@
     .author-share {
         margin-bottom: 4rem;
         border-radius: 10px;
+        @media (width <= var(--breakpoint-sm)) {
+            justify-content: center;
+          }
         .wp-block-post-author {
             .wp-block-post-author__avatar {
                 img {
@@ -48,6 +51,24 @@
                 font-style: italic;
                 color: var(--wp--preset--color--dark);
                 font-size: var(--wp--preset--font-size--mini);
+            }
+        }
+        .block-social_share {
+            padding: 1rem 0 0 0;
+            display: flex;
+            @media (width <= var(--breakpoint-sm)) {
+                width: 100%;
+                justify-content: center;
+              }
+              @media (width > var(--breakpoint-sm)) {
+                padding-top: 0;
+                padding-left: 1.5rem;
+              }
+            .share-heading {
+                opacity: 0;
+                @media (width <= var(--breakpoint-md)) {
+                    display: none;
+                  }
             }
         }
     }

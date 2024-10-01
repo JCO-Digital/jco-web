@@ -19,8 +19,10 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:group {"align":"wide","className":"author-share","style":{"spacing":{"padding":{"right":"var:preset|spacing|fluid-small","left":"var:preset|spacing|fluid-small","top":"var:preset|spacing|fluid-small","bottom":"var:preset|spacing|fluid-small"},"margin":{"top":"var:preset|spacing|fluid-small","bottom":"var:preset|spacing|fluid-small"}}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide author-share has-white-background-color has-background" style="margin-top:var(--wp--preset--spacing--fluid-small);margin-bottom:var(--wp--preset--spacing--fluid-small);padding-top:var(--wp--preset--spacing--fluid-small);padding-right:var(--wp--preset--spacing--fluid-small);padding-bottom:var(--wp--preset--spacing--fluid-small);padding-left:var(--wp--preset--spacing--fluid-small)"><!-- wp:post-author /--></div>
+<!-- wp:group {"align":"wide","className":"author-share","style":{"spacing":{"padding":{"right":"var:preset|spacing|fluid-small","left":"var:preset|spacing|fluid-small","top":"var:preset|spacing|fluid-small","bottom":"var:preset|spacing|fluid-small"},"margin":{"top":"var:preset|spacing|fluid-small","bottom":"var:preset|spacing|fluid-small"}}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide author-share has-white-background-color has-background" style="margin-top:var(--wp--preset--spacing--fluid-small);margin-bottom:var(--wp--preset--spacing--fluid-small);padding-top:var(--wp--preset--spacing--fluid-small);padding-right:var(--wp--preset--spacing--fluid-small);padding-bottom:var(--wp--preset--spacing--fluid-small);padding-left:var(--wp--preset--spacing--fluid-small)"><!-- wp:post-author /-->
+
+<!-- wp:acf/social-share {"name":"acf/social-share","data":{"show_all":"1","_show_all":"field_5ea6a32fdsfsd456sharey"},"align":"","mode":"edit"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-medium","bottom":"var:preset|spacing|fluid-medium"}}},"layout":{"type":"constrained"}} -->
@@ -85,7 +87,7 @@
 
 <!-- wp:group {"align":"full","className":"forms-reusable","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-large","bottom":"var:preset|spacing|fluid-large"}}},"backgroundColor":"brand","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull forms-reusable has-brand-background-color has-background" style="padding-top:var(--wp--preset--spacing--fluid-large);padding-bottom:var(--wp--preset--spacing--fluid-large)"><!-- wp:heading {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-medium","bottom":"var:preset|spacing|fluid-medium"}}}} -->
-<h2 class="wp-block-heading alignwide" style="padding-top:var(--wp--preset--spacing--fluid-medium);padding-bottom:var(--wp--preset--spacing--fluid-medium)"><strong>ONKO SINULLA VASTAAVANLAISIA TARPEITA<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">?</mark></strong></h2>
+<h2 class="wp-block-heading alignwide" style="padding-top:var(--wp--preset--spacing--fluid-medium);padding-bottom:var(--wp--preset--spacing--fluid-medium)"><strong>KIINNOSTUITKO<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-lilly-color">?</mark> </strong>JUTELLAAN.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"180px"}} -->
