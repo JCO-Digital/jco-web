@@ -411,3 +411,40 @@ function register_block_folder( $blocks ): array {
 
 	return array_merge( $blocks, Blocks::list_blocks( $blocks_folder, 'Jcore\Ilme\Blocks\\' ) );
 }
+
+/**
+ * Handles setting the mailer to mailhog if we are in a dev environment.
+ *
+ * @param PHPMailer $phpmailer The PHPMailer instance.
+ *
+ * @return void
+ */
+add_action(
+	'phpmailer_init',
+	function ( $phpmailer ) {
+		// phpcs:disable
+		if ( defined( "JCORE_IS_LOCAL" ) && JCORE_IS_LOCAL ) {
+			$phpmailer->Host = 'mailhog';
+			$phpmailer->Port = 1025;
+			$phpmailer->IsSMTP();
+		}
+		// phpcs:enable
+	}
+);
+
+
+/**
+ * Handles deactivation of the mailgun plugin when running locally.
+ *
+ * @return void
+ */
+add_action(
+	'admin_init',
+	function () {
+		// phpcs:disable
+		if ( defined("JCORE_IS_LOCAL") && JCORE_IS_LOCAL ) {
+			deactivate_plugins( array( 'mailgun/mailgun.php', 'smtp2go/smtp2go-wordpress-plugin.php' ) );
+		}
+		// phpcs:enable
+	}
+);
