@@ -36,21 +36,26 @@
     }
     
     video{
-        object-fit: contain;
+        object-fit: cover;
         width: 100dvw;
         height: 100dvh;
-        top: 0;
-        left: 0;
+        @media (width < var(--breakpoint-md)) {
+            height: 50dvh;
+            margin-top: 5dvh;
+        }
     }
 }
 
 .hero-home{
-    background-color: #A782FF;
+    background-color: #a682fe;
+    @media (width < var(--breakpoint-md)) {
+        min-height: 60dvh !important;
+    }
     /* background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box; */
 }
 
 .lily-gradient{
-    background: transparent linear-gradient(180deg, #A782FF 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #a682fe 0%, #855FDA 100%) 0% 0% no-repeat padding-box;
 }
 
 /* close to hero */
