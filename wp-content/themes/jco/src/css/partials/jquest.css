@@ -1,0 +1,5 @@
+.chooser{
+    max-width: var(--breakpoint-lg);
+    margin-left: auto;
+    margin-right: auto;
+}
