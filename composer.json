@@ -42,7 +42,8 @@
     "wpackagist-plugin/smtp2go": "^1.9",
     "wpackagist-plugin/wordpress-importer": "^0.8.2",
     "wpackagist-plugin/redirection": "^5.5",
-    "wpackagist-plugin/google-site-kit": "^1.136"
+    "wpackagist-plugin/google-site-kit": "^1.136",
+    "wpackagist-plugin/booking": "^10.6"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d58f4e1f4bcf784d9c5ef5485d9dad12",
+    "content-hash": "7c9f8848fc6c132a6ec662f227fff915",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2917,6 +2917,24 @@
             "time": "2024-09-09T17:55:12+00:00"
         },
         {
+            "name": "wpackagist-plugin/booking",
+            "version": "10.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/booking/",
+                "reference": "tags/10.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/booking.10.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/booking/"
+        },
+        {
             "name": "wpackagist-plugin/font-awesome",
             "version": "4.5.0",
             "source": {
@@ -2933,42 +2951,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/font-awesome/"
-        },
-        {
-            "name": "wpackagist-plugin/google-site-kit",
-            "version": "1.136.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-site-kit/",
-                "reference": "tags/1.136.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.136.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-site-kit/"
-        },
-        {
-            "name": "wpackagist-plugin/redirection",
-            "version": "5.5.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.5.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
             "name": "wpackagist-plugin/smtp2go",
@@ -4302,5 +4284,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
