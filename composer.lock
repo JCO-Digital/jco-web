@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2cda931fb0caa6389c82f481b073ed2",
+    "content-hash": "7c9f8848fc6c132a6ec662f227fff915",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2915,6 +2915,24 @@
                 }
             ],
             "time": "2024-09-09T17:55:12+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/booking",
+            "version": "10.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/booking/",
+                "reference": "tags/10.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/booking.10.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/booking/"
         },
         {
             "name": "wpackagist-plugin/font-awesome",
