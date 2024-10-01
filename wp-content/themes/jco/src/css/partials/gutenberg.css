@@ -159,3 +159,14 @@ blockquote.wp-block-quote {
     }
   }
 }
+
+.wp-block-buttons {
+  .wp-block-button {
+    &:hover {
+      .wp-block-button__link {
+        color: var(--wp--preset--color--light);
+        background: var(--wp--preset--color--purple);
+      }
+    }
+  }
+}
