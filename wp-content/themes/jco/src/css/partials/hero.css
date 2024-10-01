@@ -41,23 +41,25 @@
         height: 100dvh;
         @media (width < var(--breakpoint-md)) {
             height: 50dvh;
-            margin-top: 20dvh;
+            margin-top: 20px;
+
         }
     }
 }
 
 .hero-home{
     background-color: #a682fe;
-    /*
     @media (width < var(--breakpoint-md)) {
-        min-height: 60dvh !important;
+        min-height: 58dvh !important;
     }
-    */
     /* background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box; */
 }
 
 .lily-gradient{
     background: transparent linear-gradient(180deg, #a682fe 0%, #855FDA 100%) 0% 0% no-repeat padding-box;
+    @media (width < var(--breakpoint-md)) {
+        padding-bottom: 40px;
+    }
 }
 
 /* close to hero */
@@ -72,4 +74,5 @@
         padding: 5px 20px 10px 20px;
         border-radius: 10px;
     }
+    
 }
