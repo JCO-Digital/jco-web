@@ -41,16 +41,18 @@
         height: 100dvh;
         @media (width < var(--breakpoint-md)) {
             height: 50dvh;
-            margin-top: 5dvh;
+            margin-top: 20dvh;
         }
     }
 }
 
 .hero-home{
     background-color: #a682fe;
+    /*
     @media (width < var(--breakpoint-md)) {
         min-height: 60dvh !important;
     }
+    */
     /* background: transparent linear-gradient(180deg, #A280F8 0%, #855FDA 77%, #844dd6 100%) 0% 0% no-repeat padding-box; */
 }
 
