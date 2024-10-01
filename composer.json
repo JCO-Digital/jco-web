@@ -40,7 +40,9 @@
     "jco/gravityformscampaignmonitor": "^4.0",
     "wpackagist-plugin/font-awesome": "^4.5",
     "wpackagist-plugin/smtp2go": "^1.9",
-    "wpackagist-plugin/wordpress-importer": "^0.8.2"
+    "wpackagist-plugin/wordpress-importer": "^0.8.2",
+    "wpackagist-plugin/redirection": "^5.5",
+    "wpackagist-plugin/google-site-kit": "^1.136"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
