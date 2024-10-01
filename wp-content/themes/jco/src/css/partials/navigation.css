@@ -55,6 +55,7 @@
     font-weight: bold;
     &:not(:last-child)::after {
       content: " / ";
+      padding-right: 6px;
     }
   }
 
@@ -67,11 +68,13 @@
     background-color: var(--wp--preset--color--dark);
     color: var(--wp--preset--color--light);
     font-size: var(--wp--preset--font-size--heading-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     svg {
       fill: var(--wp--preset--color--light);
       height: 43px;
-      margin: 9px;
     }
 
     &:not(.menu-open) {
@@ -122,9 +125,6 @@
     transition: max-height 200ms;
     &:not(.open) {
       max-height: 0;
-      a {
-        pointer-events: none;
-      }
     }
   }
 
@@ -139,6 +139,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    margin-top: 16px;
 
     span {
       display: block;
@@ -197,16 +198,16 @@
     }
 
     .lang {
-      width: 80px;
+      width: 84px;
       font-size: 1.2rem;
       margin-left: -40px;
       position: absolute;
       transform: rotate(90deg);
       top: 50%;
-      right: -10px;
+      right: -12px;
     }
 
-    &.menu-open {
+    &:has(.menu-open) {
       .brand {
         top: 20px;
         right: 300px;

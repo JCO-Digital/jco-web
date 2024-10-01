@@ -2,7 +2,7 @@
 This should be overwritten in childs layout. Preferably by overwriting just the blocks you need to change. #}
 {% block skip_to_content %}
 	<div class="skip-to-content sr-only sr-only-focusable">
-		<a href="#content-start">{{ __('Skip to content','jcore') }}</a>
+		<a href="#content-start" tabindex="1">{{ __('Skip to content','jcore') }}</a>
 	</div>
 {% endblock %}
 {% block navigation %}
