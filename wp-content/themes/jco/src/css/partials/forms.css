@@ -45,5 +45,10 @@ body {
             }
         }
     }
+    #footer-main {
+        .gform_confirmation_message {
+            color:  var(--wp--preset--color--light);
+        }
+    }
 }
 
