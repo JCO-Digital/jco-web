@@ -1,5 +1,5 @@
 <section id="block-{{ block.id }}" class="block {{ block.className }} min-h-[20rem] flex items-center justify-center">
-    <div xjcore-data="{ active: '{{ block.id }}-1' }" class="w-full min-h-[16rem] border-t border-lilly/25">
+    <div {% if fields.first_item_open is not same as false %}xjcore-data="{active: '{{ block.id }}-1'}"{% endif %} class="w-full min-h-[16rem] border-t border-lilly/25">
         {% for item in fields.accordion %}
         <div xjcore-data="{
             id: '{{ block.id }}-{{ loop.index }}',

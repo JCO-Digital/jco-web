@@ -8,16 +8,6 @@ Alpine.plugin(collapse);
 Alpine.start();
 
 jQuery(document).ready(function () {
-  // Add classes to the first item on load.
-  const firstQuestion = jQuery(
-    ".schema-faq-section .schema-faq-question",
-  ).first();
-  firstQuestion.addClass("faq-q-open");
-  firstQuestion
-    .siblings(".schema-faq-answer")
-    .addClass("faq-a-open")
-    .slideDown();
-
   // Set up click event handler for FAQ questions
   jQuery(".schema-faq-section .schema-faq-question").click(function () {
     const isVisible = jQuery(this)
