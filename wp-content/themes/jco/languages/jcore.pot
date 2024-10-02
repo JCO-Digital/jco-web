@@ -364,3 +364,7 @@ msgstr ""
 #: includes/cases.php:52
 msgid "Years"
 msgstr ""
+
+#: includes/cases.php:52
+msgid "Back to front page"
+msgstr ""
