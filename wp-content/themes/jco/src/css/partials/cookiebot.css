@@ -1,17 +1,17 @@
 #CookiebotWidget {
     .Cookiebotwidget-consent-icon {
         svg {
-            fill: var(--wp--preset--color--purple);
+            fill: var(--wp--preset--color--purple) !important;
         }
     }
     .CookiebotWidget-show-consent-details {
-        color: var(--wp--preset--color--purple);
+        color: var(--wp--preset--color--purple) !important;
     }
     #CookiebotWidget-btn-change {
-        background-color: var(--wp--preset--color--purple);
-        border-color: var(--wp--preset--color--purple);
+        background-color: var(--wp--preset--color--purple) !important;
+        border-color: var(--wp--preset--color--purple) !important;
     }
     #CookiebotWidget-btn-withdraw {
-        border-color: var(--wp--preset--color--purple);
+        border-color: var(--wp--preset--color--purple) !important;
     }
 }
