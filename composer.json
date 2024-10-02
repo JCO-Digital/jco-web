@@ -44,7 +44,8 @@
     "wpackagist-plugin/redirection": "^5.5",
     "wpackagist-plugin/google-site-kit": "^1.136",
     "wpackagist-plugin/booking": "^10.6",
-    "wpackagist-plugin/cookiebot": "4.3.9.1"
+    "wpackagist-plugin/cookiebot": "4.3.9.1",
+    "wpackagist-plugin/wp-consent-api": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
