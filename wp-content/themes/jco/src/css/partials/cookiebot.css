@@ -1,0 +1,17 @@
+#CookiebotWidget {
+    .Cookiebotwidget-consent-icon {
+        svg {
+            fill: var(--wp--preset--color--purple);
+        }
+    }
+    .CookiebotWidget-show-consent-details {
+        color: var(--wp--preset--color--purple);
+    }
+    #CookiebotWidget-btn-change {
+        background-color: var(--wp--preset--color--purple);
+        border-color: var(--wp--preset--color--purple);
+    }
+    #CookiebotWidget-btn-withdraw {
+        border-color: var(--wp--preset--color--purple);
+    }
+}
