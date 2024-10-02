@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1bef6a79e176a44d6503fd6337b7011",
+    "content-hash": "664b1dc96c0bab688c69fbde245b3422",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2935,6 +2935,24 @@
             "homepage": "https://wordpress.org/plugins/booking/"
         },
         {
+            "name": "wpackagist-plugin/cookiebot",
+            "version": "4.3.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookiebot/",
+                "reference": "tags/4.3.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookiebot.4.3.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookiebot/"
+        },
+        {
             "name": "wpackagist-plugin/font-awesome",
             "version": "4.5.0",
             "source": {
@@ -4323,5 +4341,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }
