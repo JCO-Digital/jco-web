@@ -70,7 +70,7 @@
 
 .wp-block-jcore-dynamic-archive-posts__pagination {
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
   button {
     background: var(--wp--preset--color--brand);
     font-size: var(--wp--custom--font--size--paragraph);
@@ -82,9 +82,8 @@
     padding: 0.5rem 1.5rem;
     border-radius: 4px;
     &:hover {
-      background: var(--wp--preset--color--dark);
-      color: var(--wp--preset--color--brand);
-      box-shadow: 5px 5px 0px 0px var(--wp--preset--color--brand);
+      color: var(--wp--preset--color--light);
+      background: var(--wp--preset--color--purple);
     }
   }
 }
