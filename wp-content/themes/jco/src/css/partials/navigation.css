@@ -171,7 +171,7 @@
 }
 
 /* Desktop navigation styles. */
-@media (width >= var(--breakpoint-md)) {
+@media (width >= var(--breakpoint-md)) and (height >= 650px) {
   html {
     margin-right: var(--jcore-bar);
   }
@@ -237,7 +237,7 @@
 }
 
 /* Mobile navigation styles. */
-@media (width < var(--breakpoint-md)) {
+@media (width < var(--breakpoint-md)), (height < 650px) {
   #jcore-nav {
     display: flex;
     flex-direction: row;
