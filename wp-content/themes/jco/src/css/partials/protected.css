@@ -1,0 +1,46 @@
+#main.password-protected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://jco.fi/wp-content/uploads/2024/10/AdobeStock_623212293-scaled.jpeg");
+    background-size: cover;
+    .password-form {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        label {
+            font-size: var(--wp--preset--font-size--large);
+            font-family: var(--jcore-heading-font-family);
+            font-weight: 700;
+            color: var(--wp--preset--color--dark);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            background: var(--wp--preset--color--brand);
+            padding: .5rem 1rem 1rem 1rem;
+            line-height: 1;
+            border-radius: 9px;
+        }
+    }
+    .password-box {
+        margin: 1rem;
+        text-align: center;
+        border-radius: 4px;
+        border: none;
+    }
+    .password-btn {
+        background: var(--wp--preset--color--brand);
+        font-size: var(--wp--custom--font--size--paragraph);
+        color: var(--wp--preset--color--dark);
+        text-transform: uppercase;
+        font-family: var(--jcore-heading-font-family);
+        font-weight: 700;
+        box-shadow: 5px 5px 0px 0px var(--wp--preset--color--dark);
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            color: var(--wp--preset--color--light);
+            background: var(--wp--preset--color--purple);
+        }
+    }
+}
