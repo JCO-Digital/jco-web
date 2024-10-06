@@ -16,6 +16,9 @@
         width: fit-content;
         text-transform: uppercase;
     }
+    .wp-block-cover__inner-container{
+       min-height: 85dvh;
+    }
 }
 
 /* cover block with video */
