@@ -54,7 +54,9 @@
     text-transform: uppercase;
     font-weight: bold;
     &:not(:last-child)::after {
-      content: " / ";
+      content: "/";
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
 
@@ -71,7 +73,7 @@
     svg {
       fill: var(--wp--preset--color--light);
       height: 43px;
-      margin: 9px;
+      margin: auto;
     }
 
     &:not(.menu-open) {
