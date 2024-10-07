@@ -1,0 +1,22 @@
+/*  Added justify-content -classes to extend functionality of gridibles flex-grid. */
+.gridible-row {
+  &.flex-jc-end {
+    justify-content: flex-end;
+  }
+
+  &.flex-jc-center {
+    justify-content: center;
+  }
+
+  &.flex-jc-between {
+    justify-content: space-between;
+  }
+
+  &.flex-jc-around {
+    justify-content: space-around;
+  }
+
+  &.flex-jc-evenly {
+    justify-content: space-evenly;
+  }
+}
