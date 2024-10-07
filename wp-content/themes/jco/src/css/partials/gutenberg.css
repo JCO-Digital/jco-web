@@ -170,3 +170,28 @@ blockquote.wp-block-quote {
     }
   }
 }
+
+/* WP heading with bullets in front  */
+.wp-block-heading.bullet {
+  letter-spacing: 1px;
+  position: relative;
+  padding-left: var(--wp--preset--spacing--fluid-medium);
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 14px;
+    height: 14px;
+    background-color: var(--wp--preset--color--lilly);
+    border-radius: 4px;
+  }
+}
+p.bullet {
+  padding-left: var(--wp--preset--spacing--fluid-medium);
+  padding-right: var(--wp--preset--spacing--fluid-medium);
+}
+
+.gridible-row.bullet .gridible-col {
+  margin-bottom: var(--wp--preset--spacing--fluid-medium);
+}
