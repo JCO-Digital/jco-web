@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47f53b612853d7a24c47c3336a5533cf",
+    "content-hash": "3101983a04d1b78feac9e7033ba64531",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -432,6 +432,25 @@
             },
             "description": "Integrates Gravity Forms with Campaign Monitor, allowing form submissions to be automatically sent to your Campaign Monitor account.",
             "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "jco/gridible",
+            "version": "2.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.jco.fi/satispress/gridible/2.1.2",
+                "shasum": "359c97cc31974b4b0669d62e131f096679ddb031"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Made by Munsters",
+                "homepage": "https://madebymunsters.com/"
+            },
+            "description": "The WordPress plugin that makes creating layouts simple, fast, and efficient.  A flexible, responsive grid plugin built specifically for the Gutenberg editor. No more defining patterns or special blocks to create complex layouts. Simply add a group of columns, tinker with the column widths per breakpoint, and then sit back and watch the magic in action.",
+            "homepage": "https://gridible.com"
         },
         {
             "name": "jco/polylang-pro",
@@ -4363,5 +4382,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
