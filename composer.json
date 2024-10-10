@@ -1,55 +1,56 @@
 {
-  "minimum-stability": "stable",
-  "repositories": {
-    "satispress": {
-      "type": "composer",
-      "url": "https://repo.jco.fi/satispress/"
-    },
-    "wpackagist": {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    },
-    "jco-plugins": {
-      "type": "composer",
-      "url": "https://plugins.jco.fi"
-    }
-  },
-  "config": {
-    "platform": {
-      "php": "8.2"
-    },
-    "allow-plugins": {
-      "composer/installers": true,
-      "php-http/discovery": true,
-      "dealerdirect/phpcodesniffer-composer-installer": true
-    }
-  },
-  "require": {
-    "jco/advanced-custom-fields-pro": "^6.2",
-    "jco/wp-migrate-db-pro": "^2.6.6",
-    "sentry/sentry": "^3.18.2",
-    "wpackagist-plugin/wordpress-seo": "^21.4",
-    "jcore/ydin": "^3.5",
-    "symfony/http-client": "^7.1",
-    "nyholm/psr7": "^1.8",
-    "jco/polylang-pro": "^3.6",
-    "wpackagist-plugin/spinupwp": "^1.7",
-    "jcodigital/jquest-plugin": "v0.3.4",
-    "jco/gravityforms": "^2.8",
-    "jcore/dynamic-archive": "^0.6.0",
-    "jco/gravityformscampaignmonitor": "^4.0",
-    "wpackagist-plugin/font-awesome": "^4.5",
-    "wpackagist-plugin/smtp2go": "^1.9",
-    "wpackagist-plugin/wordpress-importer": "^0.8.2",
-    "wpackagist-plugin/redirection": "^5.5",
-    "wpackagist-plugin/google-site-kit": "^1.136"
-  },
-  "require-dev": {
-    "roave/security-advisories": "dev-latest",
-    "squizlabs/php_codesniffer": "^3.7",
-    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-    "wp-coding-standards/wpcs": "3.0.0",
-    "wpackagist-plugin/loco-translate": "^2.6",
-    "wpackagist-plugin/pattern-manager": "^0.3.0"
-  }
+	"minimum-stability": "stable",
+	"repositories": {
+		"satispress": {
+			"type": "composer",
+			"url": "https://repo.jco.fi/satispress/"
+		},
+		"wpackagist": {
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		"jco-plugins": {
+			"type": "composer",
+			"url": "https://plugins.jco.fi"
+		}
+	},
+	"config": {
+		"platform": {
+			"php": "8.2"
+		},
+		"allow-plugins": {
+			"composer/installers": true,
+			"php-http/discovery": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require": {
+		"jco/advanced-custom-fields-pro": "^6.2",
+		"jco/wp-migrate-db-pro": "^2.6.6",
+		"sentry/sentry": "^3.18.2",
+		"wpackagist-plugin/wordpress-seo": "^21.4",
+		"jcore/ydin": "^3.5",
+		"symfony/http-client": "^7.1",
+		"nyholm/psr7": "^1.8",
+		"jco/polylang-pro": "^3.6",
+		"wpackagist-plugin/spinupwp": "^1.7",
+		"jcodigital/jquest-plugin": "v0.3.4",
+		"jco/gravityforms": "^2.8",
+		"jcore/dynamic-archive": "^0.6.0",
+		"jco/gravityformscampaignmonitor": "^4.0",
+		"wpackagist-plugin/font-awesome": "^4.5",
+		"wpackagist-plugin/smtp2go": "^1.9",
+		"wpackagist-plugin/wordpress-importer": "^0.8.2",
+		"wpackagist-plugin/redirection": "^5.5",
+		"wpackagist-plugin/google-site-kit": "^1.136",
+		"wpackagist-plugin/booking": "^10.6"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest",
+		"squizlabs/php_codesniffer": "^3.7",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"wp-coding-standards/wpcs": "3.0.0",
+		"wpackagist-plugin/loco-translate": "^2.6",
+		"wpackagist-plugin/pattern-manager": "^0.3.0"
+	}
 }
