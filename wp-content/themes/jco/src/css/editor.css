@@ -1,1 +1,8 @@
 /* Add styles for editor here */
+.editor-styles-wrapper {
+    .hidden {
+        display: block;
+        opacity: 0.2;
+        background: lightgrey;
+    }
+}
