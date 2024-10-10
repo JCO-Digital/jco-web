@@ -73,9 +73,6 @@ iframe {
 .no-padding {
   padding: 0;
 }
-.hidden {
-  display: none !important;
-}
 /* Image utils */
 .image-fillarea {
   width: 100%;
