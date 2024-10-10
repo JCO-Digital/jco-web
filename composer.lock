@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "664b1dc96c0bab688c69fbde245b3422",
+    "content-hash": "47f53b612853d7a24c47c3336a5533cf",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -3077,6 +3077,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-consent-api",
+            "version": "1.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-consent-api/",
+                "reference": "tags/1.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-consent-api.1.0.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-consent-api/"
         }
     ],
     "packages-dev": [
