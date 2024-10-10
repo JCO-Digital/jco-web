@@ -120,6 +120,13 @@ class PostGrid extends Block {
 				'return_format'     => 'value',
 				'placeholder'       => '',
 			),
+			array(
+				'key'   => 'field_5e15c2603187a_masonry',
+				'label' => 'Masonry Grid',
+				'name'  => 'masonry',
+				'type'  => 'true_false',
+				'ui'    => 1,
+			),
 		);
 	}
 
