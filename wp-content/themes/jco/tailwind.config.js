@@ -82,6 +82,10 @@ export default {
       pattern: /^(justify|items|align|self)-.+$/,
       variants: ["sm", "md", "lg", "xl", "2xl"],
     },
+    {
+      pattern: /^(order)-.+$/,
+      variants: ["sm", "md", "lg", "xl", "2xl"],
+    },
   ],
   plugins: [require("@tailwindcss/forms")],
 };
