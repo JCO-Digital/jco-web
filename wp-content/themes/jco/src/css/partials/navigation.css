@@ -54,8 +54,9 @@
     text-transform: uppercase;
     font-weight: bold;
     &:not(:last-child)::after {
-      content: " / ";
-      padding-right: 6px;
+      content: "/";
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
 
