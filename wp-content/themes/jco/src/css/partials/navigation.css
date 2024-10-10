@@ -115,6 +115,7 @@
     font-weight: bold;
     color: var(--wp--preset--color--dark);
     text-transform: uppercase;
+    margin-left: 2px;
     &.menu-link-0 {
       font-size: var(--wp--preset--font-size--heading-2);
     }
@@ -172,7 +173,7 @@
 }
 
 /* Desktop navigation styles. */
-@media (width >= var(--breakpoint-md)) and (height >= 650px) {
+@media (width >= var(--breakpoint-md)) and (height >= 700px) {
   html {
     margin-right: var(--jcore-bar);
   }
@@ -238,7 +239,7 @@
 }
 
 /* Mobile navigation styles. */
-@media (width < var(--breakpoint-md)), (height < 650px) {
+@media (width < var(--breakpoint-md)), (height < 700px) {
   #jcore-nav {
     display: flex;
     flex-direction: row;
