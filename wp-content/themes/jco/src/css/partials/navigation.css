@@ -173,7 +173,7 @@
 }
 
 /* Desktop navigation styles. */
-@media (width >= var(--breakpoint-md)) and (height >= 700px) {
+@media (width >= var(--breakpoint-md)) and (height >= 550px) {
   html {
     margin-right: var(--jcore-bar);
   }
@@ -205,7 +205,7 @@
       margin-left: -40px;
       position: absolute;
       transform: rotate(90deg);
-      top: 50%;
+      top: 43%;
       right: -12px;
     }
 
@@ -239,7 +239,7 @@
 }
 
 /* Mobile navigation styles. */
-@media (width < var(--breakpoint-md)), (height < 700px) {
+@media (width < var(--breakpoint-md)), (height < 550px) {
   #jcore-nav {
     display: flex;
     flex-direction: row;
