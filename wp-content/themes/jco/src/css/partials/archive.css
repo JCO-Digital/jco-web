@@ -29,7 +29,7 @@
   }
 }
 
-.archive-case, .wp-block-jcore-dynamic-archive-posts.post-type-case .wp-block-jcore-dynamic-archive-posts__inner {
+.archive-case, .wp-block-jcore-dynamic-archive-posts.post-type-case .wp-block-jcore-dynamic-archive-posts__inner, .block-post_grid.post-type-case .posts-highlight {
   grid-column-gap: 4rem;
   grid-row-gap: 2rem;
 
