@@ -1,22 +1,8 @@
-/*  Added justify-content -classes to extend functionality of gridibles flex-grid. */
-.gridible-row {
-  &.flex-jc-end {
-    justify-content: flex-end;
-  }
+/*  USE TAILWIND justify-content -classes to extend functionality of gridibles flex-grid. 
+USE TAILWIND order -classes to re-arrange columns for different media
 
-  &.flex-jc-center {
-    justify-content: center;
-  }
+*************
+They are included in tailwind.config.js in the safelist: []-section 
+https://tailwindcss.com/docs/justify-content
 
-  &.flex-jc-between {
-    justify-content: space-between;
-  }
-
-  &.flex-jc-around {
-    justify-content: space-around;
-  }
-
-  &.flex-jc-evenly {
-    justify-content: space-evenly;
-  }
-}
+*/

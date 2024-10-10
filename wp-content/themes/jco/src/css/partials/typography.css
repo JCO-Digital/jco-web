@@ -79,3 +79,6 @@ main {
 .has-molitor-font-family {
   letter-spacing: 1.2px;
 }
+.wp-block-heading.has-maxi-font-size {
+  letter-spacing: -2px;
+}
