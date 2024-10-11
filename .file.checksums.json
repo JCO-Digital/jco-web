@@ -1,6 +1,6 @@
 {
   ".config/docker-entrypoint.sh": "a48c7032064540a5b79520b5fb6d444d2e7130c40dfe842a404bf7dd1f613697",
-  ".config/nginx/site.conf": "",
+  ".config/nginx/site.conf": "5274408a9b3548a0b6481a928df2e98589407d31631eb9f1e8b79d305de4ca19",
   ".config/nginx/uploads.conf": "b00ebae95f1de89c467a8a264c2425ea4edd06f818c5fc322f27e87614f49c25",
   ".config/scripts/appendssl": "c5397e2ea939dd35bdb86e805636875063bdd21a3c738b3726f9ccedffd23df3",
   ".config/scripts/importdb": "e7789a38e35e7cbf8e6ea12e32ecb22cf5c42afbb12dc86d5e97015c6742e074",
@@ -23,5 +23,6 @@
   "Makefile": "4ed3a98f37f92b50537b2a577bde8cd13887398705a04c7efb7cc4fa5799f160",
   "composer.json": "9cc726458f603b89054cf62833b0efe17a9c351857f8fd52bfdd6e9369fedb43",
   "defaults.toml": "d092ab7e3a3b2a5d41bb57463b494d5eb3ccaa27ee0a8f9a98b1f12581295a19",
-  "package.json": "79b7eac84e77ab64671d8699d54922ae8dbd8f6af1723ba2352f650da78f6b4d"
+  "package.json": "79b7eac84e77ab64671d8699d54922ae8dbd8f6af1723ba2352f650da78f6b4d",
+  "wp-content/mu-plugins/module-loader.php": "c0c5a5be986a93fc4264cc2f934621f143ff426b698121786d732b82231fef00"
 }

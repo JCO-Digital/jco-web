@@ -29,23 +29,33 @@ export default {
         "inter-tight": ["Inter Tight", "sans-serif"],
       },
       fontSize: {
-        xs: ["0.75rem", { lineHeight: "1.5" }],
-        sm: ["0.875rem", { lineHeight: "1.5715" }],
-        base: ["1rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
-        lg: ["1.125rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
-        xl: ["1.25rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
-        "2xl": [
+        xs: ["13px"],
+        sm: ["clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.469), 20px)"],
+        base: ["clamp(18px, 1.125rem + ((1vw - 3.2px) * 0.156), 20px)"],
+        lg: ["clamp(22.041px, 1.378rem + ((1vw - 3.2px) * 1.091), 36px)"],
+        xl: ["clamp(25.014px, 1.563rem + ((1vw - 3.2px) * 1.327), 42px)"],
+        "2xl": ["clamp(15.747px, 0.984rem + ((1vw - 3.2px) * 0.645), 24px)"],
+        "3xl": ["clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.938), 32px)"],
+        "4xl": ["2.5rem"],
+        "5xl": ["3.25rem"],
+        "6xl": ["3.75rem"],
+        "7xl": ["4.5rem"],
+        "heading-1": [
+          "clamp(43.728px, 2.733rem + ((1vw - 3.2px) * 3.146), 84px)",
+        ],
+        "heading-2": [
+          "clamp(31.609px, 1.976rem + ((1vw - 3.2px) * 1.906), 56px)",
+        ],
+        "heading-3": [
+          "clamp(24.034px, 1.502rem + ((1vw - 3.2px) * 1.247), 40px)",
+        ],
+        "heading-4": ["clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.938), 32px)"],
+        "heading-5": [
           "clamp(15.747px, 0.984rem + ((1vw - 3.2px) * 0.645), 24px)",
-          { lineHeight: "1.415", letterSpacing: "-0.017em" },
         ],
-        "3xl": [
-          "clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.938), 32px)",
-          { lineHeight: "1.3125", letterSpacing: "-0.017em" },
-        ],
-        "4xl": ["2.5rem", { lineHeight: "1.25", letterSpacing: "-0.017em" }],
-        "5xl": ["3.25rem", { lineHeight: "1.2", letterSpacing: "-0.017em" }],
-        "6xl": ["3.75rem", { lineHeight: "1.1666", letterSpacing: "-0.017em" }],
-        "7xl": ["4.5rem", { lineHeight: "1.1666", letterSpacing: "-0.017em" }],
+        ingress: ["clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.625), 28px)"],
+        mini: ["16px"],
+        maxi: ["clamp(40px, 2.5rem + ((1vw - 3.2px) * 7.813), 140px)"],
       },
       animation: {
         "infinite-scroll": "infinite-scroll 60s linear infinite",
