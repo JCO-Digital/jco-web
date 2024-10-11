@@ -75,7 +75,7 @@
 
     svg {
       fill: var(--wp--preset--color--light);
-      height: 43px;
+      height: 32px;
     }
 
     &:not(.menu-open) {
