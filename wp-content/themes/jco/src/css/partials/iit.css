@@ -6,4 +6,26 @@ section.block.block-interactive_image_tool {
             border-radius: 10px;
         }
     }
+
+    .mobile .hotspot-list{
+        margin-top: 0.625rem;
+        .hotspot-container {
+            background-color: var(--wp--preset--color--white);
+            border-radius: 10px;
+            .hotspot-heading {
+                .hotspot-fake{
+                    background-color: var(--wp--preset--color--sunflower);
+                }
+                .hotspot-fake:after {
+                    background-color: rgba(255,244,95,0.4);
+                }
+            }
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .hotspot:after {
+            background-color: rgba(255,244,95,0.4);
+        }
+    }
 }
