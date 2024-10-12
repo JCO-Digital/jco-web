@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3101983a04d1b78feac9e7033ba64531",
+    "content-hash": "f00e8e902c4be4f0cbbf4e3316335159",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -491,18 +491,86 @@
             "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
         },
         {
-            "name": "jcodigital/jquest-plugin",
-            "version": "v0.3.4",
+            "name": "jcodigital/jcore-iit",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
-                "url": "git@github.com:JCO-Digital/jquest-plugin.git",
-                "reference": "c21ac4de2c43c60485e0bc041a682fd2262b19c5"
+                "url": "git@github.com:JCO-Digital/jcore-iit.git",
+                "reference": "ee28d7824ee3f53779e526aeeb6e28b06b6d9c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://plugins.jco.fi/dist/jcodigital/jquest-plugin/jcodigital-jquest-plugin-c21ac4de2c43c60485e0bc041a682fd2262b19c5-zip-d7351c.zip",
-                "reference": "c21ac4de2c43c60485e0bc041a682fd2262b19c5",
-                "shasum": "785cde643d9575f3c3d734908ce50d61017fdcd0"
+                "url": "https://plugins.jco.fi/dist/jcodigital/jcore-iit/jcodigital-jcore-iit-ee28d7824ee3f53779e526aeeb6e28b06b6d9c09-zip-d7348c.zip",
+                "reference": "ee28d7824ee3f53779e526aeeb6e28b06b6d9c09",
+                "shasum": "0beca02108eda850b8f659622bea4fa7eac618a4"
+            },
+            "require": {
+                "league/commonmark": "^2.4.0",
+                "stellarwp/db": "^1.0",
+                "timber/timber": "^2.2.0",
+                "twig/markdown-extra": "^3.7.0"
+            },
+            "require-dev": {
+                "brianhenryie/strauss": "^0.14.0",
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "strauss": {
+                    "exclude_from_prefix": {
+                        "packages": [
+                            "timber/timber"
+                        ]
+                    },
+                    "exclude_from_copy": {
+                        "packages": [
+                            "timber/timber"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JcoreIIT\\": "classes/"
+                }
+            },
+            "scripts": {
+                "strauss": [
+                    "vendor/bin/strauss"
+                ],
+                "post-install-cmd": [
+                    "@strauss"
+                ],
+                "post-update-cmd": [
+                    "@strauss"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "J&Co Digital",
+                    "email": "maxemilian@jco.fi"
+                }
+            ],
+            "description": "JCORE IIT Plugin",
+            "support": {
+                "source": "https://github.com/JCO-Digital/jcore-iit/tree/v1.0.5",
+                "issues": "https://github.com/JCO-Digital/jcore-iit/issues"
+            },
+            "time": "2024-10-11T11:18:08+00:00"
+        },
+        {
+            "name": "jcodigital/jquest-plugin",
+            "version": "v0.3.6",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:JCO-Digital/jquest-plugin.git",
+                "reference": "305b56c462b544b0809fc66bb741ab228682cb77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://plugins.jco.fi/dist/jcodigital/jquest-plugin/jcodigital-jquest-plugin-305b56c462b544b0809fc66bb741ab228682cb77-zip-874153.zip",
+                "reference": "305b56c462b544b0809fc66bb741ab228682cb77",
+                "shasum": "91e764da0ab679beabadd61a8b27f4298e26ebbc"
             },
             "require": {
                 "league/commonmark": "^2.4.0",
@@ -531,7 +599,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "JcoreBroiler\\": "classes/"
+                    "jQuestPlugin\\": "classes/"
                 }
             },
             "scripts": {
@@ -557,10 +625,10 @@
             ],
             "description": "JQUEST Plugin",
             "support": {
-                "source": "https://github.com/JCO-Digital/jquest-plugin/tree/v0.3.4",
+                "source": "https://github.com/JCO-Digital/jquest-plugin/tree/v0.3.6",
                 "issues": "https://github.com/JCO-Digital/jquest-plugin/issues"
             },
-            "time": "2024-09-24T08:57:18+00:00"
+            "time": "2024-10-12T12:15:04+00:00"
         },
         {
             "name": "jcore/dynamic-archive",
@@ -2937,15 +3005,15 @@
         },
         {
             "name": "wpackagist-plugin/booking",
-            "version": "10.6.1",
+            "version": "10.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/booking/",
-                "reference": "trunk"
+                "reference": "tags/10.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/booking.zip?timestamp=1727853002"
+                "url": "https://downloads.wordpress.org/plugin/booking.10.6.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3367,12 +3435,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "6fc16d8c05a872bf86eb0a1684d89b9bcb93d636"
+                "reference": "c3c55a0f6643119fa8699577cc83ca6256d98ab5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6fc16d8c05a872bf86eb0a1684d89b9bcb93d636",
-                "reference": "6fc16d8c05a872bf86eb0a1684d89b9bcb93d636",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c3c55a0f6643119fa8699577cc83ca6256d98ab5",
+                "reference": "c3c55a0f6643119fa8699577cc83ca6256d98ab5",
                 "shasum": ""
             },
             "conflict": {
@@ -3709,7 +3777,7 @@
                 "lms/routes": "<2.1.1",
                 "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
                 "luyadev/yii-helpers": "<1.2.1",
-                "magento/community-edition": "<2.4.5|==2.4.5|>=2.4.5.0-patch1,<2.4.5.0-patch9|==2.4.6|>=2.4.6.0-patch1,<2.4.6.0-patch7|==2.4.7|>=2.4.7.0-patch1,<2.4.7.0-patch2",
+                "magento/community-edition": "<2.4.5|==2.4.5|>=2.4.5.0-patch1,<2.4.5.0-patch10|==2.4.6|>=2.4.6.0-patch1,<2.4.6.0-patch8|>=2.4.7.0-beta1,<2.4.7.0-patch3",
                 "magento/core": "<=1.9.4.5",
                 "magento/magento1ce": "<1.9.4.3-dev",
                 "magento/magento1ee": ">=1,<1.14.4.3-dev",
@@ -3942,7 +4010,7 @@
                 "slim/slim": "<2.6",
                 "slub/slub-events": "<3.0.3",
                 "smarty/smarty": "<4.5.3|>=5,<5.1.1",
-                "snipe/snipe-it": "<6.4.2",
+                "snipe/snipe-it": "<7.0.10",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spatie/browsershot": "<3.57.4",
@@ -4191,7 +4259,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-10T00:18:21+00:00"
+            "time": "2024-10-11T18:06:00+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -4377,10 +4445,10 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }
