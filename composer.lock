@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f00e8e902c4be4f0cbbf4e3316335159",
+    "content-hash": "dd9d24c2264c00b138997443fec41358",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -492,17 +492,17 @@
         },
         {
             "name": "jcodigital/jcore-iit",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:JCO-Digital/jcore-iit.git",
-                "reference": "ee28d7824ee3f53779e526aeeb6e28b06b6d9c09"
+                "reference": "1e243ca68a5af9c7864b9851079b6d84bde85ec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://plugins.jco.fi/dist/jcodigital/jcore-iit/jcodigital-jcore-iit-ee28d7824ee3f53779e526aeeb6e28b06b6d9c09-zip-d7348c.zip",
-                "reference": "ee28d7824ee3f53779e526aeeb6e28b06b6d9c09",
-                "shasum": "0beca02108eda850b8f659622bea4fa7eac618a4"
+                "url": "https://plugins.jco.fi/dist/jcodigital/jcore-iit/jcodigital-jcore-iit-1e243ca68a5af9c7864b9851079b6d84bde85ec1-zip-fc1ce1.zip",
+                "reference": "1e243ca68a5af9c7864b9851079b6d84bde85ec1",
+                "shasum": "f858d2a72d9a0183f472309a42e46ef0a391cafe"
             },
             "require": {
                 "league/commonmark": "^2.4.0",
@@ -553,10 +553,10 @@
             ],
             "description": "JCORE IIT Plugin",
             "support": {
-                "source": "https://github.com/JCO-Digital/jcore-iit/tree/v1.0.5",
+                "source": "https://github.com/JCO-Digital/jcore-iit/tree/v1.0.6",
                 "issues": "https://github.com/JCO-Digital/jcore-iit/issues"
             },
-            "time": "2024-10-11T11:18:08+00:00"
+            "time": "2024-10-12T13:09:59+00:00"
         },
         {
             "name": "jcodigital/jquest-plugin",
