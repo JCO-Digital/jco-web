@@ -1,9 +1,15 @@
 section.block.block-interactive_image_tool {
     .image-wrapper .hotspot {
         background-color: var(--wp--preset--color--sunflower);
+        .hotspot-index{
+            color:black;
+        }
         .hotspot-tooltip {
             background-color: var(--wp--preset--color--white);
             border-radius: 10px;
+        }
+        .hotspot-link{
+            color: black;
         }
     }
 
