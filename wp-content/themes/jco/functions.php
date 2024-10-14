@@ -247,9 +247,11 @@ function scripts() {
 	);
 
 	Assets::script_register( 'share', '/js/share.js' );
+	Assets::script_register( 'jutils', '/dist/js/jutils.js' );
 	Assets::script_register(
 		'jcore',
 		'/dist/js/jcore.js',
+		array( 'jutils' )
 	);
 	Assets::script_register(
 		'animations',
