@@ -89,7 +89,7 @@
 }
 
 /* Hide the uncategorized category */
-.page-blogi {
+.blog {
   label[for="taxonomy-0-7"] {
     display: none;
   }
