@@ -1,6 +1,7 @@
 :root {
   --jcore-bar: 61px;
   --jcore-menu-width: 563px;
+  --jcore-card-background: var(--wp--preset--color--light);
 }
 
 #jcore-nav {
@@ -96,7 +97,6 @@
 
   #jcore-menu {
     margin: var(--wp--preset--spacing--80) var(--wp--preset--spacing--60);
-    background-color: var(--wp--preset--color--light);
   }
 
   .menu-item {
@@ -141,7 +141,6 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    margin-top: 16px;
 
     span {
       display: block;
@@ -166,7 +165,7 @@
 
   #menu-card {
     position: absolute;
-    background-color: var(--wp--preset--color--light);
+    background-color: var(--jcore-card-background);
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -223,12 +222,17 @@
     display: none;
   }
 
+  button.toggle {
+    margin-top: 8px;
+  }
+
   #menu-card {
     top: 0;
     right: 61px;
     bottom: 0;
     width: 0;
     transition: width 200ms;
+    border-top: var(--jcore-bar) solid var(--jcore-card-background);
     &.menu-open {
       width: var(--jcore-menu-width);
     }

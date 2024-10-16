@@ -86,8 +86,7 @@ function menuHeight() {
   document.querySelectorAll("ul.menu-1").forEach((menu) => {
     let height = 0;
     for (const child of menu.children) {
-      height += child.offsetHeight + 12;
-      console.log(child, child.offsetHeight);
+      height += child.offsetHeight + 20;
     }
     menu.style.setProperty("--menu-height", height + "px");
   });

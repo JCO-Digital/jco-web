@@ -12,8 +12,8 @@ importers:
         specifier: ^3.14.3
         version: 3.14.3
       '@jcodigital/jutils':
-        specifier: ^0.6.3
-        version: 0.6.3
+        specifier: ^0.6.4
+        version: 0.6.4
       alpinejs:
         specifier: ^3.14.3
         version: 3.14.3
@@ -453,8 +453,8 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@jcodigital/jutils@0.6.3':
-    resolution: {integrity: sha512-tK7Ss900NoJ6ZSg+jdh3bC7m7AJXMYE2KsPM8g/pImqjBVkYXU/ldPbh6yiBc6qKGOHHi4Z10wNzOUTRofz3tA==}
+  '@jcodigital/jutils@0.6.4':
+    resolution: {integrity: sha512-ak5sda8Ahf3NgLPJzyHvFfQmFU8bE6dwjivnRQJMYdb9BPoMImEQX7uMkhnaslHu+2EkavhP9uvsWUg+pG9JFA==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -859,8 +859,8 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  picocolors@1.1.0:
-    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -1598,7 +1598,7 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@jcodigital/jutils@0.6.3': {}
+  '@jcodigital/jutils@0.6.4': {}
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -1672,7 +1672,7 @@ snapshots:
       caniuse-lite: 1.0.30001669
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss: 8.4.47
       postcss-value-parser: 4.2.0
 
@@ -1987,7 +1987,7 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  picocolors@1.1.0: {}
+  picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
 
@@ -2012,7 +2012,7 @@ snapshots:
       fs-extra: 11.2.0
       get-stdin: 9.0.0
       globby: 13.2.2
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
       postcss-reporter: 7.1.0(postcss@8.4.47)
@@ -2256,7 +2256,7 @@ snapshots:
 
   postcss-reporter@7.1.0(postcss@8.4.47):
     dependencies:
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss: 8.4.47
       thenby: 1.3.4
 
@@ -2275,7 +2275,7 @@ snapshots:
   postcss@8.4.47:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       source-map-js: 1.2.1
 
   prettier@3.3.3: {}
@@ -2385,7 +2385,7 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       postcss: 8.4.47
       postcss-import: 15.1.0(postcss@8.4.47)
       postcss-js: 4.0.1(postcss@8.4.47)
@@ -2425,7 +2425,7 @@ snapshots:
     dependencies:
       browserslist: 4.24.0
       escalade: 3.2.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   util-deprecate@1.0.2: {}
 
