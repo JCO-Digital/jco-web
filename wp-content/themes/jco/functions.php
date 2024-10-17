@@ -263,6 +263,11 @@ function scripts() {
 		array( 'jquery' )
 	);
 
+	Assets::script_register(
+		'yoast-faq-accordion',
+		'/dist/js/yoast-faq.js',
+	);
+
 	Assets::style_register(
 		'theme',
 		'/dist/css/theme.css',
@@ -289,7 +294,11 @@ function scripts() {
 	wp_enqueue_script( 'fontSize' );
 	wp_enqueue_script( 'wp-gallery-lightbox' );
 
-	if ( apply_filters( 'jcore_load_alpine_script', true ) ) {
+	if ( is_singular() && has_block( 'yoast/faq-block' ) ) {
+		wp_enqueue_script( 'yoast-faq-accordion' );
+	}
+
+	if ( apply_filters( 'jcore_load_alpine_script', false ) ) {
 		wp_enqueue_script( 'alpine' );
 	}
 
