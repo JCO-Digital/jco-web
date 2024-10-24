@@ -22,3 +22,10 @@
 @import "partials/protected.css";
 @import "partials/gridible.css";
 @import "partials/iit.css";
+
+/* Attempted leadbooster menu fix horror */
+@media (min-width: 770px) {
+  html body#jcore-body iframe#LeadboosterContainer {
+    right: 72px !important;
+  }
+}
