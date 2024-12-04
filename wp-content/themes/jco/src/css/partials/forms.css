@@ -11,6 +11,9 @@ body {
                 border: 2px solid var(--wp--preset--color--dark);
             }
         }
+        .gform_required_legend {
+            display: none;
+        }
         .gfield_required {
             color: var(--wp--preset--color--dark) !important;
         }
