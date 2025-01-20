@@ -12,6 +12,10 @@
     "jco-plugins": {
       "type": "composer",
       "url": "https://plugins.jco.fi"
+    },
+    "rekai": {
+      "type": "vcs",
+      "url": "git@github.com:JCO-Digital/rekai-wordpress.git"
     }
   },
   "config": {
@@ -47,7 +51,8 @@
     "wpackagist-plugin/booking": "^10.6",
     "wpackagist-plugin/cookiebot": "4.3.9.1",
     "wpackagist-plugin/wp-consent-api": "^1.0",
-    "jco/gridible": "^2.1"
+    "jco/gridible": "^2.1",
+    "jcodigital/rekai-wordpress": "dev-main"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

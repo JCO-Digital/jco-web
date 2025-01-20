@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94c924f0f708d97510cd545097178a49",
+    "content-hash": "f5ba420f972272462059610d17877d27",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -629,6 +629,47 @@
                 "issues": "https://github.com/JCO-Digital/jquest-plugin/issues"
             },
             "time": "2024-10-12T12:15:04+00:00"
+        },
+        {
+            "name": "jcodigital/rekai-wordpress",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:JCO-Digital/rekai-wordpress.git",
+                "reference": "45f8a54235504b66465c705af53eddc8c81ac022"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress/zipball/45f8a54235504b66465c705af53eddc8c81ac022",
+                "reference": "45f8a54235504b66465c705af53eddc8c81ac022",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "php-stubs/wordpress-stubs": "^6.7",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.7",
+                "wp-coding-standards/wpcs": "^3.0.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Rekai\\": "classes/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "J&CO Digital Oy",
+                    "email": "support@jco.fi"
+                }
+            ],
+            "description": "Rek.ai integration for WordPress",
+            "support": {
+                "source": "https://github.com/JCO-Digital/rekai-wordpress/tree/main",
+                "issues": "https://github.com/JCO-Digital/rekai-wordpress/issues"
+            },
+            "time": "2025-01-20T10:17:53+00:00"
         },
         {
             "name": "jcore/dynamic-archive",
@@ -4441,6 +4482,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "jcodigital/rekai-wordpress": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
@@ -4450,5 +4492,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
