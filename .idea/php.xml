@@ -35,13 +35,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/wp-coding-standards/wpcs" />
-      <path value="$PROJECT_DIR$/vendor/phpcsstandards/phpcsutils" />
-      <path value="$PROJECT_DIR$/vendor/phpcsstandards/phpcsextra" />
-      <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/stellarwp/db" />
-      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
       <path value="$PROJECT_DIR$/vendor/php-http/promise" />
       <path value="$PROJECT_DIR$/vendor/php-http/discovery" />
       <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
@@ -55,15 +50,6 @@
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/smtp2go-oss/smtp2go-php" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/psr/http-client" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/psr/http-factory" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/composer" />
-      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/wp-content/plugins/spinupwp/vendor/composer" />
       <path value="$PROJECT_DIR$/wp-content/plugins/jquest-plugin/vendor/json-mapper/json-mapper" />
       <path value="$PROJECT_DIR$/wp-content/plugins/jquest-plugin/vendor/psr/container" />
@@ -118,6 +104,20 @@
       <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/build/vendor/composer" />
       <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/build/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/build/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/smtp2go-oss/smtp2go-php" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/phpcsstandards/phpcsextra" />
+      <path value="$PROJECT_DIR$/vendor/wp-coding-standards/wpcs" />
+      <path value="$PROJECT_DIR$/vendor/phpcsstandards/phpcsutils" />
+      <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
@@ -125,6 +125,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/wp-content/plugins/smtp2go/phpunit.xml" custom_loader_path="$PROJECT_DIR$/wp-content/plugins/smtp2go/vendor/autoload.php" use_configuration_file="true" />
       <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/wp-content/plugins/smtp2go/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
     </phpunit_settings>
   </component>

@@ -15,7 +15,7 @@
     },
     "rekai": {
       "type": "vcs",
-      "url": "git@github.com:JCO-Digital/rekai-wordpress.git"
+      "url": "git@github.com:JCO-Digital/rekai-wordpress-dist.git"
     }
   },
   "config": {

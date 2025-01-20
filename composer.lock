@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5ba420f972272462059610d17877d27",
+    "content-hash": "c76233a6fe847be0b2e3bf138cad14dd",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -635,13 +635,13 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "git@github.com:JCO-Digital/rekai-wordpress.git",
-                "reference": "45f8a54235504b66465c705af53eddc8c81ac022"
+                "url": "https://github.com/JCO-Digital/rekai-wordpress-dist.git",
+                "reference": "1c2368a1abc651b8207c9c74a4973ffc8454c854"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress/zipball/45f8a54235504b66465c705af53eddc8c81ac022",
-                "reference": "45f8a54235504b66465c705af53eddc8c81ac022",
+                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress-dist/zipball/1c2368a1abc651b8207c9c74a4973ffc8454c854",
+                "reference": "1c2368a1abc651b8207c9c74a4973ffc8454c854",
                 "shasum": ""
             },
             "require-dev": {
@@ -666,10 +666,10 @@
             ],
             "description": "Rek.ai integration for WordPress",
             "support": {
-                "source": "https://github.com/JCO-Digital/rekai-wordpress/tree/main",
-                "issues": "https://github.com/JCO-Digital/rekai-wordpress/issues"
+                "source": "https://github.com/JCO-Digital/rekai-wordpress-dist/tree/main",
+                "issues": "https://github.com/JCO-Digital/rekai-wordpress-dist/issues"
             },
-            "time": "2025-01-20T10:17:53+00:00"
+            "time": "2025-01-20T16:15:22+00:00"
         },
         {
             "name": "jcore/dynamic-archive",
