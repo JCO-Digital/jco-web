@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop'
-    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.2.1
+    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v3.2.2
     with:
       php_version: 8.2
       slack_channel: CU8LPT03W
@@ -17,7 +17,7 @@ jobs:
   deploy-main:
     needs: [build]
     if: github.ref == 'refs/heads/main'
-    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.2.1
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.2.2
     with:
       server_url: jco@gb.bojaco.com
       base_path: files
@@ -32,7 +32,7 @@ jobs:
   deploy-develop:
     needs: [build]
     if: github.ref == 'refs/heads/develop'
-    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.2.1
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3.2.2
     with:
       server_url: jcodev@gb.bojaco.com
       base_path: files
