@@ -29,3 +29,9 @@
     right: 72px !important;
   }
 }
+
+.rek-style {
+  li:before {
+    background: transparent;
+  }
+}
