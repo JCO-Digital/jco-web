@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c76233a6fe847be0b2e3bf138cad14dd",
+    "content-hash": "1952922aafc480190e63b0fc65f3861c",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -3120,6 +3120,24 @@
             "homepage": "https://wordpress.org/plugins/google-site-kit/"
         },
         {
+            "name": "wpackagist-plugin/popup-maker",
+            "version": "1.20.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/popup-maker/",
+                "reference": "tags/1.20.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/popup-maker.1.20.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/popup-maker/"
+        },
+        {
             "name": "wpackagist-plugin/redirection",
             "version": "5.5.1",
             "source": {
@@ -4535,10 +4553,10 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }
