@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1952922aafc480190e63b0fc65f3861c",
+    "content-hash": "7952b23338f8666498ef1f9b9a8d92f1",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -636,12 +636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/rekai-wordpress-dist.git",
-                "reference": "adbb2909bf4fa1f995e202684ede3b57cdcfe8ac"
+                "reference": "785a8ee66d6169365b055902364358937cfa5032"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress-dist/zipball/adbb2909bf4fa1f995e202684ede3b57cdcfe8ac",
-                "reference": "adbb2909bf4fa1f995e202684ede3b57cdcfe8ac",
+                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress-dist/zipball/785a8ee66d6169365b055902364358937cfa5032",
+                "reference": "785a8ee66d6169365b055902364358937cfa5032",
                 "shasum": ""
             },
             "require-dev": {
@@ -669,7 +669,7 @@
                 "source": "https://github.com/JCO-Digital/rekai-wordpress-dist/tree/main",
                 "issues": "https://github.com/JCO-Digital/rekai-wordpress-dist/issues"
             },
-            "time": "2025-03-04T18:53:08+00:00"
+            "time": "2025-03-05T08:22:49+00:00"
         },
         {
             "name": "jcore/dynamic-archive",
