@@ -636,12 +636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/rekai-wordpress-dist.git",
-                "reference": "785a8ee66d6169365b055902364358937cfa5032"
+                "reference": "2f15ba8acc37fbbe0dd4efcd068a80c46fad1d06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress-dist/zipball/785a8ee66d6169365b055902364358937cfa5032",
-                "reference": "785a8ee66d6169365b055902364358937cfa5032",
+                "url": "https://api.github.com/repos/JCO-Digital/rekai-wordpress-dist/zipball/2f15ba8acc37fbbe0dd4efcd068a80c46fad1d06",
+                "reference": "2f15ba8acc37fbbe0dd4efcd068a80c46fad1d06",
                 "shasum": ""
             },
             "require-dev": {
@@ -669,7 +669,7 @@
                 "source": "https://github.com/JCO-Digital/rekai-wordpress-dist/tree/main",
                 "issues": "https://github.com/JCO-Digital/rekai-wordpress-dist/issues"
             },
-            "time": "2025-03-05T08:22:49+00:00"
+            "time": "2025-03-05T08:44:39+00:00"
         },
         {
             "name": "jcore/dynamic-archive",
