@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7952b23338f8666498ef1f9b9a8d92f1",
+    "content-hash": "51019f8290f7b4a2c20806e09977cc2e",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -3041,6 +3041,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-site-kit/"
+        },
+        {
+            "name": "wpackagist-plugin/gravity-forms-email-blacklist",
+            "version": "2.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gravity-forms-email-blacklist/",
+                "reference": "tags/2.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gravity-forms-email-blacklist.2.6.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gravity-forms-email-blacklist/"
         },
         {
             "name": "wpackagist-plugin/popup-maker",

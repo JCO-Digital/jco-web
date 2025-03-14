@@ -53,7 +53,8 @@
 		"wpackagist-plugin/wp-consent-api": "^1.0",
 		"jco/gridible": "^2.1",
 		"jcodigital/rekai-wordpress": "dev-main",
-		"wpackagist-plugin/popup-maker": "^1"
+		"wpackagist-plugin/popup-maker": "^1",
+		"wpackagist-plugin/gravity-forms-email-blacklist": "^2.6"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest",
