@@ -195,3 +195,17 @@ p.bullet {
 .gridible-row.bullet .gridible-col {
   margin-bottom: var(--wp--preset--spacing--fluid-medium);
 }
+
+.page-tietoturvapeli {
+  .ingress {
+    font-family: var(--jcore-heading-font-family);
+  }
+  h2 {
+    font-weight: 700;
+  }
+  .icon-cols {
+    figure.wp-block-image {
+      min-height: 67px;
+    }
+  }
+}

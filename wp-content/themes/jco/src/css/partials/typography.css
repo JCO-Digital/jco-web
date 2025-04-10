@@ -66,6 +66,38 @@ main {
     }
   }
 
+  /* Checklist -list with checkmarks instead of bullets */
+.wp-block-list.check-list {
+  padding-left: 0;
+  li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 3rem !important;
+    margin-bottom: 1.5rem;
+    &:before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Pro";
+      font-weight: 400;
+      position: absolute;
+      left: 0;
+      font-size: 17px;
+      color: var(--wp--preset--color--white);
+      top: -2px;
+      width: 34px;
+      height: 34px;
+      border: 2px solid var(--wp--preset--color--brand);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--wp--preset--color--brand);
+    }
+    &::marker {
+      display: none !important;
+    }
+  }
+}
+
   ol {
     padding-left: 1.5rem;
     li {
