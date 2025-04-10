@@ -203,6 +203,11 @@ p.bullet {
   h2 {
     font-weight: 700;
   }
+  .security-seal {
+    @media (width <= var(--breakpoint-sm)) {
+      width: 150px !important;
+    }
+  }
   .icon-cols {
     figure.wp-block-image {
       min-height: 67px;
