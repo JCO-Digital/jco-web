@@ -86,7 +86,7 @@
         .has-background{
             padding: 0 1rem 0.5rem 0.75rem;
             @media (width >= var(--breakpoint-sm)) {
-                padding: 1 1.5rem 0.5rem 1.5rem;
+                padding: 0 1.5rem 0.5rem 1.5rem;
             }
             text-transform: none;
         }
