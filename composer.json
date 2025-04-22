@@ -52,7 +52,7 @@
 		"wpackagist-plugin/cookiebot": "4.3.9.1",
 		"wpackagist-plugin/wp-consent-api": "^1.0",
 		"jco/gridible": "^2.1",
-		"jcodigital/rekai-wordpress": "dev-main",
+		"jcodigital/rekai-wordpress": "^1",
 		"wpackagist-plugin/popup-maker": "^1",
 		"wpackagist-plugin/gravity-forms-email-blacklist": "^2.6"
 	},
