@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d8de032581042be824510b20dc35c7d",
+    "content-hash": "5ebeb9ef7d4bb8225d7715bf688a9a38",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -3185,6 +3185,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-consent-api/"
+        },
+        {
+            "name": "wpackagist-plugin/wpvulnerability",
+            "version": "4.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpvulnerability/",
+                "reference": "tags/4.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpvulnerability.4.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpvulnerability/"
         }
     ],
     "packages-dev": [
