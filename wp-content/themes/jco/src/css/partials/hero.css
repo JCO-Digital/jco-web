@@ -81,17 +81,16 @@
     
 }
 
-.page-tietoturvapeli {
-    .hero-pattern {
-        .has-background{
-            padding: 0 1rem 0.5rem 0.75rem;
-            @media (width >= var(--breakpoint-sm)) {
-                padding: 0 1.5rem 0.5rem 1.5rem;
-            }
-            text-transform: none;
+/* Slightly different hero for Chooser, Tietoturva page */
+.hero-pattern.special {
+    .has-background{
+        padding: 0 1rem 0.5rem 0.75rem;
+        @media (width >= var(--breakpoint-sm)) {
+            padding: 0 1.5rem 0.5rem 1.5rem;
         }
-        .wp-block-cover__inner-container{
-           min-height: 35dvh;
-        }
+        text-transform: none;
+    }
+    .wp-block-cover__inner-container{
+       min-height: 35dvh;
     }
 }

@@ -196,7 +196,8 @@ p.bullet {
   margin-bottom: var(--wp--preset--spacing--fluid-medium);
 }
 
-.page-tietoturvapeli {
+/* Styles for Tietoturvapeli and Chooser pages  */
+.page-tietoturvapeli, .page-chooser {
   .ingress {
     font-family: var(--jcore-heading-font-family);
   }
@@ -212,5 +213,8 @@ p.bullet {
     figure.wp-block-image {
       min-height: 67px;
     }
+  }
+  .has-molitor-font-family {
+    letter-spacing: -0.4px;
   }
 }
