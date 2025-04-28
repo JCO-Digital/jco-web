@@ -3,3 +3,16 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.jquest-app {
+    .chooser-page {
+        h2 {
+            font-size: var(--wp--preset--font-size--heading-4) !important;
+            font-weight: 400 !important;
+        }
+        .option-label {
+            text-transform: none;
+            font-size: calc(var(--wp--preset--font-size--paragraph) * 1.1);
+        }
+    }
+}
