@@ -58,3 +58,11 @@ body {
     }
 }
 
+.page-uutiskirje {
+    .playbook {
+        .gform-footer {
+            justify-content: center !important;
+        }
+    }
+}
+
