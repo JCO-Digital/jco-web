@@ -218,34 +218,3 @@ p.bullet {
     letter-spacing: -0.4px;
   }
 }
-
-.page-chooser {
-  .jquest-app {
-    .view-grid {
-      justify-content: center;
-      display: flex;
-      .game-content {
-        max-width: 600px;
-        .module.module-chooser {
-          .options-wrapper {
-            display: flex !important;
-            flex-flow: column !important;
-          }
-        }
-        .module.module-form.tarjous {
-          .form-wrapper {
-            grid-template-columns: 1fr !important;
-            justify-items: center;
-            align-items: center;
-            .field-wrapper {
-              width: 100%;
-              @media (width >= var(--breakpoint-md)) {
-                max-width: 450px !important;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
