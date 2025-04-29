@@ -59,7 +59,7 @@
                         }
                     }
                     .module.module-image.jquest-powered {
-                        margin-top: calc(50px - 1.25rem);
+                        margin-top: calc(50px - 1.25rem) !important;
                     }
                 }
             }
