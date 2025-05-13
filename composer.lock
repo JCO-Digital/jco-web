@@ -560,17 +560,17 @@
         },
         {
             "name": "jcodigital/jquest-plugin",
-            "version": "v0.4.3",
+            "version": "v0.4.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:JCO-Digital/jquest-plugin.git",
-                "reference": "8a27c4ab44d9b47e2b0108076c0fb3e2bcb54e5e"
+                "reference": "74cf2ced6a983faebb7919050049ace8065f3b95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://plugins.jco.fi/dist/jcodigital/jquest-plugin/jcodigital-jquest-plugin-8a27c4ab44d9b47e2b0108076c0fb3e2bcb54e5e-zip-5f3d45.zip",
-                "reference": "8a27c4ab44d9b47e2b0108076c0fb3e2bcb54e5e",
-                "shasum": "01b003d8e1a8dc51308c5e7ccc3fa87dc1265f76"
+                "url": "https://plugins.jco.fi/dist/jcodigital/jquest-plugin/jcodigital-jquest-plugin-74cf2ced6a983faebb7919050049ace8065f3b95-zip-7aa74f.zip",
+                "reference": "74cf2ced6a983faebb7919050049ace8065f3b95",
+                "shasum": "8ba224f29552d04544b424fa752776bbf7692ac8"
             },
             "require": {
                 "league/commonmark": "^2.4.0"
@@ -596,10 +596,10 @@
             ],
             "description": "JQUEST Plugin",
             "support": {
-                "source": "https://github.com/JCO-Digital/jquest-plugin/tree/v0.4.3",
+                "source": "https://github.com/JCO-Digital/jquest-plugin/tree/v0.4.4",
                 "issues": "https://github.com/JCO-Digital/jquest-plugin/issues"
             },
-            "time": "2025-05-12T15:31:12+00:00"
+            "time": "2025-05-13T12:13:47+00:00"
         },
         {
             "name": "jcodigital/rekai-wordpress",
