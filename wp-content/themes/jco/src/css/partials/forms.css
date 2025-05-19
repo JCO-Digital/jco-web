@@ -32,6 +32,39 @@ body {
                 .gfield_validation_message {
                     color: var(--wp--preset--color--dark) !important;
                 }
+                .gfield--type-survey {
+                    .ginput_container_likert {
+                        thead {
+                            th {
+                                border: 1px solid var(--wp--preset--color--dark);
+                            }
+                        }
+                        tbody {
+                              @media (width <= 1024px) {
+                                    tr {
+                                        padding-inline: 0 !important;
+                                        padding-bottom: 0;
+                                        border: 1px solid var(--wp--preset--color--dark);
+                                        max-width: 200px;
+
+                                        td {
+                                            padding-left: 12px;
+                                            padding-right: 12px;
+                                        }
+                                    }
+                                }
+                            td {
+                                border: 1px solid var(--wp--preset--color--dark);
+                                &:first-child, &:last-child {
+                                    border-radius: 0 !important;
+                                }
+                                @media (width <= 1024px) {
+                                      
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
         .gform_footer {
@@ -64,5 +97,11 @@ body {
             justify-content: center !important;
         }
     }
+}
+
+.page-asiakaspalaute {
+     input[type=radio]::before {
+        background-color: var(--wp--preset--color--lilly) !important;
+     }
 }
 
