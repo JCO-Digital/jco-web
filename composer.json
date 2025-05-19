@@ -54,7 +54,8 @@
     "jco/gridible": "^2.1",
     "jcodigital/rekai-wordpress": "^1",
     "wpackagist-plugin/popup-maker": "^1",
-    "wpackagist-plugin/gravity-forms-email-blacklist": "^2.6"
+    "wpackagist-plugin/gravity-forms-email-blacklist": "^2.6",
+    "jco/gravityformssurvey": "^4.1.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

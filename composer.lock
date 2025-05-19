@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8752ca5bbed81ec1b4ac425a62ee275",
+    "content-hash": "98a7d1275e9d7c9dcdb8a362b710c1c2",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -431,6 +431,25 @@
                 "homepage": "https://gravityforms.com"
             },
             "description": "Integrates Gravity Forms with Campaign Monitor, allowing form submissions to be automatically sent to your Campaign Monitor account.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "jco/gravityformssurvey",
+            "version": "4.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.jco.fi/satispress/gravityformssurvey/4.1.1",
+                "shasum": "a3741901fc2c9babb6349819c654cabc59c78cd0"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Allows you to quickly and easily deploy Surveys on your web site using the power of Gravity Forms.",
             "homepage": "https://gravityforms.com"
         },
         {
