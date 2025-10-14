@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98a7d1275e9d7c9dcdb8a362b710c1c2",
+    "content-hash": "b4367abb52b4c96be6d66af4186dea45",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -3128,6 +3128,24 @@
             "homepage": "https://wordpress.org/plugins/spinupwp/"
         },
         {
+            "name": "wpackagist-plugin/two-factor",
+            "version": "0.14.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/two-factor/",
+                "reference": "tags/0.14.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/two-factor.0.14.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/two-factor/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.8.4",
             "source": {
@@ -4550,10 +4568,10 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
