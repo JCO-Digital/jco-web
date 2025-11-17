@@ -8,5 +8,5 @@ remoteHost = "jco@gb.bojaco.com"
 remotePath = "files"
 replace = ["//jco.gb.bojaco.com|//jco.localhost"]
 branch = "gintonic"
-pluginInstall = "composer"
+pluginInstall = "remote"
 dbPrefix = "zpp_"
