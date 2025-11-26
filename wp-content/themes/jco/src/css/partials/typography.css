@@ -107,6 +107,23 @@ main {
   }
 }
 
+ /* List with purple numbers */
+.wp-block-list.numbers {
+  li {
+    font-size: var(--wp--preset--font-size--paragraph);
+    &::marker {
+      font-family: var(--jcore-heading-font-family);
+      color: var(--wp--preset--color--purple);
+      font-size: var(--wp--preset--font-size--ingress);
+    }
+    strong {
+      font-size: var(--wp--preset--font-size--ingress);
+      font-family: var(--jcore-heading-font-family);
+      font-weight: 400;
+    }
+  }
+}
+
 /* Spacing */
 .has-molitor-font-family {
   letter-spacing: 1.2px;
