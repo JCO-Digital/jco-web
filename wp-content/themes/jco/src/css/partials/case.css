@@ -2,7 +2,7 @@
   section.data {
     background-color: var(--wp--preset--color--white);
   }
-  h1.case-heading.has-maxi-font-size {
+  h1.case-heading {
     @media (width >= var(--breakpoint-lg)) {
       font-size: 100px !important;
     }
