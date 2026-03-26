@@ -17,6 +17,7 @@
     box-decoration-break: clone;
     display: inline;
     line-height: 1.6;
+    word-break: normal;
   }
   p.case-words {
     @media (width >= var(--breakpoint-sm)) {
