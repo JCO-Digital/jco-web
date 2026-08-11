@@ -379,17 +379,18 @@ function widgets_init() {
 }
 
 /**
- * Replace Gravity Forms submit button classes with btn class
+ * Replace Gravity Forms submit button classes with btn class.
+ *
+ * @param string $button The HTML markup for the button.
+ *
+ * @return string The updated HTML markup for the button.
  */
-function add_custom_css_classes( $button, $form ) {
-	$dom = new \DOMDocument();
-	$dom->loadHTML( '<?xml encoding="utf-8" ?>' . $button );
-	$input   = $dom->getElementsByTagName( 'input' )->item( 0 );
-	$classes = $input->getAttribute( 'class' );
-	$classes = 'btn';
-	$input->setAttribute( 'class', $classes );
+function add_custom_css_classes( $button ) {
+	$fragment = \WP_HTML_Processor::create_fragment( $button );
+	$fragment->next_token();
+	$fragment->add_class( 'btn' );
 
-	return $dom->saveHtml( $input );
+	return $fragment->get_updated_html();
 }
 
 add_filter( 'gform_submit_button', 'Jcore\Ilme\add_custom_css_classes', 10, 2 );
